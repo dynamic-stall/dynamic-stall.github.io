@@ -51,7 +51,7 @@ Designed and presented a high-availability web architecture to support a legacy 
 
 ### 🧪 Homelab Applications
 Custom-built tools and experiments using Docker, K3s, and Raspberry Pi nodes. Includes:
-- Network-level ad-blocking (Cloudflare Gateway + GitHub Actions-updated filter lists)
+- Network-level ad-blocking (Cloudflare Gateway + CI/CD-updated filter lists)
 - Terraform modules for Docker infrastructure
 - Keycloak SSO with OpenLDAP federation
 - Network Intrusion Prevention System (Suricata)
