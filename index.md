@@ -12,7 +12,7 @@ author_profile: true
 Welcome to my professional site. I’m a Solutions Engineer and independent contractor who specializes in:
 
 - 🚀 DevOps and hybrid cloud architecture
-- 🛡️ Compliance and security automation (CMMC, AWS, GRC)
+- 🛡️ Compliance and security automation (NIST / RMF, FIPS, HIPPA, GRC)
 - 📚 Documentation and stakeholder communications
 - ⚙️ Homelab and home office network innovation
 
