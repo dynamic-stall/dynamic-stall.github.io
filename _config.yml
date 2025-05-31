@@ -1,0 +1,16 @@
+title: Triskelion Flagship, LLC
+description: Bridging the gap between people, places, and things to deliver the Freedom to Connect.
+baseurl: ""
+url: "https://www.tflagshipllc.com"
+
+theme: jekyll-theme-minimal
+
+author:
+  name: Captain
+  email: your@email.com
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+show_downloads: false
