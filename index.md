@@ -9,7 +9,7 @@ author_profile: true
 
 <br>
 
-Welcome to my professional site. I’m a Solutions Engineer and independent contractor who specializes in:
+Welcome! ¡Bienvenidos! いらっしゃいませ! I’m a Solutions Engineer and independent contractor who specializes in:
 
 - 🚀 DevOps and hybrid cloud architecture
 - 🛡️ Compliance and security automation (NIST / RMF, FIPS, HIPPA, GRC)
