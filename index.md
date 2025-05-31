@@ -5,6 +5,10 @@ excerpt: "A portfolio of DevOps, GRC, and innovative engineering work from a Sol
 author_profile: true
 ---
 
+# Triskelion Flagship, LLC
+
+<br>
+
 Welcome to my professional site. I’m a Solutions Engineer and independent contractor who specializes in:
 
 - 🚀 DevOps and hybrid cloud architecture
@@ -12,7 +16,11 @@ Welcome to my professional site. I’m a Solutions Engineer and independent cont
 - 📚 Documentation and stakeholder communications
 - ⚙️ Homelab and home office network innovation
 
+<br>
+
 Available for both full-time remote roles and contract engagements.
+
+<br>
 
 Explore some of my featured work below:
 
@@ -28,12 +36,18 @@ Reduced a multi-week manual audit process to under 48 hours with a scripted owne
 **Role:** Infrastructure liaison for forward-deployed pathology units  
 Coordinated on-site network surveys and infrastructure readiness for military pathology labs. Helped identify gaps in AD access, compliance posture, and secure equipment provisioning.
 
+<br>
+
 ### 🖥️ Remote Workforce Onboarding with VMware Horizon
 Built SOP documentation, tracked user rollout via collaborative spreadsheets, and securely provisioned MFA credentials over video call. Created cross-OS onboarding workflows.
+
+<br>
 
 ### ☁️ AWS PoC for Legacy App Migration
 **Infra:** EC2, Auto Scaling Groups, ELB, Route 53, Apache
 Designed and presented a high-availability web architecture to support a legacy app’s migration to AWS. Delivered demo to stakeholders with scalability plan.
+
+<br>
 
 ### 🧪 Homelab Applications
 Custom-built tools and experiments using Docker, K3s, and Raspberry Pi nodes. Includes:
@@ -54,6 +68,8 @@ As the principal consultant of my LLC, I offer:
 - 🧾 Documentation: SOPs, policy mapping, stakeholder briefs
 - 🧠 Fractional Tech Strategy or CTO support
 
+<br>
+
 Available on a per-project or retainer basis.
 
 ---
@@ -63,5 +79,7 @@ Available on a per-project or retainer basis.
 - [LinkedIn](https://www.linkedin.com/in/henrydevon)
 - [GitHub](https://github.com/dynamic-stall)
 - [Email Me](mailto:dhenry@tflagshipllc.com)
+
+<br>
 
 Interested in working together? I’m currently open to contract work and remote roles.
