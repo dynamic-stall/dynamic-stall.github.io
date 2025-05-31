@@ -50,9 +50,9 @@ Designed and presented a high-availability web architecture to support a legacy 
 <br>
 
 ### 🧪 Homelab Applications
-Custom-built tools and experiments using Docker, K3s, and Raspberry Pi nodes. Includes:
+Custom-built tools and experiments using Docker, HCP Nomad, and Raspberry Pi nodes. Includes:
 - Network-level ad-blocking (Cloudflare Gateway + CI/CD-updated filter lists)
-- Terraform modules for Docker infrastructure
+- Terraform modules for Docker infrastructure + Ansible playbooks for CM
 - Keycloak SSO with OpenLDAP federation
 - Network Intrusion Prevention System (Suricata)
 - Secrets Manager vault (Vaultwarden)
