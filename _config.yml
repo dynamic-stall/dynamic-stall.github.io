@@ -3,7 +3,7 @@ description: Bridging the gap between people, places, and things to deliver the 
 baseurl: ""
 url: "https://www.tflagshipllc.com"
 
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
 
 author:
   name: Captain
