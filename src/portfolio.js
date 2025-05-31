@@ -1,185 +1,289 @@
-/* Change this file to get your personal Porfolio */
-
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: true,
 };
 
 //Home Page
 const greeting = {
-  title: "Miftaul Mannan",
-  logo_name: "Miftaul Mannan",
+  title: "Devon Henry",
+  logo_name: "Triskelion Flagship, LLC",
   nickname: null,
   subTitle:
-    "An aspiring developer who loves to take on new projects that challenges his analytical and technological capacities.",
+    "Solutions Engineer bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   resumeLink:
-    "https://drive.google.com/file/d/1ecfeM8pNH7aLELi5EINHrX8-jY5Uqb0q/view?usp=sharing",
-  portfolio_repository: "https://github.com/Tasin5541",
+    "https://drive.google.com/file/d/1WruY_Jw7ByUJSvdBPUin4V9Lr-E_s2CZ/view?usp=sharing",
+  portfolio_repository: "https://github.com/dynamic-stall",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/Tasin5541",
+    link: "https://github.com/dynamic-stall",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/miftaul-mannan-tasin-566543107/",
+    link: "https://www.linkedin.com/in/henrydevon/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
     link:
-      "https://www.youtube.com/channel/UClvrUclYSGX_MZPOF6ySG6A?view_as=subscriber",
+      "https://www.youtube.com/@theblerdcard",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
-    name: "Gmail",
+    name: "Email",
     link:
-      "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=tasinmiftaulmannan@gmail.com&subject=MISSED%20CALL%20EZTRADER&body=Hello",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+      "mailto:dhenry@tflagshipllc.com?subject=Portfolio Inquiry&body=Hello",
+    fontAwesomeIcon: "fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/tasinmiftaulmannan",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/mm_tasin/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  //{
+    //name: "Facebook",
+    //link: "https://www.facebook.com/tasinmiftaulmannan",
+    //fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    //backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  //},
+  //{
+    //name: "Instagram",
+    //link: "https://www.instagram.com/mm_tasin/",
+    //fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    //backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  //},
 ];
 
 const skills = {
   data: [
     {
-      title: "Full Stack Development",
-      fileName: "FullStackImg",
+      title: "Cloud Infrastructure & DevOps",
+      fileName: "CloudDevOpsImg",
       skills: [
-        "⚡ Building resposive website using NextJs and React",
-        "⚡ Implementing secure access to database",
-        "⚡ Creating application backend in .Net Core",
-        "⚡ Implementing dynamic script execution defined by user",
+        "⚡ Architecting scalable cloud solutions on AWS and GCP with 70% average cost reduction",
+        "⚡ Building Infrastructure-as-Code with Terraform modules and Ansible automation",
+        "⚡ Implementing CI/CD pipelines with GitHub Actions and container orchestration",
+        "⚡ Designing high-availability multi-AZ deployments with auto-scaling and failover routing",
       ],
       softwareSkills: [
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
           style: {
-            color: "#61DAFB",
+            color: "#FF9900",
           },
         },
         {
-          skillName: "NextJs",
-          fontAwesomeClassname: "akar-icons:nextjs-fill",
+          skillName: "Terraform",
+          fontAwesomeClassname: "devicon:terraform",
           style: {
-            color: "#626262",
-          },
-        },
-        {
-          skillName: ".Net Core",
-          fontAwesomeClassname: "mdi:dot-net",
-          style: {
-            color: "#5C2D91",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
-          skillName: "Redux",
-          fontAwesomeClassname: "tabler:brand-redux",
-          style: {
-            color: "#7749bd",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "devicon:typescript",
-          style: {
-            color: "#3178c6",
-          },
-        },
-        {
-          skillName: "C#",
-          fontAwesomeClassname: "teenyicons:c-sharp-solid",
-          style: {
-            color: "#953dac",
-          },
-        },
-        {
-          skillName: "MS SQL Server",
-          fontAwesomeClassname: "tabler:sql",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "vscode-icons:file-type-mongo",
-          style: {
-            color: "#c42626",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "logos:firebase",
-          style: {
-            color: "#c42626",
+            color: "#623CE4",
           },
         },
         {
           skillName: "Docker",
           fontAwesomeClassname: "skill-icons:docker",
           style: {
-            color: "#c42626",
+            color: "#2496ED",
           },
         },
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
+          skillName: "Kubernetes",
+          fontAwesomeClassname: "devicon:kubernetes",
           style: {
-            color: "#E34F26",
+            color: "#326CE5",
           },
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
+          skillName: "Ansible",
+          fontAwesomeClassname: "devicon:ansible",
           style: {
-            color: "#1572B6",
+            color: "#EE0000",
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "devicon:github",
           style: {
-            color: "#CC6699",
+            color: "#181717",
           },
         },
         {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "file-icons:tailwind",
+          skillName: "Google Cloud",
+          fontAwesomeClassname: "devicon:googlecloud",
           style: {
-            color: "#38bdf8",
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Linux",
+          fontAwesomeClassname: "devicon:linux",
+          style: {
+            color: "#FCC624",
+          },
+        },
+      ],
+    },
+    {
+      title: "Security & Compliance",
+      fileName: "SecurityImg",
+      skills: [
+        "⚡ Implementing Zero Trust Network Access with Cloudflare Gateway and tunnel solutions",
+        "⚡ Designing secure authentication flows with SSO, MFA, and IAM best practices",
+        "⚡ Building self-hosted security stack including Suricata NIPS and Vaultwarden password management",
+        "⚡ Ensuring DoD RMF compliance and HIPAA standards across enterprise deployments",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Cloudflare",
+          fontAwesomeClassname: "devicon:cloudflare",
+          style: {
+            color: "#F38020",
+          },
+        },
+        {
+          skillName: "WireGuard",
+          fontAwesomeClassname: "simple-icons:wireguard",
+          style: {
+            color: "#88171A",
+          },
+        },
+        {
+          skillName: "Keycloak",
+          fontAwesomeClassname: "simple-icons:keycloak",
+          style: {
+            color: "#4D4D4D",
+          },
+        },
+        {
+          skillName: "Bitwarden",
+          fontAwesomeClassname: "simple-icons:bitwarden",
+          style: {
+            color: "#175DDC",
+          },
+        },
+        {
+          skillName: "OpenLDAP",
+          fontAwesomeClassname: "simple-icons:openldap",
+          style: {
+            color: "#4A90E2",
+          },
+        },
+        {
+          skillName: "VMware",
+          fontAwesomeClassname: "devicon:vmware",
+          style: {
+            color: "#607078",
+          },
+        },
+      ],
+    },
+    {
+      title: "Solutions Engineering & Consulting",
+      fileName: "ConsultingImg",
+      skills: [
+        "⚡ Delivering client-focused solution design and technical demos for pre-sales engagements",
+        "⚡ Leading global site surveys and deployments across 39+ military facilities worldwide",
+        "⚡ Creating comprehensive technical documentation, SOPs, and knowledge transfer programs",
+        "⚡ Building proof-of-concept demonstrations with live infrastructure and automated workflows",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "devicon:python",
+          style: {
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "devicon:git",
+          style: {
+            color: "#F05032",
+          },
+        },
+        {
+          skillName: "SQL",
+          fontAwesomeClassname: "devicon:postgresql",
+          style: {
+            color: "#336791",
+          },
+        },
+        {
+          skillName: "Google Apps Script",
+          fontAwesomeClassname: "devicon:google",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "Nextcloud",
+          fontAwesomeClassname: "simple-icons:nextcloud",
+          style: {
+            color: "#0082C9",
+          },
+        },
+        {
+          skillName: "DokuWiki",
+          fontAwesomeClassname: "simple-icons:dokuwiki",
+          style: {
+            color: "#FF7700",
+          },
+        },
+      ],
+    },
+    {
+      title: "Automation & AI Integration",
+      fileName: "AutomationImg",
+      skills: [
+        "⚡ Automating 95% of survey analysis workflows through API integration and scripting",
+        "⚡ Building context-aware AI Slack bots for operational efficiency and team productivity",
+        "⚡ Implementing automated security updates with Cloudflare Gateway and GitHub Actions",
+        "⚡ Creating self-healing infrastructure with monitoring, alerting, and automated remediation",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Google Gemini",
+          fontAwesomeClassname: "simple-icons:google",
+          style: {
+            color: "#4285F4",
+          },
+        },
+        {
+          skillName: "TensorFlow",
+          fontAwesomeClassname: "devicon:tensorflow",
+          style: {
+            color: "#FF6F00",
+          },
+        },
+        {
+          skillName: "Slack API",
+          fontAwesomeClassname: "devicon:slack",
+          style: {
+            color: "#4A154B",
+          },
+        },
+        {
+          skillName: "OpenMediaVault",
+          fontAwesomeClassname: "simple-icons:openmediavault",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "HashiCorp Vault",
+          fontAwesomeClassname: "devicon:vault",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Suricata",
+          fontAwesomeClassname: "simple-icons:suricata",
+          style: {
+            color: "#FF6600",
           },
         },
       ],
