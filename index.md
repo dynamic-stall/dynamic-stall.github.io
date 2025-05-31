@@ -12,7 +12,7 @@ author_profile: true
 Welcome! ¡Bienvenidos! いらっしゃいませ! I’m a Solutions Engineer and independent contractor who specializes in:
 
 - 🚀 DevOps and hybrid cloud architecture
-- 🛡️ Compliance and security automation (NIST / RMF, FIPS, HIPPA, GRC)
+- 🛡️ Compliance auditing and updates auditing (NIST / RMF, FIPS, HIPPA, GRC)
 - 📚 Documentation and stakeholder communications
 - ⚙️ Homelab and home office network innovation
 
@@ -51,11 +51,12 @@ Designed and presented a high-availability web architecture to support a legacy 
 
 ### 🧪 Homelab Applications
 Custom-built tools and experiments using Docker, K3s, and Raspberry Pi nodes. Includes:
-- Network-level ad-blocking (Pi-hole + Cloudflare)
+- Network-level ad-blocking (Cloudflare Gateway + GitHub Actions-updated filter lists)
 - Terraform modules for Docker infrastructure
 - Keycloak SSO with OpenLDAP federation
 - Network Intrusion Prevention System (Suricata)
 - Secrets Manager vault (Vaultwarden)
+- VPN server with proxy filtering (WireGuard + Privoxy)
 - Local Wiki pages (Dokuwiki)
 
 ---
