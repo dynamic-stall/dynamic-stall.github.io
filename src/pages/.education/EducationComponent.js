@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-//import Educations from "../../containers/education/Educations";
-//import Certifications from "../../containers/certifications/Certifications";
-//import EducationImg from "./EducationImg";
+import Educations from "../../containers/education/Educations";
+import Certifications from "../../containers/certifications/Certifications";
+import EducationImg from "./EducationImg";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
@@ -34,8 +34,8 @@ class Education extends Component {
               </div>
             </div>
           </Fade>
-          //<Educations theme={this.props.theme} />
-          //<Certifications theme={this.props.theme} />
+          <Educations theme={this.props.theme} />
+          <Certifications theme={this.props.theme} />
         </div>
         <TopButton theme={this.props.theme} />
       </div>
