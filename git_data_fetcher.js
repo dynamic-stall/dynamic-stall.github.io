@@ -5,7 +5,7 @@ const openSource = {
   githubUserName: "dynamic-stall",
 };
 
-const fetch = require("node-fetch");
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 var fs = require("fs");
 
 const query_pr = {
