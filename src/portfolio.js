@@ -292,304 +292,117 @@ const skills = {
 };
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "CI/CD",
+      progressPercentage: "90%",
     },
     {
-      Stack: "Backend",
+      Stack: "Source Control Management",
       progressPercentage: "70%",
     },
     {
+      Stack: "Observability",
+      progressPercentage: "65%",
+    },
+    {
+      Stack: "Frontend/Design",
+      progressPercentage: "55%",
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "40%",
+    },
+    {
       Stack: "Programming",
-      progressPercentage: "80%",
+      progressPercentage: "40%",
+    },
+    {
+      Stack: "Artificial Intelligence",
+      progressPercentage: "35%",
     },
   ],
 };
 
 //Language Skill
 const sLanguage = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "React",
-      progressPercentage: "90%",
-    },
-    {
-      Stack: "NextJs",
-      progressPercentage: "70%",
+      Stack: "Python",
+      progressPercentage: "50%",
     },
     {
       Stack: "JavaScript",
-      progressPercentage: "80%",
+      progressPercentage: "45%",
     },
     {
-      Stack: "TypeScript",
+      Stack: "YAML",
       progressPercentage: "70%",
     },
     {
-      Stack: "Redux",
+      Stack: "JSON",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "HCL",
+      progressPercentage: "60%",
+    },
+    {
+      Stack: "Bash",
       progressPercentage: "70%",
     },
     {
-      Stack: ".Net Core",
-      progressPercentage: "70%",
+      Stack: "PowerShell",
+      progressPercentage: "30%",
     },
     {
-      Stack: "C#",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "SQL", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "CSS/SASS",
-      progressPercentage: "80%",
-    },
-    {
-      Stack: "NodeJs",
-      progressPercentage: "40%",
+      Stack: "SQL",
+      progressPercentage: "30%",
     },
   ],
 };
 
 //Tools Skill
 const tools = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
       Stack: "Git",
       progressPercentage: "80%",
     },
     {
-      Stack: "Azure Services", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
+      Stack: "Amazon Web Services",
+      progressPercentage: "80%",
     },
     {
-      Stack: "Docker", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
+      Stack: "Docker",
+      progressPercentage: "70%",
     },
     {
-      Stack: "Visual Studio Code", //Insert stack or technology you have experience in
-      progressPercentage: "95%", //Insert relative proficiency in percentage
+      Stack: "Visual Studio Code",
+      progressPercentage: "65%",
     },
     {
-      Stack: "Visual Studio ", //Insert stack or technology you have experience in
-      progressPercentage: "80%", //Insert relative proficiency in percentage
+      Stack: "GitHub",
+      progressPercentage: "80%",
     },
     {
-      Stack: "MS SQL Server", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "Terraform",
+      progressPercentage: "50%",
     },
     {
-      Stack: "MySQL", //Insert stack or technology you have experience in
-      progressPercentage: "70%", //Insert relative proficiency in percentage
+      Stack: "Kubernetes",
+      progressPercentage: "35%",
     },
     {
-      Stack: "Firebase", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
+      Stack: "MySQL / PostgreSQL",
+      progressPercentage: "30%",
     },
     {
-      Stack: "MongoDB", //Insert stack or technology you have experience in
-      progressPercentage: "60%", //Insert relative proficiency in percentage
-    },
-  ],
-};
-
-// Education Page
-const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/tasin95",
-    },
-  ],
-};
-
-const degrees = {
-  degrees: [
-    {
-      title: "Ahsanullah University of Science and Technology",
-      subtitle: "B.Sc. in Computer Science and Engineering",
-      logo_path: "aust_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "March 2016 - January 2021",
-      cgpa: "3.855 / 4.00",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, OOP, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning and Full Stack Development.",
-        "⚡ Placed 4th in my class.",
-        "⚡ Dean's List.",
-        "⚡ I was selected for ITEE Training Program which comprised of 20 students in the CSE department.",
-        "⚡ Elected as the team leader in all the group projects.",
-      ],
-      website_link: "http://aust.edu/",
-    },
-  ],
-};
-
-const certifications = {
-  certifications: [
-    {
-      title: "TENCON 2021",
-      subtitle: "- Nirmal Nair",
-      logo_path: "tencon.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1wLzB3oGkyI4svn09Yor2sAeSF3DbPzeU/view?usp=sharing",
-      alt_name: "New Zealand",
-      color_code: "white",
-    },
-    {
-      title: "Python Data Structures",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://coursera.org/share/259bcebba35c1ba43934608a5fab9907",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Python Basics",
-      subtitle: "- Charles Russell Severance",
-      logo_path: "michigan_logo.png",
-      certificate_link:
-        "https://coursera.org/share/39d3749b06308a77e0f596129029d4fe",
-      alt_name: "Michigan University",
-      color_code: "#2A73CC",
-    },
-
-    {
-      title: "React: The Big Picture",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qcJipEjDB3YanZor4xHpU_9BC73FuCud/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
-    },
-    {
-      title: "React: Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1LYzFiq0DDYYiDHowG4nbPjgmjCgd3QiV/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Javascript: Getting Started",
-      subtitle: "- Mark Zamoyta",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12qhxMM2DGp4YVdG9wcpFDNX7r1bjqumx/view?usp=sharing",
-      alt_name: "Pluralsight",
-      color_code: "#000000",
-    },
-    {
-      title: "Designing React Components",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Managing React State",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12f_pCjrOIkx0SMC0mqjnxpMwc9tesQoC/view?usp=sharing",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Building Applications with React and Redux",
-      subtitle: "- Cory House",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15UMAKzJq1g1cIrz-sp1Ve0efg-M-hAq1/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using React Hooks",
-      subtitle: "- Peter Kellner",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15mPlLGrjpmkdlf3eyi7B_NLG8Wro5EEg/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Styling React Component",
-      subtitle: "- Jake Trent",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14Wvag5M1sGzOlgWCC2PPDX4SsUkiqf72/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Testing React Components",
-      subtitle: "- Liam McLennan",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1654lPVh6R1zwSjgZjHV9gz7mgQ7wRmLm/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Server Rendering React Components",
-      subtitle: "- Daniel Stern",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/14YrLAmZlGNx2PayR0unlLjMoySL-eRG5/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Optimize Performance React",
-      subtitle: "- Hendrik Swanepoel",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/15kaZAf9642Kp_LBXYeqiVSzInaz-peAi/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js The Big Picture",
-      subtitle: "- Paul O'Fallon",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16jqLAZ4rWiUmITkGGxrZb68Eo5l77UPu/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Node.js Getting Started",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/173qXhPtqI1zwSzcb487R3Ud_0j13LiDP/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
-    },
-    {
-      title: "Using MongoDB with Node.js",
-      subtitle: "- Samer Buna",
-      logo_path: "pluralsight_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/16za14GrABr8xBM8r8hCtag1fO2faZTD8/view",
-      alt_name: "Pluralsight.",
-      color_code: "#000000",
+      Stack: "Google Cloud Platform",
+      progressPercentage: "50%",
     },
   ],
 };
@@ -599,28 +412,59 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "Fullstack Developer with 2+ years of experience working with React, .Net and NodeJs in an agile environment. Experience in leading a 5 member frontend team to achieve concrete goals on a strict deadline in a large scale project consisting over millions of records of drivers all throughout North America.",
+    "Cross-functional IT professional bridging hands-on DevSecOps, hybrid cloud, and SRE practices with client-facing solution design, consulting, and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Fullstack Developer",
-          company: "CodeExcel inc.",
-          company_url: "https://codeexcel.ca/",
-          logo_path: "codeexcel.jpg",
-          duration: "January 2021 - PRESENT",
-          location: "Markham, ON, Canada (Remote)",
+          title: "DevOps / Site Reliability Engineer",
+          company: "Amazon Web Services",
+          company_url: "https://www.aboutamazon.com/",
+          logo_path: "https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=1754524800&v=beta&t=ukKj1jzchfD-BM6SVNEP7OIu9uXuhiCPIGyC1qj0eiU",
+          duration: "September 2021 - May 2023",
+          location: "Denver, CO (Hybrid)",
           description:
-            "Worked with 2 Insurance Bureau of Canada and Pixelmask Inc. as a Contractor via CodeExcel. Engaged in 5 successful projects utilizing stacks such as: React, .Net Core, MS SQL Server, Azure Cloud Services (AD, B2C, Key Vault, Blob Storage, Front Door etc). The projects are mainly focused towards the North American Insurance Industry.",
-          features: [
-            "- Led the frontend team that resulted in a 25% increase in sprint completion rate.",
-            "- Implemented Single Sign-On (SSO) via Azure B2C across multiple legacy projects, simplifying user experience and reducing account management, resulting in seamless login with company credentials.",
-            "- Uncovered critical project vulnerabilities within 2 days of joining the IBC team, enabling timely remediation and preventing potential losses.",
-            "- Slashed development cost by 13% by suggesting and building a SCIM v2 compliant API for automatic user provisioning between IDP and application instead of using third party solution.",
-            "- Implemented flexible payment gateway module, empowering clients to easily switch gateways, boosting convenience and expanding options.",
-            "- Optimized UI performance by 15% and eliminated code redundancy using React's functional components, custom hooks, and Redux.",
+            "DevOps Engineer enhancing CI/CD pipeline deployments to AWS services through infrastructure updates while providing technical support and improving data streaming analysis capabilities by building new regions with integrated monitoring solutions.",
+          accomplishments: [
+            "- Improved clients’ data streaming analysis and monitoring capabilities through ownership of new region-building tasks, utilizing Amazon Data Firehose integration with OpenSearch and CloudWatch.",
+            "- Streamlined AWS account ownership configuration updates by 85% during service transition via custom IAM reporting script using Python, Bash, and AWS CLI commands.",
+            "- Reduced MTTR by 30% for AWS messaging and streaming services via workflow analysis and troubleshooting efforts.",
+            "- Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title: "Systems Administrator",
+          company: "TEKsystems (Raytheon Company)",
+          company_url: "https://www.teksystems.com/en/",
+          logo_path: "https://media.licdn.com/dms/image/v2/D4D0BAQEGWkPukExqDw/company-logo_100_100/company-logo_100_100/0/1737653799738/teksystems_logo?e=1754524800&v=beta&t=D6Rcw6mpZHn3VuJAdEYbBFJRk-suUNX86Q6HWY9yfnA",
+          duration: "September 2019 - August 2021",
+          location: "Dulles, VA (On-Site)",
+          description:
+            "Maintained Windows Server infrastructure, Red Hat Enterprise Linux hosts, Docker microservices, Kubernetes clusters, and VMware Horizon resource pools in support of Raytheon's DoD National Cybersecurity Protection System (NCPS) contract.",
+          accomplishments: [
+            "- Architected and demonstrated AWS migration proof-of-concept with high availability through multi-AZ deployment and failover routing, exceeding base requirements to enable Auto Scaling and self-healing capabilities.",
+            "- Established and led knowledge exchange program, consulting with team members to identify skill gaps, delivering targeted VMware ecosystem trainings, and facilitating technical knowledge transfer across organizational boundaries.",
+            "- Led System Admin team in rapidly enabling secure remote work for 63 users during COVID-19, achieving 100% successful onboarding through SOP documentation and MFA setup support across multiple operating systems.",
+            "- Improved AWS account security and compliance by implementing and automating IAM reporting script — using AWS CLI, Python, and Bash — capturing AWS account user metrics for active access control and authentication methods.",
+          ],
+          color: "#0879bf",
+        },
+        {
+          title: "Consultant, DoD Healthcare IT",
+          company: "Deloitte Consulting",
+          company_url: "https://www2.deloitte.com/us/en/services/consulting.html",
+          logo_path: "https://media.licdn.com/dms/image/v2/C560BAQGNtpblgQpJoQ/company-logo_100_100/company-logo_100_100/0/1662120928214/deloitte_logo?e=1754524800&v=beta&t=NZq6iAq5j7VXSEUT5AouHpIUoQS7TlJKjRJ7mHxaahM",
+          duration: "September 2016 - September 2019",
+          location: "Falls Church, VA (On-Site)",
+          description:
+            "Upgraded DHA pathology lab systems for 39 Military Treatment Facilities worldwide, adhering to HIPPA / NIST compliance for EHR and system assets, while communicating progress to various stakeholders.",
+          accomplishments: [
+            "- Traveled on-site to coordinate with military points of contact throughout the course of deployment and provided remote post-rollout sustainment support.",
+            "- Delivered on 100% of contractual milestones for the DHA program management office while streamlining cybersecurity risk and configuration management tasks.",
+            "- Standardized network configuration processes for 19 sites and GFE asset management workflows for 108 contractors.",
           ],
           color: "#0879bf",
         },
@@ -630,15 +474,15 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Developer Program Member",
-          company: "Github",
-          company_url: "https://github.com/",
-          logo_path: "github_logo.png",
-          duration: "September 2020 - PRESENT",
-          location: "Work From Home",
+          title: "Social Media Analyst",
+          company: "STEAMd Inc",
+          company_url: "https://www.linkedin.com/company/steamd-inc-/",
+          logo_path: "https://media.licdn.com/dms/image/v2/C4D0BAQG9ygTI9uy0JA/company-logo_100_100/company-logo_100_100/0/1631327183880?e=1754524800&v=beta&t=fwX1p3X9alj0MKKb6p9IT4G14v-NdU79mensvFziCtI",
+          duration: "October 2014 - July 2017",
+          location: "Brambleton, VA",
           description:
-            "I am actively contributing to many opensource projects. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
-          features: [],
+            "I worked primarily in a volunteer capacity for this after-school STEM mentorship program catering to girls in grades 3-12. I primarily focused on WordPress site maintenance, social media outreach (developing and presenting a Social Media Business Plan to organizational stakeholders), and booth management during events and conferences.",
+          //accomplishments: [],
           color: "#181717",
         },
       ],
@@ -650,7 +494,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure. Stil trying to gain experience by trying my hands on different projects.",
+    "From home office network security enhancements to lightweight NAS solutions, from AI-driven Slack bots to high-availability cloud infrastructure deployments; my projects showcase a blend of innovation, automation, and practicality. Each project reflects my commitment to leveraging technology for real-world impact.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -660,25 +504,25 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "tasin.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Basic Programming, ML, AI, Android, Cloud and Opensource Development.",
+      "I am primiarily on LinkedIn and GitHub. You can also reach me via email at dhenry@tflagshipllc.com. I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to write about the projects I've worked on, my current work and discuss my latest foundings. You are most welcome to input your thoughts on my projects.",
-    link: "https://miftaulmannan.wordpress.com/projects/",
+      "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes, more privately, I engage in creative writing exercises.",
+    link: "https://www.linkedin.com/pulse/open-source-password-management-part-1-enhancing-security-zq9kc",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Banani, Dhaka-1212, Bangladesh",
+    subtitle: "Fort Lauderdale, FL",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
+    //location_map_link: "https://goo.gl/maps/yV1Vkp7L3to9qvKX6",
   },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+880 1953699363",
-  },
+  //phoneSection: {
+    //title: "Phone Number",
+    //subtitle: "123-456-7890",
+  //},
 };
 
 export {
