@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -28,6 +32,7 @@ jobs:
           base_url: https://vault.bitwarden.com
           secrets: |
             35c9feae-104c-4595-a934-b2ee0126fa80 > GHP_RADIOKNIFE
+            ec2535f7-197e-4400-9163-b288012a97c3 > GH_EMAIL
             c9b70456-681a-4ce3-be4f-b289016dd68c > SLACK_BOT_TOKEN
             9e95df6c-4036-418e-98ae-b2890174cfb5 > SLACK_CHANNEL_ID
 
@@ -52,12 +57,11 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ steps.bws.outputs.GHP_RADIOKNIFE }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           publish_branch: main
-          external_repository: dynamic-stall/dynamic-stall.github.io
           user_name: dynamic-stall
-          user_email: dhenry@tflagshipllc.com
+          user_email: ${{ steps.bws.outputs.GH_EMAIL }}
 
       - name: Capture end time
         id: end-time
