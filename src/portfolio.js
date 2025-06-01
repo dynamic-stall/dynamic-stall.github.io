@@ -533,7 +533,6 @@ export {
   techStack,
   sLanguage,
   tools,
-  competitiveSites,
   degrees,
   certifications,
   experience,
