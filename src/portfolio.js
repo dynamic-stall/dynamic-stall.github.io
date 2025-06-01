@@ -407,6 +407,89 @@ const tools = {
   ],
 };
 
+// Education page
+const degrees = {
+  degrees: [
+    {
+      title: "Virginia Polytechnic Institute and State University",
+      subtitle: "B.S. in Business Management",
+      logo_path: "aust_logo.png",
+      alt_name: "VA Tech",
+      duration: "September 2010 - May 2014",
+      website_link: "http://vt.edu/",
+    },
+    {
+      title: "General Assembly",
+      subtitle: "Data Science Part-Time Course",
+      logo_path: "aust_logo.png",
+      alt_name: "GA",
+      duration: "November 2020 - March 2021",
+      website_link: "http://generalassemb.ly/",
+    },
+    {
+      title: "General Assembly",
+      subtitle: "Data Analytics Part-Time Course",
+      logo_path: "aust_logo.png",
+      alt_name: "GA",
+      duration: "May 2017 - August 2017",
+      website_link: "http://generalassemb.ly/",
+    },
+  ],
+};
+
+// Certifications page
+const certifications = {
+  certifications: [
+    {
+      title: "AWS Solutions Architect - Associate",
+      logo_path: "https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=1754524800&v=beta&t=ukKj1jzchfD-BM6SVNEP7OIu9uXuhiCPIGyC1qj0eiU",
+      certificate_link:
+        "https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=9532A418C09A90F4C4E0CC3705E2C42FOE831595D07ABB8C7EA0DD4C480A7F79E",
+      color_code: "white",
+    },
+    {
+      title: "CompTIA Network+",
+      logo_path: "https://media.licdn.com/dms/image/v2/D4D0BAQFgU-Mnk-gZnA/company-logo_100_100/company-logo_100_100/0/1728580001287/comptia_logo?e=1754524800&v=beta&t=nU6BXOF9FpLPD5GWa2JoS8yZ_cnPYYtHakjNNJh0WQ4",
+      certificate_link:
+        "https://www.youracclaim.com/badges/ebd8b10c-3a06-4edd-90b5-e4e280b2a0d5",
+      color_code: "white",
+    },
+    {
+      title: "AWS Certified Cloud Practitioner",
+      logo_path: "https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=1754524800&v=beta&t=ukKj1jzchfD-BM6SVNEP7OIu9uXuhiCPIGyC1qj0eiU",
+      certificate_link:
+        "https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=8455114F519DF416C1A108F5245B0046O8D1BB2BD3A9806FB4E8BB129FFF5F5F0",
+      color_code: "white",
+    },
+    {
+      title: "AWS Partner Accreditation",
+      logo_path: "https://media.licdn.com/dms/image/v2/D4E0BAQE0fp2sCqnVLg/company-logo_100_100/company-logo_100_100/0/1738855736997/amazon_web_services_logo?e=1754524800&v=beta&t=ukKj1jzchfD-BM6SVNEP7OIu9uXuhiCPIGyC1qj0eiU",
+      certificate_link:
+        "https://www.credly.com/badges/5a69529c-65e1-4c4c-ac6d-403e66aafe36?source=linked_in_profile",
+      color_code: "white",
+    },
+    {
+      title: "Certified Scrum Master",
+      logo_path: "https://media.licdn.com/dms/image/v2/D560BAQFdepbfdMhg3g/company-logo_100_100/company-logo_100_100/0/1719256430021/scrum_alliance_logo?e=1754524800&v=beta&t=JJHgVkAnrLAm9k0sZRkCU3r06lUrL3zl6yiX6xaHY-4",
+      certificate_link:
+        "https://certification.scrumalliance.org/accounts/875481-devon-charles-henry/certifications?",
+      color_code: "white",
+    },
+    {
+      title: "IoT-Inc Certified IoT Professional",
+      logo_path: "https://media.licdn.com/dms/image/v2/C560BAQFa2PLzNlzWRw/company-logo_100_100/company-logo_100_100/0/1630600418618/iot_inc_logo?e=1754524800&v=beta&t=plYuxkhZvAiTq60zjjp-svDdpbLrndUyY65ur5spys0",
+      certificate_link:
+        "https://www.credential.net/qghx52ba",
+      color_code: "white",
+    },
+    {
+      title: "SAFe 4 Practitioner",
+      logo_path: "https://media.licdn.com/dms/image/v2/C560BAQFti5SCrDfBWA/company-logo_100_100/company-logo_100_100/0/1668017355052/scaled_agile_inc__logo?e=1754524800&v=beta&t=HEu7Jam8OhMuJc6P9AXoRvfP-JdKNdsuID6En4bCPDw",
+      color_code: "white",
+    },
+  ],
+};
+
 // Experience Page
 const experience = {
   title: "Experience",
@@ -533,8 +616,8 @@ export {
   techStack,
   sLanguage,
   tools,
-  //degrees,
-  //certifications,
+  degrees,
+  certifications,
   experience,
   projectsHeader,
   contactPageData,
