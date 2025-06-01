@@ -41,7 +41,7 @@ jobs:
           echo "REACT_APP_GITHUB_TOKEN=${{ steps.bws.outputs.GHP_RADIOKNIFE }}" > .env
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Fetch GitHub Data
         run: node git_data_fetcher.js
