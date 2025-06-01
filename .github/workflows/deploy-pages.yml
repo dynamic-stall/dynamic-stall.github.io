@@ -59,7 +59,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: main
+          publish_branch: gh-pages
           user_name: dynamic-stall
           user_email: ${{ steps.bws.outputs.GH_EMAIL }}
 
