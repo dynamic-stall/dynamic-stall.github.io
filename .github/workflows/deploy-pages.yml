@@ -2,7 +2,7 @@ name: Build and Deploy Portfolio Site
 
 on:
   push:
-    branches: [main]
+    branches: [tasin5541]
   workflow_dispatch:
 
 permissions:
@@ -55,7 +55,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          publish_branch: gh-pages
+          publish_branch: main
           user_name: dynamic-stall
           user_email: ${{ steps.bws.outputs.GH_EMAIL }}
           cname: tflagshipllc.com
