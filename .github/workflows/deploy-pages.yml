@@ -58,6 +58,7 @@ jobs:
           publish_branch: gh-pages
           user_name: dynamic-stall
           user_email: ${{ steps.bws.outputs.GH_EMAIL }}
+          cname: tflagshipllc.com
 
       - name: Capture end time
         id: end-time
