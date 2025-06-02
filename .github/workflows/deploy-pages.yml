@@ -60,6 +60,9 @@ jobs:
           user_email: ${{ steps.bws.outputs.GH_EMAIL }}
           cname: tflagshipllc.com
 
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp build/index.html build/404.html          
+
       - name: Capture end time
         id: end-time
         if: always()
