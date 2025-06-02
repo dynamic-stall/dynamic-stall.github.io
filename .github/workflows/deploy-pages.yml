@@ -50,6 +50,9 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Copy index.html to 404.html for SPA routing
+        run: cp build/index.html build/404.html          
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -59,9 +62,6 @@ jobs:
           user_name: dynamic-stall
           user_email: ${{ steps.bws.outputs.GH_EMAIL }}
           cname: tflagshipllc.com
-
-      - name: Copy index.html to 404.html for SPA routing
-        run: cp build/index.html build/404.html          
 
       - name: Capture end time
         id: end-time
