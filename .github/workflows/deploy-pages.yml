@@ -48,7 +48,7 @@ jobs:
         run: node git_data_fetcher.js
 
       - name: Build Project
-        run: npm run deploy
+        run: npm run build
 
       - name: Show build output (debug)
         run: ls -la ./build
