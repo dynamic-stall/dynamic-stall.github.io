@@ -1,4 +1,4 @@
-name: Build and Deploy Portfolio Site
+name: Build and Deploy masterPortfolio Template
 
 on:
   push:
@@ -43,6 +43,9 @@ jobs:
 
       - name: Install Dependencies
         run: npm install --legacy-peer-deps
+
+      - name: Install react-is dependency
+        run: npm install react-is
 
       - name: Fetch GitHub Data
         run: node git_data_fetcher.js
