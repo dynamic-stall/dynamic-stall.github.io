@@ -46,6 +46,9 @@ jobs:
 
       - name: Fetch GitHub Data
         run: node git_data_fetcher.js
+        env:
+          GITHUB_TOKEN: ${{ steps.bws.outputs.GHP_RADIOKNIFE }}
+          GITHUB_USERNAME: dynamic-stall
 
       - name: Build Project
         run: npm run build
