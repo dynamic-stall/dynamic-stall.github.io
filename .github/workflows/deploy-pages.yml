@@ -1,0 +1,141 @@
+name: Build and Deploy Portfolio Site
+
+on:
+  push:
+    branches: [ashutosh1919]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Capture start time
+        id: start-time
+        if: always()
+        run: echo "start_time=$(date +%s)" >> $GITHUB_OUTPUT
+
+      - name: Get Secrets from Bitwarden
+        id: bws
+        uses: bitwarden/sm-action@v2
+        with:
+          access_token: ${{ secrets.BW_ACCESS_TOKEN }}
+          base_url: https://vault.bitwarden.com
+          secrets: |
+            35c9feae-104c-4595-a934-b2ee0126fa80 > GHP_RADIOKNIFE
+            ec2535f7-197e-4400-9163-b288012a97c3 > GH_EMAIL
+            c9b70456-681a-4ce3-be4f-b289016dd68c > SLACK_BOT_TOKEN
+            9e95df6c-4036-418e-98ae-b2890174cfb5 > SLACK_CHANNEL_ID
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Fetch GitHub Data
+        run: node git_data_fetcher.js
+        env:
+          GITHUB_TOKEN: ${{ steps.bws.outputs.GHP_RADIOKNIFE }}
+          GITHUB_USERNAME: dynamic-stall
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ steps.bws.outputs.GHP_RADIOKNIFE }}
+          publish_dir: ./build
+          publish_branch: main
+          user_name: dynamic-stall
+          user_email: ${{ steps.bws.outputs.GH_EMAIL }}
+          cname: tflagshipllc.com
+
+      - name: Capture end time
+        id: end-time
+        if: always()
+        run: echo "end_time=$(date +%s)" >> $GITHUB_OUTPUT
+  
+      - name: Calculate runtime
+        id: runtime
+        if: always()
+        run: |
+            start_time=${{ steps.start-time.outputs.start_time }}
+            end_time=${{ steps.end-time.outputs.end_time }}
+            runtime=$((end_time - start_time))
+            minutes=$((runtime / 60))
+            seconds=$((runtime % 60))
+            echo "runtime=${minutes}m ${seconds}s" >> $GITHUB_OUTPUT
+
+      - name: Get current time
+        id: current-time
+        if: always()
+        run: echo "time=$(TZ=America/New_York date '+%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_OUTPUT
+
+      - name: Send completion notification
+        if: always()
+        uses: slackapi/slack-github-action@v1.25.0
+        env:
+            SLACK_BOT_TOKEN: ${{ steps.bws.outputs.SLACK_BOT_TOKEN }}
+        with:
+            channel-id: ${{ steps.bws.outputs.SLACK_CHANNEL_ID }}
+            payload: |
+                {
+                "text": "Workflow ${{ job.status }}: Deploy GitHub Pages Portfolio Site",
+                "blocks": [
+                    {
+                    "type": "header",
+                    "text": {
+                        "type": "plain_text",
+                        "text": "${{ job.status == 'success' && '✅' || '❌' }} GH Pages Deploy: ${{ job.status }}",
+                        "emoji": true
+                    }
+                    },
+                    {
+                    "type": "section",
+                    "fields": [
+                        {
+                        "type": "mrkdwn",
+                        "text": "*Repository:*\n${{ github.repository }}"
+                        },
+                        {
+                        "type": "mrkdwn",
+                        "text": "*Status:*\n${{ job.status }}"
+                        }
+                    ]
+                    },
+                    {
+                    "type": "section",
+                    "fields": [
+                        {
+                        "type": "mrkdwn",
+                        "text": "*Trigger:*\n${{ github.event_name }}"
+                        },
+                        {
+                        "type": "mrkdwn",
+                        "text": "*Workflow:* ${{ github.workflow }}\n*Completed:* ${{ steps.current-time.outputs.time }}\n*Runtime:* ${{ steps.runtime.outputs.runtime }}"
+                        }
+                    ]
+                    },
+                    {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": "*<${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Details>*"
+                    }
+                    }
+                ],
+                "color": "${{ job.status == 'success' && '#36a64f' || '#dc3545' }}"
+                }
