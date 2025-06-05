@@ -47,6 +47,9 @@ jobs:
       - name: Install react-is dependency
         run: npm install react-is
 
+      - name: Update Browsers List
+        run: npx update-browserslist-db@latest
+
       - name: Fetch GitHub Data
         run: node git_data_fetcher.js
         env:
