@@ -386,7 +386,7 @@ const certifications = {
     {
       title: "Certified Scrum Master",
       subtitle: "- Scrum Alliance",
-      logo_path: "csm.png",
+      logo_path: "scrum_alliance.svg",
       certificate_link:
         "https://certification.scrumalliance.org/accounts/875481-devon-charles-henry/certifications?",
       alt_name: "scrum",
@@ -395,7 +395,7 @@ const certifications = {
     {
       title: "Git and GitHub Bootcamp",
       subtitle: "- Udemy",
-      logo_path: "udemy.png",
+      logo_path: "udemy_logo.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-4241213d-4aab-4adf-a5e6-34f5100eda62/",
       alt_name: "udemy1",
@@ -404,7 +404,7 @@ const certifications = {
     {
       title: "Complete Python Bootcamp",
       subtitle: "- Udemy",
-      logo_path: "udemy.png",
+      logo_path: "udemy_logo.png",
       certificate_link:
         "https://www.udemy.com/certificate/UC-2698df4b-366f-4e18-9316-f88c9a6945af/",
       alt_name: "udemy2",
@@ -431,7 +431,7 @@ const certifications = {
     {
       title: "SAFe 4 Practitioner",
       subtitle: "- Scaled Agile, Inc.",
-      logo_path: "deeplearning_ai_logo.png",
+      logo_path: "scaled_agile.png",
       certificate_link:
         "https://scaledagile.com/certification/",
       alt_name: "safe4",
@@ -464,8 +464,8 @@ const experience = {
         {
           title: "Solutions Engineer",
           company: "Triskelion Flagship, LLC",
-          company_url: "https://tflagshipllc.com",
-          logo_path: "tflagship_logo.png",
+          company_url: "https://www.linkedin.com/company/104111162/",
+          logo_path: "tflagship_logo.jpg",
           duration: "May 2023 - Present",
           location: "Plantation, FL (remote)",
           description:
@@ -482,7 +482,7 @@ const experience = {
           title: "DevOps Engineer",
           company: "Amazon Web Services",
           company_url: "https://aboutamazon.com/",
-          logo_path: "aws_logo.png",
+          logo_path: "amazon_web_services_logo.jpg",
           duration: "September 2021 - May 2023",
           location: "Denver, CO (hybrid)",
           description:
@@ -499,7 +499,7 @@ const experience = {
           title: "System Administrator",
           company: "TEKsystems",
           company_url: "https://www.teksystems.com",
-          logo_path: "teksystems.png",
+          logo_path: "teksystems_logo.png",
           duration: "September 2019 - August 2021",
           location: "Dulles, VA (on-site)",
           description:
@@ -516,7 +516,7 @@ const experience = {
           title: "Consultant, DoD Health IT",
           company: "Deloitte Consulting",
           company_url: "https://www2.deloitte.com/us/en/services/consulting.html",
-          logo_path: "deloitte.png",
+          logo_path: "deloitte_logo.jpg",
           duration: "September 2016 - September 2019",
           location: "Falls Church, VA (on-site)",
           description:
@@ -537,7 +537,7 @@ const experience = {
           title: "Social Media Analyst",
           company: "STEAMd Inc",
           company_url: "https://www.linkedin.com/company/steamd-inc-/",
-          logo_path: "https://media.licdn.com/dms/image/v2/C4D0BAQG9ygTI9uy0JA/company-logo_100_100/company-logo_100_100/0/1631327183880?e=1754524800&v=beta&t=fwX1p3X9alj0MKKb6p9IT4G14v-NdU79mensvFziCtI",
+          logo_path: "steamdinc_logo.jpg",
           duration: "October 2014 - July 2017",
           location: "Brambleton, VA",
           description:
@@ -577,13 +577,13 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    title: "Work with Me",
+    profile_image_path: "profile_pic.jpeg",
     description:
       "I am primiarily on LinkedIn and GitHub. You can also reach me via email at dhenry@tflagshipllc.com. I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
   },
   blogSection: {
-    title: "Blogs",
+    title: "Blogs (Coming Soon!)",
     subtitle:
       "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes, more privately, I engage in creative writing exercises.",
     //link: "https://blogs.ashutoshhathidara.com/",
