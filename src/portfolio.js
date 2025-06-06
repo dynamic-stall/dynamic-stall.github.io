@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Devon Henry",
   logo_name: "Triskelion Flagship",
-  nickname: "Solutions Engineer — Triskelion Flagship, LLC",
+  nickname: "Solutions Engineer",
   subTitle:
     "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   resumeLink:
