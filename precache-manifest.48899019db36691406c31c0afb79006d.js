@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae3813256bb215bd303b13d1581e6961",
+    "revision": "3cb90ee502e58e33c24b105473f1eaad",
     "url": "./index.html"
   },
   {
-    "revision": "81f93358e16fb2ff4796",
+    "revision": "f31d06ba2c45c6719c57",
     "url": "./static/css/main.fb40792b.chunk.css"
   },
   {
-    "revision": "c6f483726932b69219fc",
-    "url": "./static/js/2.d3804625.chunk.js"
+    "revision": "b8698cb5828888e88aee",
+    "url": "./static/js/2.a11a20ef.chunk.js"
   },
   {
-    "revision": "81f93358e16fb2ff4796",
-    "url": "./static/js/main.8fcdbb5f.chunk.js"
+    "revision": "f31d06ba2c45c6719c57",
+    "url": "./static/js/main.c96267e4.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -52,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
+    "revision": "2bf4a9d0c31cc88a6f57c13888851099",
+    "url": "./static/media/acg.2bf4a9d0.png"
+  },
+  {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "./static/media/address_image.16559172.svg"
   },
@@ -62,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
     "url": "./static/media/animated_logo.dcd6dee2.svg"
+  },
+  {
+    "revision": "012e982d226b9d685d9e27181613cba2",
+    "url": "./static/media/aws_logo.012e982d.png"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -172,6 +180,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/fullstack.fce60807.svg"
   },
   {
+    "revision": "d046ed3166c002c67206c7a824257df1",
+    "url": "./static/media/ga_logo.d046ed31.png"
+  },
+  {
     "revision": "0ee7e8c9444cdfefc10f6d86e18b9b5b",
     "url": "./static/media/gcp_logo.0ee7e8c9.png"
   },
@@ -228,6 +240,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/portfolio.414dfbd9.gif"
   },
   {
+    "revision": "87c4fdfa02a024c667013b0df2943601",
+    "url": "./static/media/profile_pic.87c4fdfa.jpeg"
+  },
+  {
     "revision": "5faf790badc18fa9030f94836ece1df1",
     "url": "./static/media/programmer.5faf790b.svg"
   },
@@ -238,6 +254,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71408db71465afd742233e4a96f06526",
     "url": "./static/media/pwa.71408db7.png"
+  },
+  {
+    "revision": "1581468239b0dbac97a6bcb62b621c94",
+    "url": "./static/media/scaled_agile.15814682.png"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
@@ -252,8 +272,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/talksCardBackAlt.3fa54242.svg"
   },
   {
+    "revision": "a449e97bdfee25997e63f364eb03284d",
+    "url": "./static/media/tflagship_logo.a449e97b.jpg"
+  },
+  {
     "revision": "0993e3246bf5146154391a0afef79b03",
     "url": "./static/media/tiktok_logo.0993e324.png"
+  },
+  {
+    "revision": "a87d405503016001a0e22cf7d975bef0",
+    "url": "./static/media/udemy_logo.a87d4055.png"
   },
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
