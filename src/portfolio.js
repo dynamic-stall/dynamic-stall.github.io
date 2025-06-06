@@ -255,7 +255,7 @@ const skills = {
           style: { color: "#FFC700" },
         },
         {
-          skillName: "ELK",
+          skillName: "Elastic",
           fontAwesomeClassname: "simple-icons:elastic",
           style: { color: "#005571" },
         },
