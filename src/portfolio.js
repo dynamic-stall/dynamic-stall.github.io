@@ -249,6 +249,7 @@ const skills = {
 };
 
 // Education Page
+// eslint-disable-next-line no-unused-vars
 const competitiveSites = {
   competitiveSites: [
     {
