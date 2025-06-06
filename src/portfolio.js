@@ -88,19 +88,9 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "aws_logo.png",
-          style: { color: "#FF9900" },
-        },
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "gcp_logo_1.png",
-          style: { color: "#FF9900" },
-        },
-        {
           skillName: "Terraform",
-          fontAwesomeClassname: "hcp_terraform_logo.png",
-          style: { color: "#623CE4" },
+          fontAwesomeClassname: "simple-icons:terraform",
+          style: { color: "#844FBA" },
         },
         {
           skillName: "Ansible",
@@ -122,18 +112,21 @@ const skills = {
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: { color: "#326CE5" },
         },
-        {
-          skillName: "HashiCorp Nomad",
-          imageSrc: "hcp_nomad_logo.png",
-        },
+
         {
           skillName: "HashiCorp Vault",
-          imageSrc: "hcp_vault_logo_yellow.png",
+          fontAwesomeClassname: "simple-icons:vault",
+          style: { color: "#FFEC6E" },
         },
         {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
           style: { color: "#FCC624" },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: { color: "#F05032" },
         },
       ],
     },
@@ -143,7 +136,7 @@ const skills = {
     // ---------------------------------------------------------
     {
       title: "Security & Governance",
-      fileName: "SecurityImg",
+      fileName: "DataScienceImg",
       skills: [
         "⚡ Conducting risk analysis and incident response readiness assessments",
         "⚡ Implementing IAM, policies, and role-based access control for cloud environments",
@@ -153,38 +146,39 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Nessus",
-          imageSrc: "nessus-logo.png",
+          skillName: "McAfee",
+          fontAwesomeClassname: "simple-icons:mcafee",
+          style: { color: "#C01818" },
         },
         {
-          skillName: "IPsec",
-          fontAwesomeClassname: "fas fa-lock",
-          style: { color: "#1976D2" },
+          skillName: "Okta",
+          fontAwesomeClassname: "simple-icons:okta",
+          style: { color: "#007DC1" },
         },
         {
-          skillName: "Firewall / WAF",
-          fontAwesomeClassname: "fas fa-shield-alt",
-          style: { color: "#C62828" },
+          skillName: "Keeper",
+          fontAwesomeClassname: "simple-icons:keeper",
+          style: { color: "#FFC700" },
         },
         {
-          skillName: "IAM",
-          fontAwesomeClassname: "fas fa-user-shield",
-          style: { color: "#2E7D32" },
+          skillName: "Cloudflare",
+          fontAwesomeClassname: "simple-icons:cloudflare",
+          style: { color: "#F38020" },
         },
         {
-          skillName: "ELK Stack",
+          skillName: "ELK",
           fontAwesomeClassname: "simple-icons:elastic",
           style: { color: "#005571" },
         },
         {
-          skillName: "GRC",
-          fontAwesomeClassname: "fas fa-gavel",
-          style: { color: "#6A1B9A" },
+          skillName: "Snort",
+          fontAwesomeClassname: "simple-icons:snort",
+          style: { color: "#F6A7AA" },
         },
         {
-          skillName: "Disaster Recovery",
-          fontAwesomeClassname: "fas fa-umbrella",
-          style: { color: "#0288D1" },
+          skillName: "WireGuard",
+          fontAwesomeClassname: "simple-icons:wireguard",
+          style: { color: "#88171A" },
         },
       ],
     },
@@ -194,7 +188,7 @@ const skills = {
     // ---------------------------------------------------------
     {
       title: "Solutions Consulting & Strategy",
-      fileName: "ConsultingImg",
+      fileName: "DesignImg",
       skills: [
         "⚡ Translating business goals into scalable technical roadmaps and proof-of-concepts",
         "⚡ Facilitating stakeholder alignment through workshops, presentations, and live demos",
@@ -204,44 +198,34 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Project Management",
+          fontAwesomeClassname: "simple-icons:jirasoftware",
+          style: { color: "#0052CC" },
+        },
+        {
           skillName: "Presentations",
           fontAwesomeClassname: "simple-icons:googleslides",
-          style: { color: "#D84315" },
-        },
-        {
-          skillName: "Project Management",
-          fontAwesomeClassname: "fas fa-clipboard-list",
-          style: { color: "#1565C0" },
-        },
-        {
-          skillName: "Technical Writing",
-          fontAwesomeClassname: "simple-icons:googledocs",
-          style: { color: "#5D4037" },
+          style: { color: "#FBBC04" },
         },
         {
           skillName: "Workshops",
           fontAwesomeClassname: "simple-icons:googleclassroom",
-          style: { color: "#2E7D32" },
+          style: { color: "#0F9D58" },
+        },
+        {
+          skillName: "Technical Writing",
+          fontAwesomeClassname: "simple-icons:googledocs",
+          style: { color: "#4285F4" },
         },
         {
           skillName: "Business Analysis",
           fontAwesomeClassname: "simple-icons:googleanalytics",
-          style: { color: "#F9A825" },
+          style: { color: "#E37400" },
         },
         {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: { color: "#F05032" },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: { color: "#3776AB" },
-        },
-        {
-          skillName: "Google Workspace",
-          fontAwesomeClassname: "simple-icons:googleworkspace",
-          style: { color: "#4285F4" },
+          skillName: "Agile",
+          fontAwesomeClassname: "simple-icons:scrumalliance",
+          style: { color: "#009FDA" },
         },
       ],
     },
