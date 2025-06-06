@@ -583,7 +583,7 @@ const contactPageData = {
       "I am primiarily on LinkedIn and GitHub. You can also reach me via email at the link below (Google icon). I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
   },
   blogSection: {
-    title: "Blogs (Coming Soon!)",
+    title: "Blog (Coming Soon!)",
     subtitle:
       "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes, more privately, I engage in creative writing exercises.",
     //link: "https://blogs.ashutoshhathidara.com/",
