@@ -132,59 +132,7 @@ const skills = {
     },
 
     // ---------------------------------------------------------
-    // Section 2: Security & Governance
-    // ---------------------------------------------------------
-    {
-      title: "Security & Governance",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Conducting risk analysis and incident response readiness assessments",
-        "⚡ Implementing IAM, policies, and role-based access control for cloud environments",
-        "⚡ Designing IPsec VPNs, firewalls, and WAF configurations for perimeter security",
-        "⚡ Performing server hardening and vulnerability scans with Nessus and RHEL best practices",
-        "⚡ Establishing data security, GRC, and disaster recovery workflows to meet compliance",
-      ],
-      softwareSkills: [
-        {
-          skillName: "McAfee",
-          fontAwesomeClassname: "simple-icons:mcafee",
-          style: { color: "#C01818" },
-        },
-        {
-          skillName: "Okta",
-          fontAwesomeClassname: "simple-icons:okta",
-          style: { color: "#007DC1" },
-        },
-        {
-          skillName: "Keeper",
-          fontAwesomeClassname: "simple-icons:keeper",
-          style: { color: "#FFC700" },
-        },
-        {
-          skillName: "Cloudflare",
-          fontAwesomeClassname: "simple-icons:cloudflare",
-          style: { color: "#F38020" },
-        },
-        {
-          skillName: "ELK",
-          fontAwesomeClassname: "simple-icons:elastic",
-          style: { color: "#005571" },
-        },
-        {
-          skillName: "Snort",
-          fontAwesomeClassname: "simple-icons:snort",
-          style: { color: "#F6A7AA" },
-        },
-        {
-          skillName: "WireGuard",
-          fontAwesomeClassname: "simple-icons:wireguard",
-          style: { color: "#88171A" },
-        },
-      ],
-    },
-
-    // ---------------------------------------------------------
-    // Section 3: Solutions Consulting & Strategy
+    // Section 2: Solutions Consulting & Strategy
     // ---------------------------------------------------------
     {
       title: "Solutions Consulting & Strategy",
@@ -226,6 +174,105 @@ const skills = {
           skillName: "Agile",
           fontAwesomeClassname: "simple-icons:scrumalliance",
           style: { color: "#009FDA" },
+        },
+      ],
+    },
+
+    // ---------------------------------------------------------
+    // Section 3: Lean Tech Enablement & Automation
+    // ---------------------------------------------------------
+    {
+      title: "Lean Tech Enablement & Automation",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Designing cost-effective infrastructure solutions for small teams and remote professionals",
+        "⚡ Building custom automation workflows using Google Apps Script and open-source tooling",
+        "⚡ Deploying secure NAS and VPN systems for self-hosted storage and remote access needs",
+        "⚡ Enabling feature-rich services for home and small business networks using Cloudflare Tunnels and Docker",
+        "⚡ Streamlining server bootstrapping and backup strategies with Ansible and cloud-native tools",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Unraid",
+          fontAwesomeClassname: "simple-icons:unraid",
+          style: { color: "#F15A2C" },
+        },
+        {
+          skillName: "Nextcloud",
+          fontAwesomeClassname: "simple-icons:nextcloud",
+          style: { color: "#FBBC04" },
+        },
+        {
+          skillName: "Openmediavault",
+          fontAwesomeClassname: "simple-icons:openmediavault",
+          style: { color: "#5DACDF" },
+        },
+        {
+          skillName: "Pi-hole",
+          fontAwesomeClassname: "simple-icons:pihole",
+          style: { color: "#96060C" },
+        },
+        {
+          skillName: "Cloudflare",
+          fontAwesomeClassname: "simple-icons:cloudflare",
+          style: { color: "#F38020" },
+        },
+        {
+          skillName: "Google Apps Script",
+          fontAwesomeClassname: "simple-icons:googleappsscripts",
+          style: { color: "#4285F4" },
+        },
+      ],
+    },
+
+    // ---------------------------------------------------------
+    // Section 4: Security & Governance
+    // ---------------------------------------------------------
+    {
+      title: "Security & Governance",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Conducting risk analysis and incident response readiness assessments",
+        "⚡ Implementing IAM, policies, and role-based access control for cloud environments",
+        "⚡ Designing IPsec VPNs, firewalls, and WAF configurations for perimeter security",
+        "⚡ Performing server hardening and vulnerability scans with Nessus and RHEL best practices",
+        "⚡ Establishing data security, GRC, and disaster recovery workflows to meet compliance",
+      ],
+      softwareSkills: [
+        {
+          skillName: "McAfee",
+          fontAwesomeClassname: "simple-icons:mcafee",
+          style: { color: "#C01818" },
+        },
+        {
+          skillName: "Okta",
+          fontAwesomeClassname: "simple-icons:okta",
+          style: { color: "#007DC1" },
+        },
+        {
+          skillName: "Keeper",
+          fontAwesomeClassname: "simple-icons:keeper",
+          style: { color: "#FFC700" },
+        },
+        {
+          skillName: "ELK",
+          fontAwesomeClassname: "simple-icons:elastic",
+          style: { color: "#005571" },
+        },
+        {
+          skillName: "Snort",
+          fontAwesomeClassname: "simple-icons:snort",
+          style: { color: "#F6A7AA" },
+        },
+        {
+          skillName: "Prometheus",
+          fontAwesomeClassname: "simple-icons:prometheus",
+          style: { color: "#E6522C" },
+        },
+        {
+          skillName: "WireGuard",
+          fontAwesomeClassname: "simple-icons:wireguard",
+          style: { color: "#88171A" },
         },
       ],
     },
