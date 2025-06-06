@@ -182,7 +182,7 @@ const skills = {
     // Section 3: Lean Tech Enablement & Automation
     // ---------------------------------------------------------
     {
-      title: "Lean Tech Enablement & Automation",
+      title: "Lean Tech & Automation",
       fileName: "FullStackImg",
       skills: [
         "⚡ Designing cost-effective infrastructure solutions for small teams and remote professionals",
@@ -219,7 +219,7 @@ const skills = {
         },
         {
           skillName: "Google Apps Script",
-          fontAwesomeClassname: "simple-icons:googleappsscripts",
+          fontAwesomeClassname: "simple-icons:googleappsscript",
           style: { color: "#4285F4" },
         },
       ],
