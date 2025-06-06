@@ -9,21 +9,21 @@ const settings = {
 const seo = {
   title: "Devon Henry's Portfolio",
   description:
-    "Solutions Engineer bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
+    "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   og: {
     title: "Triskelion Flagship, LLC",
     type: "website",
-    url: "http://tflagshipllc.com/",
+    url: "https://tflagshipllc.com/",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Devon Henry",
-  logo_name: "henrydevon",
+  logo_name: "Triskelion Flagship",
   nickname: "Solutions Engineer",
   subTitle:
-    "Solutions Engineer bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
+    "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   resumeLink:
     "https://drive.google.com/file/d/1WruY_Jw7ByUJSvdBPUin4V9Lr-E_s2CZ/view?usp=sharing",
   githubProfile: "https://github.com/dynamic-stall",
@@ -36,7 +36,7 @@ const socialMediaLinks = [
   // email: "dhenry@tflagshipllc.com",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
   // youtube: "https://www.youtube.com/@TheBlerdCard",
-  // tiktok: "https://www.tiktok.com/theblerdcard/"
+  // tiktok: "https://www.tiktok.com/@theblerdcard/"
 
   {
     name: "Github",
@@ -51,6 +51,12 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
+    name: "TikTok",
+    link: "https://www.tiktok.com/@theblerdcard/",
+    fontAwesomeIcon: "fa-tiktok", // Reference https://fontawesome.com/icons/tiktok?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=tiktok
+  },
+  {
     name: "YouTube",
     link: "https://www.youtube.com/@TheBlerdCard",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
@@ -59,14 +65,8 @@ const socialMediaLinks = [
   {
     name: "Email",
     link: "mailto:dhenry@tflagshipllc.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "fa-envelope", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "TikTok",
-    link: "https://www.tiktok.com/theblerdcard/",
-    fontAwesomeIcon: "fa-tiktok", // Reference https://fontawesome.com/icons/tiktok?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=tiktok
   },
 ];
 
