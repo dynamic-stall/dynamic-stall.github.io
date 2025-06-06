@@ -28,7 +28,7 @@ class Contact extends Component {
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
                   alt="Profile"
-                  style={{ width: "400px", height: "200px", objectFit: "cover", borderRadius: "50%" }}
+                  style={{ width: "650px", height: "650px", objectFit: "cover", borderRadius: "50%" }}
                 />
               </div>
               <div className="contact-heading-text-div">
