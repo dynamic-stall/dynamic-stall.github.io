@@ -140,35 +140,45 @@ const skills = {
       skills: [
         "⚡ Translating business goals into scalable technical roadmaps and proof-of-concepts",
         "⚡ Facilitating stakeholder alignment through workshops, presentations, and live demos",
-        "⚡ Leading cross-functional knowledge-sharing sessions and technical trainings",
+        "⚡ Leading cross-functional knowledge-sharing sessions and technical demos",
         "⚡ Managing SDLC & Agile processes to accelerate time-to-market for new features",
         "⚡ Orchestrating go-live supervision and post-deployment support for enterprise clients",
       ],
       softwareSkills: [
+        {
+          skillName: "Stakeholder Engagement",
+          fontAwesomeClassname: "simple-icons:slack",
+          style: { color: "#4A154B" },
+        },
         {
           skillName: "Project Management",
           fontAwesomeClassname: "simple-icons:jirasoftware",
           style: { color: "#0052CC" },
         },
         {
-          skillName: "Presentations",
-          fontAwesomeClassname: "simple-icons:googleslides",
-          style: { color: "#FBBC04" },
-        },
-        {
-          skillName: "Workshops",
+          skillName: "Demos",
           fontAwesomeClassname: "simple-icons:googleclassroom",
           style: { color: "#0F9D58" },
         },
         {
           skillName: "Technical Writing",
-          fontAwesomeClassname: "simple-icons:googledocs",
-          style: { color: "#4285F4" },
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: { color: "#21759B" },
         },
         {
-          skillName: "Business Analysis",
+          skillName: "Business Analytics",
           fontAwesomeClassname: "simple-icons:googleanalytics",
           style: { color: "#E37400" },
+        },
+        {
+          skillName: "Process Improvement",
+          fontAwesomeClassname: "simple-icons:miro",
+          style: { color: "#050038" },
+        },
+        {
+          skillName: "Solutions Architecture",
+          fontAwesomeClassname: "simple-icons:diagramsdotnet",
+          style: { color: "#F08705" },
         },
         {
           skillName: "Agile",
