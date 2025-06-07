@@ -1,9 +1,13 @@
 # Professional Portfolio for [Triskelion Flagship, LLC](https://tflagshipllc.com)
 
-GitHub Pages generated from [ashutosh1919's portfolio template](https://github.com/ashutosh1919/masterportfolio)
+> **Note:** This repo is public only because GitHub Pages requires it. If you want to build your own portfolio, please use [ashutosh1919's portfolio template](https://github.com/ashutosh1919/masterportfolio) instead.
 
-- I've made a few updates, however; such as graceful error handling of missing values, improved secrets management, CI/CD automation via GitHub Actions, and separation of source code and build code via branched deployments.
+This repo is a heavily customized version of the above template, with:
+- Graceful error handling for missing values
+- Improved secrets management (Bitwarden SM)
+- CI/CD automation via GitHub Actions (with Slack notifications)
+- Split-branch deployment (source and static content separated)
 
-- This repo is only public becasue [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) requires a public repo at free-tier... I recommend you clone [ashutosh1919's portfolio template](https://github.com/ashutosh1919/masterportfolio); but I can't stop you, LOL!
+I've disabled the _"Competitive Sites"_ and _"Open Source"_ sections, as they're much less relevant to my value proposition.
 
-- The GHA workflow is quite handy, if you'd like to adopt a similar workflow for your own portfolio.
+Feel free to browse, but I don't recommend cloning this repo unless you really want to see my tweaks!
