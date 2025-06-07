@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ee3d94fe5da5ad849d18e8f7c8c5ff0",
+    "revision": "cef5234006c6d04964ffd58c03455ec4",
     "url": "./index.html"
   },
   {
-    "revision": "7b03e2bc131d96a0aca9",
+    "revision": "eead9b7181e8be690c65",
     "url": "./static/css/main.fb40792b.chunk.css"
   },
   {
-    "revision": "8dbaa7a8a3b08ae6cf42",
-    "url": "./static/js/2.40c7f05c.chunk.js"
+    "revision": "25b28189f6794f0fb86c",
+    "url": "./static/js/2.66402b49.chunk.js"
   },
   {
-    "revision": "7b03e2bc131d96a0aca9",
-    "url": "./static/js/main.f8f60e79.chunk.js"
+    "revision": "eead9b7181e8be690c65",
+    "url": "./static/js/main.22363ec8.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -68,8 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/animated_logo.dcd6dee2.svg"
   },
   {
-    "revision": "012e982d226b9d685d9e27181613cba2",
-    "url": "./static/media/aws_logo.012e982d.png"
+    "revision": "9beecc26b7f8ebf4f25f99961accabee",
+    "url": "./static/media/aws_logo.9beecc26.png"
+  },
+  {
+    "revision": "370d6933ae8acf4c5154ef2518072ed0",
+    "url": "./static/media/aws_partner_logo.370d6933.png"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -84,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/codeInLogo.fee92c18.png"
   },
   {
-    "revision": "6ae894a290d75f21664c7fb8639f581a",
-    "url": "./static/media/comptia_logo.6ae894a2.webp"
+    "revision": "2ad77103c66a0598eeba4cd6cc5e360c",
+    "url": "./static/media/comptia_logo.2ad77103.svg"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
