@@ -471,6 +471,15 @@ const certifications = {
       alt_name: "aws3",
       color_code: "#8C151599",
     },
+    {
+      title: "IoT-Inc Certified IoT Professional",
+      subtitle: "- IoT-Inc",
+      logo_path: "iot-inc_logo.png",
+      certificate_link:
+        "https://www.credential.net/qghx52ba",
+      alt_name: "iotinc",
+      color_code: "#8C151599",
+    },
   ],
 };
 
