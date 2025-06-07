@@ -494,12 +494,12 @@ const experience = {
           duration: "May 2023 - Present",
           location: "Plantation, FL (remote)",
           description:
-            "Developed end-to-end solutions customized to client needs utilizing various cloud infrastructure and DevOps tools while reducing annual infrastructure costs through implementing open-source alternatives and custom integrations.",
+            "Developed end-to-end solutions customized to client needs utilizing various cloud infrastructure and DevOps tools while reducing annual infrastructure costs by implementing open-source alternatives and custom integrations.",
           accomplishments: [
             "Coached clients towards successful implementation through collaborative solution design, technical training sessions, and product demonstration.",
             "Reduced client infrastructure costs by an average of 70% across multiple projects through strategic implementation of tailored solutions, delivering over $15K in estimated savings over 14 months.",
             "Automated over 95% of survey analysis workflow through Google Apps Script integration, allowing personalized quadrant analysis and results summary to be emailed to participants upon survey submission.",
-            "Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
+            "Enhanced client security posture by implementing zero-trust access controls, secrets management, and secure remote access solutions using Cloudflare ZTNA and Bitwarden.",
           ],
             color: "#000000",
         },
