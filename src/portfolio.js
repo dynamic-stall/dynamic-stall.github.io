@@ -524,7 +524,7 @@ const experience = {
           title: "System Administrator",
           company: "TEKsystems",
           company_url: "https://www.teksystems.com",
-          logo_path: "teksystems_logo.png",
+          logo_path: "teksystems_logo.jpg",
           duration: "September 2019 - August 2021",
           location: "Dulles, VA (on-site)",
           description:
