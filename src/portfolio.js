@@ -402,7 +402,7 @@ const certifications = {
     {
       title: "Network+",
       subtitle: "- CompTIA",
-      logo_path: "comptia_logo.webp",
+      logo_path: "comptia_logo.svg",
       certificate_link:
         "https://www.youracclaim.com/badges/ebd8b10c-3a06-4edd-90b5-e4e280b2a0d5",
       alt_name: "comptia",
@@ -437,8 +437,8 @@ const certifications = {
     },
     {
       title: "AWS Partner: Technical Accreditation",
-      subtitle: "- Amazon Web Services",
-      logo_path: "aws_logo.png",
+      subtitle: "- AWS Partner Network",
+      logo_path: "aws_partner_logo.png",
       certificate_link:
         "https://www.credly.com/badges/5a69529c-65e1-4c4c-ac6d-403e66aafe36?source=linked_in_profile",
       alt_name: "aws2",
