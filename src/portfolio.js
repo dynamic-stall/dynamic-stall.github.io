@@ -282,7 +282,7 @@ const skills = {
         {
           skillName: "Snort",
           fontAwesomeClassname: "simple-icons:snort",
-          style: { color: "#F6A7AA" },
+          style: { color: "#C41E3A" },
         },
         {
           skillName: "Prometheus",
