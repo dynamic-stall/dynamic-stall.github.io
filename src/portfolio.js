@@ -138,7 +138,7 @@ const skills = {
       title: "Solutions Consulting & Strategy",
       fileName: "DesignImg",
       skills: [
-        "⚡ Translating business goals into scalable technical roadmaps and proof-of-concepts",
+        "⚡ Translating business goals into scalable technical roadmaps and proofs-of-concept",
         "⚡ Facilitating stakeholder alignment through workshops, presentations, and live demos",
         "⚡ Leading cross-functional knowledge-sharing sessions and technical demos",
         "⚡ Managing SDLC & Agile processes to accelerate time-to-market for new features",
