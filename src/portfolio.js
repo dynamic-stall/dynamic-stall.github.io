@@ -218,9 +218,14 @@ const skills = {
           style: { color: "#5DACDF" },
         },
         {
-          skillName: "Pi-hole",
-          fontAwesomeClassname: "simple-icons:pihole",
-          style: { color: "#96060C" },
+          skillName: "Raspberry Pi",
+          fontAwesomeClassname: "simple-icons:raspberrypi",
+          style: { color: "#A22846" },
+        },
+        {
+          skillName: "NGINX",
+          fontAwesomeClassname: "simple-icons:nginx",
+          style: { color: "#009639" },
         },
         {
           skillName: "Cloudflare",
