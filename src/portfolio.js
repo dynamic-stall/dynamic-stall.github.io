@@ -591,10 +591,18 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "open-source-password-management",
-      name: "Open-Source Password Management",
+      id: "open-source-password-management-1",
+      name: "Open-Source Password Management, Part 1: Enhancing Security through Self-Hosted Solutions",
       description: "Published February 2025 on LinkedIn Articles",
       url: "https://www.linkedin.com/pulse/open-source-password-management-part-1-enhancing-security-zq9kc",
+      createdAt: "2025-02-10T07:30:00Z",
+    },
+    {
+      id: "open-source-password-management-2",
+      name: "Open-Source Password Management, Part 2: Deep-Dive on Security Concepts and Configuration Tips",
+      description: "Published February 2025 on LinkedIn Articles",
+      url: "https://www.linkedin.com/pulse/open-source-password-management-part-2-deep-dive-ri1ac",
+      createdAt: "2025-02-17T07:30:00Z",
     },
   ],
 };
