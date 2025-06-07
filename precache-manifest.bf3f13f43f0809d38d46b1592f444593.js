@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a8d472cb860e61b6cf776f7dec8583f",
+    "revision": "6ee3d94fe5da5ad849d18e8f7c8c5ff0",
     "url": "./index.html"
   },
   {
-    "revision": "4fb9dd4bdc7cfad80cba",
+    "revision": "7b03e2bc131d96a0aca9",
     "url": "./static/css/main.fb40792b.chunk.css"
   },
   {
-    "revision": "b8698cb5828888e88aee",
-    "url": "./static/js/2.a11a20ef.chunk.js"
+    "revision": "8dbaa7a8a3b08ae6cf42",
+    "url": "./static/js/2.40c7f05c.chunk.js"
   },
   {
-    "revision": "4fb9dd4bdc7cfad80cba",
-    "url": "./static/js/main.7b378fcd.chunk.js"
+    "revision": "7b03e2bc131d96a0aca9",
+    "url": "./static/js/main.f8f60e79.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee92c18b1cfbd1faa704c51047f113d",
     "url": "./static/media/codeInLogo.fee92c18.png"
+  },
+  {
+    "revision": "6ae894a290d75f21664c7fb8639f581a",
+    "url": "./static/media/comptia_logo.6ae894a2.webp"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
@@ -258,6 +262,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1581468239b0dbac97a6bcb62b621c94",
     "url": "./static/media/scaled_agile.15814682.png"
+  },
+  {
+    "revision": "f6e96fc7dbeda0c1b2b2303e7b607096",
+    "url": "./static/media/scrum_alliance.f6e96fc7.svg"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
