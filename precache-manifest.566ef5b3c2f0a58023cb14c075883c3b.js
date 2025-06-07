@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cd957030ba4954e1544f1d00ddbeb1d",
+    "revision": "11d932218d39a5ed9cebc7090f2ca8a2",
     "url": "./index.html"
   },
   {
-    "revision": "9ef1e09ccb0313a59fe5",
+    "revision": "67bfc300920ec7295644",
     "url": "./static/css/main.c9b5b91e.chunk.css"
   },
   {
-    "revision": "3ccbc50c856852115691",
-    "url": "./static/js/2.42d37c73.chunk.js"
+    "revision": "446f78aded41749a127c",
+    "url": "./static/js/2.4d6fa4f4.chunk.js"
   },
   {
-    "revision": "9ef1e09ccb0313a59fe5",
-    "url": "./static/js/main.2a33f764.chunk.js"
+    "revision": "67bfc300920ec7295644",
+    "url": "./static/js/main.bb8e4959.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -218,6 +218,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "./static/media/intel_logo.29152cf7.jpg"
+  },
+  {
+    "revision": "f7b05a822210edced6da04408ef9e58c",
+    "url": "./static/media/iot-inc_logo.f7b05a82.png"
   },
   {
     "revision": "60ed0bd3f8b99ac1d29e74575f804aaa",
