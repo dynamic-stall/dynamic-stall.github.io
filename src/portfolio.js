@@ -233,6 +233,11 @@ const skills = {
           style: { color: "#F38020" },
         },
         {
+          skillName: "Tailscale",
+          fontAwesomeClassname: "simple-icons:tailscale",
+          style: { color: "#242424" },
+        },
+        {
           skillName: "Google Apps Script",
           fontAwesomeClassname: "simple-icons:googleappsscript",
           style: { color: "#4285F4" },
@@ -283,6 +288,11 @@ const skills = {
           skillName: "Prometheus",
           fontAwesomeClassname: "simple-icons:prometheus",
           style: { color: "#E6522C" },
+        },
+        {
+          skillName: "pfSense",
+          fontAwesomeClassname: "simple-icons:pfsense",
+          style: { color: "#212121" },
         },
         {
           skillName: "WireGuard",
