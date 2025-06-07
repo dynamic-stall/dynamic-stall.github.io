@@ -449,7 +449,7 @@ const certifications = {
       subtitle: "- A Cloud Guru",
       logo_path: "acg.png",
       certificate_link:
-        "https://www.credly.com/badges/5a69529c-65e1-4c4c-ac6d-403e66aafe36?source=linked_in_profile",
+        "https://verify.acloud.guru/EDFD8B15EA25",
       alt_name: "acg1",
       color_code: "#0C9D5899",
     },
