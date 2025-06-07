@@ -1,4 +1,4 @@
-# Professional portfolio for [Triskelion Flagship, LLC](https://tflagshipllc.com)
+# Professional Portfolio for [Triskelion Flagship, LLC](https://tflagshipllc.com)
 
 GitHub Pages generated from [ashutosh1919's portfolio template](https://github.com/ashutosh1919/masterportfolio)
 
