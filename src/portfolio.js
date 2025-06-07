@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   resumeLink:
-    "https://drive.google.com/file/d/1RlZGOXqOdBiK06YZPZ8GvoNVU3WQQ3lV/view?usp=sharing",
+    "https://drive.google.com/file/d/1yoe2IE9RdymMfn64m8m9AkOMkiOdvBHc/view?usp=sharing",
   githubProfile: "https://github.com/dynamic-stall",
 };
 
