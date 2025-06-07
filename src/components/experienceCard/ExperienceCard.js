@@ -108,6 +108,13 @@ class ExperienceCard extends Component {
                 <div className="repo-description" />
                 {experience["description"]}
               </div>
+              {experience["accomplishments"] && (
+                <ul style={{ marginTop: 10 }}>
+                  {experience["accomplishments"].map((item, idx) => (
+                    <li key={idx} style={{ color: theme.text }}>{item}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           </div>
         </Fade>
