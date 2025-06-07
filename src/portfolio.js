@@ -116,12 +116,12 @@ const skills = {
         {
           skillName: "HashiCorp Vault",
           fontAwesomeClassname: "simple-icons:vault",
-          style: { color: "#FFEC6E" },
+          style: { color: "#E6B800" },
         },
         {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
-          style: { color: "#FCC624" },
+          style: { color: "#000000" },
         },
         {
           skillName: "Git",
