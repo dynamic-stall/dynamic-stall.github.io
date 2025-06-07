@@ -496,10 +496,10 @@ const experience = {
           description:
             "Developed end-to-end solutions customized to client needs utilizing various cloud infrastructure and DevOps tools while reducing annual infrastructure costs through implementing open-source alternatives and custom integrations.",
           accomplishments: [
-            "- Coached clients towards successful implementation through collaborative solution design, technical training sessions, and product demonstration.",
-            "- Reduced client infrastructure costs by an average of 70% across multiple projects through strategic implementation of tailored solutions, delivering over $15K in estimated savings over 14 months.",
-            "- Automated over 95% of survey analysis workflow through Google Apps Script integration, allowing personalized quadrant analysis and results summary to be emailed to participants upon survey submission.",
-            "- Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
+            "Coached clients towards successful implementation through collaborative solution design, technical training sessions, and product demonstration.",
+            "Reduced client infrastructure costs by an average of 70% across multiple projects through strategic implementation of tailored solutions, delivering over $15K in estimated savings over 14 months.",
+            "Automated over 95% of survey analysis workflow through Google Apps Script integration, allowing personalized quadrant analysis and results summary to be emailed to participants upon survey submission.",
+            "Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
           ],
             color: "#000000",
         },
@@ -513,10 +513,10 @@ const experience = {
           description:
             "DevOps Engineer enhancing CI/CD pipeline deployments to AWS services through infrastructure updates while providing technical support and improving data streaming analysis capabilities by building new regions with integrated monitoring solutions.",
           accomplishments: [
-            "- Improved clients’ data streaming analysis and monitoring capabilities through ownership of new region-building tasks, utilizing Amazon Data Firehose integration with OpenSearch and CloudWatch.",
-            "- Streamlined AWS account ownership configuration updates by 85% during service transition via custom IAM reporting script using Python, Bash, and AWS CLI commands.",
-            "- Reduced MTTR by 30% for AWS messaging and streaming services via workflow analysis and troubleshooting efforts.",
-            "- Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
+            "Improved clients’ data streaming analysis and monitoring capabilities through ownership of new region-building tasks, utilizing Amazon Data Firehose integration with OpenSearch and CloudWatch.",
+            "Streamlined AWS account ownership configuration updates by 85% during service transition via custom IAM reporting script using Python, Bash, and AWS CLI commands.",
+            "Reduced MTTR by 30% for AWS messaging and streaming services via workflow analysis and troubleshooting efforts.",
+            "Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
           ],
             color: "#0879bf",
         },
@@ -530,10 +530,10 @@ const experience = {
           description:
             "Supported Raytheon National Cybersecurity Protection System by maintaining diverse computing infrastructure including Windows Server, Linux hosts, container services, and virtualization environments while strengthening enterprise security through vulnerability scanning and system hardening per DoD RMF standards.",
           accomplishments: [
-            "- Architected and demonstrated AWS migration proof-of-concept with high availability through multi-AZ deployment and failover routing, exceeding base requirements to enable Auto Scaling and self-healing capabilities.",
-            "- Established and led knowledge exchange program, consulting with team members to identify skill gaps, delivering targeted VMware ecosystem trainings, and facilitating technical knowledge transfer across organizational boundaries.",
-            "- Led System Admin team in rapidly enabling secure remote work for 63 users during COVID-19, achieving 100% successful onboarding through SOP documentation and MFA setup support across multiple operating systems.",
-            "- Improved AWS account security and compliance by implementing and automating IAM reporting script — using AWS CLI, Python, and Bash — capturing AWS account user metrics for active access control and authentication methods.",
+            "Architected and demonstrated AWS migration proof-of-concept with high availability through multi-AZ deployment and failover routing, exceeding base requirements to enable Auto Scaling and self-healing capabilities.",
+            "Established and led knowledge exchange program, consulting with team members to identify skill gaps, delivering targeted VMware ecosystem trainings, and facilitating technical knowledge transfer across organizational boundaries.",
+            "Led System Admin team in rapidly enabling secure remote work for 63 users during COVID-19, achieving 100% successful onboarding through SOP documentation and MFA setup support across multiple operating systems.",
+            "Improved AWS account security and compliance by implementing and automating IAM reporting script — using AWS CLI, Python, and Bash — capturing AWS account user metrics for active access control and authentication methods.",
           ],
             color: "#9b1578",
         },
@@ -547,9 +547,9 @@ const experience = {
           description:
             "Upgraded DHA pathology lab systems for 39 Military Treatment Facilities worldwide, adhering to HIPPA / NIST compliance for EHR and system assets, while communicating progress to various stakeholders.",
           accomplishments: [
-            "- Traveled on-site to coordinate with military points of contact throughout the course of deployment and provided remote post-rollout sustainment support.",
-            "- Delivered on 100% of contractual milestones for the DHA program management office while streamlining cybersecurity risk and configuration management tasks.",
-            "- Standardized network configuration processes for 19 sites and GFE asset management workflows for 108 contractors.",
+            "Traveled on-site to coordinate with military points of contact throughout the course of deployment and provided remote post-rollout sustainment support.",
+            "Delivered on 100% of contractual milestones for the DHA program management office while streamlining cybersecurity risk and configuration management tasks.",
+            "Standardized network configuration processes for 19 sites and GFE asset management workflows for 108 contractors.",
           ],
             color: "#fc1f20",
         },
