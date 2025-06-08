@@ -397,7 +397,7 @@ const certifications = {
       certificate_link:
         "https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=9532A418C09A90F4C4E0CC3705E2C42FOE831595D07ABB8C7EA0DD4C480A7F79E",
       alt_name: "aws1",
-      color_code: "#8C151599",
+      color_code: "#FF910020", // light orange
     },
     {
       title: "Network+",
@@ -406,7 +406,7 @@ const certifications = {
       certificate_link:
         "https://www.youracclaim.com/badges/ebd8b10c-3a06-4edd-90b5-e4e280b2a0d5",
       alt_name: "comptia",
-      color_code: "#00000099",
+      color_code: "#69696950", // dark gray
     },
     {
       title: "Certified Scrum Master",
@@ -415,7 +415,7 @@ const certifications = {
       certificate_link:
         "https://certification.scrumalliance.org/accounts/875481-devon-charles-henry/certifications?",
       alt_name: "scrum",
-      color_code: "#0C9D5899",
+      color_code: "#1E3A8A40", // navy blue
     },
     {
       title: "Git and GitHub Bootcamp",
@@ -424,7 +424,7 @@ const certifications = {
       certificate_link:
         "https://www.udemy.com/certificate/UC-4241213d-4aab-4adf-a5e6-34f5100eda62/",
       alt_name: "udemy1",
-      color_code: "#1F70C199",
+      color_code: "#A020F020", // light purple
     },
     {
       title: "Complete Python Bootcamp",
@@ -433,7 +433,7 @@ const certifications = {
       certificate_link:
         "https://www.udemy.com/certificate/UC-2698df4b-366f-4e18-9316-f88c9a6945af/",
       alt_name: "udemy2",
-      color_code: "#1F70C199",
+      color_code: "#A020F020", // light purple
     },
     {
       title: "AWS Partner: Technical Accreditation",
@@ -442,7 +442,7 @@ const certifications = {
       certificate_link:
         "https://www.credly.com/badges/5a69529c-65e1-4c4c-ac6d-403e66aafe36?source=linked_in_profile",
       alt_name: "aws2",
-      color_code: "#1F70C199",
+      color_code: "#FF910020", // light orange
     },
     {
       title: "Kubernetes Essentials",
@@ -451,7 +451,7 @@ const certifications = {
       certificate_link:
         "https://verify.acloud.guru/EDFD8B15EA25",
       alt_name: "acg1",
-      color_code: "#0C9D5899",
+      color_code: "#4B008260", // indigo
     },
     {
       title: "SAFe 4 Practitioner",
@@ -460,7 +460,7 @@ const certifications = {
       certificate_link:
         "https://scaledagile.com/certification/",
       alt_name: "safe4",
-      color_code: "#00000099",
+      color_code: "##20B2AA25", // light sea green
     },
     {
       title: "Certified Cloud Practitioner",
@@ -469,7 +469,7 @@ const certifications = {
       certificate_link:
         "https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=8455114F519DF416C1A108F5245B0046O8D1BB2BD3A9806FB4E8BB129FFF5F5F0",
       alt_name: "aws3",
-      color_code: "#8C151599",
+      color_code: "#FF910020", // light orange
     },
     {
       title: "IoT-Inc Certified IoT Professional",
@@ -478,7 +478,7 @@ const certifications = {
       certificate_link:
         "https://www.credential.net/qghx52ba",
       alt_name: "iotinc",
-      color_code: "#8C151599",
+      color_code: "#FFD70025", // light gold
     },
   ],
 };
