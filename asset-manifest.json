@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.035936f7.chunk.css",
-    "main.js": "./static/js/main.d55ab1a1.chunk.js",
-    "main.js.map": "./static/js/main.d55ab1a1.chunk.js.map",
+    "main.js": "./static/js/main.4625e39e.chunk.js",
+    "main.js.map": "./static/js/main.4625e39e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c2e513d0.js",
     "runtime-main.js.map": "./static/js/runtime-main.c2e513d0.js.map",
-    "static/js/2.c6d4c945.chunk.js": "./static/js/2.c6d4c945.chunk.js",
-    "static/js/2.c6d4c945.chunk.js.map": "./static/js/2.c6d4c945.chunk.js.map",
+    "static/js/2.b787da56.chunk.js": "./static/js/2.b787da56.chunk.js",
+    "static/js/2.b787da56.chunk.js.map": "./static/js/2.b787da56.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a725c928fedb48eda53a5c476ed8de3b.js": "./precache-manifest.a725c928fedb48eda53a5c476ed8de3b.js",
+    "precache-manifest.9451f018a44e7dd3ca0dbcd250cb878f.js": "./precache-manifest.9451f018a44e7dd3ca0dbcd250cb878f.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.035936f7.chunk.css.map": "./static/css/main.035936f7.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
@@ -21,7 +21,7 @@
     "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
     "static/media/cloud_infrastructure.svg": "./static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "./static/media/codeInLogo.fee92c18.png",
-    "static/media/comptia_logo-cropped.svg": "./static/media/comptia_logo-cropped.72c53fb9.svg",
+    "static/media/comptia_logo.svg": "./static/media/comptia_logo.72c53fb9.svg",
     "static/media/contactMail.png": "./static/media/contactMail.5f915405.png",
     "static/media/data_science.svg": "./static/media/data_science.ebf35d7f.svg",
     "static/media/deeplearning_ai_logo.png": "./static/media/deeplearning_ai_logo.75a7107b.png",
@@ -52,7 +52,6 @@
     "static/media/programmer.svg": "./static/media/programmer.5faf790b.svg",
     "static/media/projects_image.svg": "./static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "./static/media/pwa.71408db7.png",
-    "static/media/scaled_agile.png": "./static/media/scaled_agile.15814682.png",
     "static/media/scaled_agile_logo.png": "./static/media/scaled_agile_logo.15814682.png",
     "static/media/scrum_alliance.svg": "./static/media/scrum_alliance.f6e96fc7.svg",
     "static/media/stanford_logo.png": "./static/media/stanford_logo.2c497738.png",
@@ -65,8 +64,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c2e513d0.js",
-    "static/js/2.c6d4c945.chunk.js",
+    "static/js/2.b787da56.chunk.js",
     "static/css/main.035936f7.chunk.css",
-    "static/js/main.d55ab1a1.chunk.js"
+    "static/js/main.4625e39e.chunk.js"
   ]
 }
