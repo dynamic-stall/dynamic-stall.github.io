@@ -402,7 +402,7 @@ const certifications = {
     {
       title: "Network+",
       subtitle: "- CompTIA",
-      logo_path: "comptia_logo.svg",
+      logo_path: "comptia_logo.png",
       certificate_link:
         "https://www.youracclaim.com/badges/ebd8b10c-3a06-4edd-90b5-e4e280b2a0d5",
       alt_name: "comptia",
