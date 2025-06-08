@@ -406,7 +406,7 @@ const certifications = {
       certificate_link:
         "https://www.youracclaim.com/badges/ebd8b10c-3a06-4edd-90b5-e4e280b2a0d5",
       alt_name: "comptia",
-      color_code: "#474747FF", // dark grey
+      color_code: "#5E5E5EFF", // grey
     },
     {
       title: "Certified Scrum Master",
@@ -451,7 +451,7 @@ const certifications = {
       certificate_link:
         "https://verify.acloud.guru/EDFD8B15EA25",
       alt_name: "acg1",
-      color_code: "#4B0082B0", // indigo
+      color_code: "#330099FF", // dark indigo
     },
     {
       title: "SAFe 4 Practitioner",
