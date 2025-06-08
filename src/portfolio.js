@@ -456,7 +456,7 @@ const certifications = {
     {
       title: "SAFe 4 Practitioner",
       subtitle: "- Scaled Agile, Inc.",
-      logo_path: "scaled_agile.png",
+      logo_path: "scaled_agile_logo.png",
       certificate_link:
         "https://scaledagile.com/certification/",
       alt_name: "safe4",
