@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a66e5970d0671f65d3ca07837d3e638",
+    "revision": "839e9f5f697fb47b2d5f69808474e67b",
     "url": "./index.html"
   },
   {
-    "revision": "a7cd7ea59e114dec05d2",
+    "revision": "4db4d0f7466267a0b3ab",
     "url": "./static/css/main.035936f7.chunk.css"
   },
   {
-    "revision": "76a34bbb479ac0a4ceef",
-    "url": "./static/js/2.6c2ae338.chunk.js"
+    "revision": "f78ebdcdc52a124978a0",
+    "url": "./static/js/2.c6d4c945.chunk.js"
   },
   {
-    "revision": "a7cd7ea59e114dec05d2",
-    "url": "./static/js/main.4061b631.chunk.js"
+    "revision": "4db4d0f7466267a0b3ab",
+    "url": "./static/js/main.d55ab1a1.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -270,6 +270,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1581468239b0dbac97a6bcb62b621c94",
     "url": "./static/media/scaled_agile.15814682.png"
+  },
+  {
+    "revision": "1581468239b0dbac97a6bcb62b621c94",
+    "url": "./static/media/scaled_agile_logo.15814682.png"
   },
   {
     "revision": "f6e96fc7dbeda0c1b2b2303e7b607096",
