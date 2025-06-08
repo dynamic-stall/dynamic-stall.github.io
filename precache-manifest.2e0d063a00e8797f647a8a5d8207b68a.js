@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8311b3d78cbcb61289720bcc92e06249",
+    "revision": "0a66e5970d0671f65d3ca07837d3e638",
     "url": "./index.html"
   },
   {
-    "revision": "4c28b965db7477d806ee",
+    "revision": "a7cd7ea59e114dec05d2",
     "url": "./static/css/main.035936f7.chunk.css"
   },
   {
-    "revision": "e6e539842efc5fe1e37a",
-    "url": "./static/js/2.b787da56.chunk.js"
+    "revision": "76a34bbb479ac0a4ceef",
+    "url": "./static/js/2.6c2ae338.chunk.js"
   },
   {
-    "revision": "4c28b965db7477d806ee",
-    "url": "./static/js/main.38da2549.chunk.js"
+    "revision": "a7cd7ea59e114dec05d2",
+    "url": "./static/js/main.4061b631.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "fee92c18b1cfbd1faa704c51047f113d",
     "url": "./static/media/codeInLogo.fee92c18.png"
+  },
+  {
+    "revision": "72c53fb9246e389d6e01635a0b3da3d1",
+    "url": "./static/media/comptia_logo-cropped.72c53fb9.svg"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
