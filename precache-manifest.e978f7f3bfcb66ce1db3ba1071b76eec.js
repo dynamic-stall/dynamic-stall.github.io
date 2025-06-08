@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d69aa1701dda6508a65c9f43c3668dff",
+    "revision": "8b68117fe5f430fc664f5c0e424a8d97",
     "url": "./index.html"
   },
   {
-    "revision": "fa66b4513c53fdda437c",
+    "revision": "43b6a8a7d4f7c5e5b619",
     "url": "./static/css/main.035936f7.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.b787da56.chunk.js"
   },
   {
-    "revision": "fa66b4513c53fdda437c",
-    "url": "./static/js/main.93f116fb.chunk.js"
+    "revision": "43b6a8a7d4f7c5e5b619",
+    "url": "./static/js/main.2c018656.chunk.js"
   },
   {
     "revision": "83d2833d0990fe1ff02e",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/codeInLogo.fee92c18.png"
   },
   {
-    "revision": "2ad77103c66a0598eeba4cd6cc5e360c",
-    "url": "./static/media/comptia_logo.2ad77103.svg"
+    "revision": "f23a08e8ced5a9bab8ec09087540a146",
+    "url": "./static/media/comptia_logo.f23a08e8.png"
   },
   {
     "revision": "5f915405511f649dad433a6db9adbff4",
