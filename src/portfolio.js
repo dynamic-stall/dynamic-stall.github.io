@@ -486,7 +486,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work Experience and Volunteership",
+  subtitle: "Work Experience & Volunteership",
   description:
     "Cross-functional IT professional bridging hands-on DevSecOps, hybrid cloud, and SRE practices with client-facing solution design, consulting, and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance.",
   header_image_path: "experience.svg",
