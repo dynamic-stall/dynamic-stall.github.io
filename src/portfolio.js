@@ -415,7 +415,7 @@ const certifications = {
       certificate_link:
         "https://certification.scrumalliance.org/accounts/875481-devon-charles-henry/certifications?",
       alt_name: "scrum",
-      color_code: "#1E3A8A40", // navy blue
+      color_code: "#1E3A8A80", // navy blue
     },
     {
       title: "Git and GitHub Bootcamp",
