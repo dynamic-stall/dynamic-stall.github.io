@@ -627,7 +627,7 @@ const contactPageData = {
     subtitle: "South Florida-Local, Globally Accessible",
     locality: "Fort Lauderdale",
     region: "FL",
-    link: "https://maps.app.goo.gl/ge1N6o3KscZeuKBS7",
+    link: "https://poplme.co/hash/aMlV1UAj/1/share",
     avatar_image_path: "address_image.svg",
   },
   phoneSection: {
