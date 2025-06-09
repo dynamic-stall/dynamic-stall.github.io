@@ -506,7 +506,7 @@ const experience = {
         {
           title: "DevOps Engineer",
           company: "Amazon Web Services",
-          company_url: "https://aws.amazon.com/about-aws/",
+          company_url: "https://aws.amazon.com/",
           logo_path: "amazon_web_services_logo.jpg",
           duration: "September 2021 - May 2023",
           location: "Denver, CO (hybrid)",
