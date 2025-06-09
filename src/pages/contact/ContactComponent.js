@@ -47,7 +47,7 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text="See Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
@@ -70,7 +70,7 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Visit Blogsite"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
