@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: false, // Change this to false if you don't want Splash screen.
+  isSplash: false,
 };
 
 //SEO Related settings
@@ -30,14 +30,6 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/dynamic-stall",
-  // linkedin: "https://www.linkedin.com/in/henrydevon/",
-  // email: "dhenry@tflagshipllc.com",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // youtube: "https://www.youtube.com/@TheBlerdCard",
-  // tiktok: "https://www.tiktok.com/@theblerdcard/"
-
   {
     name: "Github",
     link: "https://github.com/dynamic-stall",
@@ -632,17 +624,16 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "",
+    title: "Locale",
+    subtitle: "Florida Local, Globally Accessible",
     locality: "Fort Lauderdale",
-    country: "USA",
-    region: "Florida",
-    postalCode: "33324",
+    region: "FL",
+    link: "https://g.co/kgs/BdgojqR",
     avatar_image_path: "address_image.svg",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Business Line",
+    subtitle: "(571) 535-4404",
   },
 };
 
