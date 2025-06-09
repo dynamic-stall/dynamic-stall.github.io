@@ -31,7 +31,7 @@ class Header extends Component {
                   src={require("../../assets/images/tf_logo_144.png")} 
                   alt="tf-logo" 
                   className="logo-icon"
-                  style={{ height: '42px', width: '42px', margin: '0 6px 0 4px' }}
+                  style={{ height: '42px', width: '64px', margin: '0 3px 0 4px', transform: 'translateY(-2px)' }}
                 />
                 <span className="logo-name" style={{ color: theme.text }}>
                   {greeting.logo_name}
