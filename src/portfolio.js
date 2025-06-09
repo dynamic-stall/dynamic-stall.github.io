@@ -625,10 +625,10 @@ const contactPageData = {
   },
   addressSection: {
     title: "Locale",
-    subtitle: "Florida Local, Globally Accessible",
+    subtitle: "South Florida-Local, Globally Accessible",
     locality: "Fort Lauderdale",
     region: "FL",
-    link: "https://g.co/kgs/BdgojqR",
+    link: "https://maps.app.goo.gl/ge1N6o3KscZeuKBS7",
     avatar_image_path: "address_image.svg",
   },
   phoneSection: {
