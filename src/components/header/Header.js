@@ -32,9 +32,9 @@ class Header extends Component {
                   alt="tf-logo" 
                   className="logo-icon"
                   style={{
-                    height: '42px',
+                    height: '64px',
                     width: '64px',
-                    marginLeft: '4px',
+                    marginLeft: '8px',
                     marginRight: '2px',
                     transform: 'translateY(-1px)'
                   }}
