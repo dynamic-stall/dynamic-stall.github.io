@@ -26,10 +26,10 @@ class Header extends Component {
           <header className="header">
             <NavLink to={link} tag={Link} className="logo" style={{ display: 'flex', alignItems: 'center' }}>
               <img 
-                src={require("../../../public/icons/favicon-96x96.png")} 
-                alt="Triskelion logo" 
+                src={require("../../assets/images/tf_logo_144.png")} 
+                alt="tf-logo" 
                 className="logo-icon"
-                style={{ height: '32px', width: 'auto', marginRight: '8px' }}
+                style={{ height: '32px', width: '32px', marginRight: '8px' }}
               />
               <div>
                 <span style={{ color: theme.text }}> &lt;</span>
