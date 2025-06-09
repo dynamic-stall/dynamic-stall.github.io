@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Triskelion Flagship, LLC (D.H. Portfolio)",
+  title: "Triskelion Flagship, LLC (D. Henry Portfolio)",
   description:
     "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   og: {
