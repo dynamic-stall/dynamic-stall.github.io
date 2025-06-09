@@ -506,7 +506,7 @@ const experience = {
         {
           title: "DevOps Engineer",
           company: "Amazon Web Services",
-          company_url: "https://aboutamazon.com/",
+          company_url: "https://aws.amazon.com/about-aws/",
           logo_path: "amazon_web_services_logo.jpg",
           duration: "September 2021 - May 2023",
           location: "Denver, CO (hybrid)",
@@ -584,7 +584,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description: "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes, more privately, I engage in creative writing exercises.",
+  description: "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes (more privately) I also engage in creative writing exercises...",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -613,12 +613,12 @@ const contactPageData = {
     title: "Get in Touch",
     profile_image_path: "profile_pic.jpeg",
     description:
-      "I am primiarily on LinkedIn and GitHub. You can also reach me via email at the link below (Google icon). I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+      "I am primiarily on LinkedIn and GitHub. You can also reach me via email at the link below (Google icon) or you may save my contact card farther down. I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
   },
   blogSection: {
     title: "Blog (coming soon!)",
     subtitle:
-      "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes, more privately, I engage in creative writing exercises.",
+      "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes (more privately), I also engage in creative writing exercises...",
     //link: "https://blogs.ashutoshhathidara.com/",
     avatar_image_path: "blogs_image.svg",
   },
