@@ -24,15 +24,15 @@ class Header extends Component {
         <SeoHeader />
         <div>
           <header className="header">
-            <NavLink to={link} tag={Link} className="logo" style={{ display: 'flex', alignItems: 'center' }}>
-              <img 
-                src={require("../../assets/images/tf_logo_144.png")} 
-                alt="tf-logo" 
-                className="logo-icon"
-                style={{ height: '32px', width: '32px', marginRight: '8px' }}
-              />
-              <div>
-                <span style={{ color: theme.text }}> &lt;</span>
+            <NavLink to={link} tag={Link} className="logo">
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <span style={{ color: theme.text }}>&lt;</span>
+                <img 
+                  src={require("../../assets/images/tf_logo_144.png")} 
+                  alt="tf-logo" 
+                  className="logo-icon"
+                  style={{ height: '42px', width: '42px', margin: '0 6px 0 4px' }}
+                />
                 <span className="logo-name" style={{ color: theme.text }}>
                   {greeting.logo_name}
                 </span>
