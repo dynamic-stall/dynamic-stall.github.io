@@ -124,7 +124,7 @@ class Contact extends Component {
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
-                    href={addressSection.location_map_link}
+                    href={addressSection.link}
                     theme={theme}
                   />
                 </div>
