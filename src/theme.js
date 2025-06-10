@@ -184,7 +184,7 @@ export const materialLightTheme = {
 export const materialTealTheme = {
   body: "#ffffff",
   text: "#05505E",
-  expTxtColor: "#000000",
+  expTxtColor: "#ffffff",
   highlight: "#a1dded",
   dark: "#07292c",
   secondaryText: "#05505E",
