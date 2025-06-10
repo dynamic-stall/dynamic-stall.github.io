@@ -184,7 +184,7 @@ export const materialLightTheme = {
 export const materialTealTheme = {
   body: "#ffffff",
   text: "#05505E",
-  expTxtColor: "#ffffff",
+  expTxtColor: "#000000",
   highlight: "#a1dded",
   dark: "#07292c",
   secondaryText: "#05505E",
@@ -195,4 +195,22 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = materialDarkTheme;
+// ---------------------------------------------------------
+// Custom Themes
+// ---------------------------------------------------------
+export const kaizokuDarkTheme = {
+  //body: "#202f33",  //custom
+  body: "#263238",  //materialDarkTheme
+  text: "#aeaeae",
+  expTxtColor: "#aeaeae",
+  highlight: "#283e42",
+  dark: "#000a12",
+  secondaryText: "#aeaeae",
+  imageHighlight: "#607d8b",
+  compImgHighlight: "#E6E6E6",
+  jacketColor: "#8eacbb",
+  headerColor: "#34515e",
+  splashBg: "#4f5b62",
+};
+
+export const chosenTheme = kaizokuDarkTheme;
