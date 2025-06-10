@@ -27,8 +27,9 @@ class Header extends Component {
             <NavLink to={link} tag={Link} className="logo">
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <span style={{ color: theme.text }}>&lt;</span>
-                <img 
-                  src={require("../../assets/images/tf_logo_144.png")} 
+                <img
+                  //src={require("../../assets/images/tf_logo_144.png")}
+                  src={require("../../assets/images/tf_alt_logo_512.png")}
                   alt="tf-logo" 
                   className="logo-icon"
                   style={{
