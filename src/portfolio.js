@@ -174,7 +174,9 @@ const skills = {
         {
           skillName: "Agile",
           fontAwesomeClassname: "simple-icons:scrumalliance",
-          style: { color: "#009FDA" },
+          style: { 
+            color: chosenTheme.isDark ? "#F2BE5E" : "#011D45"
+          },
         },
         {
           skillName: "Demos",
