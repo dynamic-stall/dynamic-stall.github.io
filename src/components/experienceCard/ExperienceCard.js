@@ -109,7 +109,10 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="experience-card-description">
+                <div 
+                  className="experience-card-description"
+                  style={{ color: theme.text }}
+                >
                   {experience["description"]}
                 </div>
               </div>
