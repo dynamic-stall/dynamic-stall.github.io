@@ -217,7 +217,7 @@ export const kaizokuDarkTheme = {
   body: "#263238",  //materialDarkTheme
   text: "#aeaeae",
   expTxtColor: "#aeaeae",
-  highlight: "#283e42",
+  highlight: "#36585e",
   dark: "#000a12",
   secondaryText: "#aeaeae",
   imageHighlight: "#607d8b",
