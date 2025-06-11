@@ -1,5 +1,7 @@
 /* Change this file to get your personal Porfolio */
 
+import { chosenTheme } from "./theme";
+
 // Website related settings
 const settings = {
   isSplash: false,
@@ -80,6 +82,16 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: { color: "#F05032" },
+        },
+        {
+          skillName: "GitHub Actions",
+          fontAwesomeClassname: "simple-icons:githubactions",
+          style: { color: "#2088FF" },
+        },
+        {
           skillName: "Terraform",
           fontAwesomeClassname: "simple-icons:terraform",
           style: { color: "#844FBA" },
@@ -95,11 +107,6 @@ const skills = {
           style: { color: "#2496ED" },
         },
         {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: { color: "#2088FF" },
-        },
-        {
           skillName: "Kubernetes",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: { color: "#326CE5" },
@@ -107,17 +114,16 @@ const skills = {
         {
           skillName: "HashiCorp Vault",
           fontAwesomeClassname: "simple-icons:vault",
-          style: { color: "#E6B800" },
-        },
-        {
-          skillName: "Git",
-          fontAwesomeClassname: "simple-icons:git",
-          style: { color: "#F05032" },
+          style: { 
+            color: chosenTheme.isDark ? "#FFEC6E" : "#E6B800"
+          },
         },
         {
           skillName: "Linux",
           fontAwesomeClassname: "simple-icons:linux",
-          style: { color: "#000000" },
+          style: { 
+            color: chosenTheme.isDark ? "#FFFFFF" : "#000000"
+          },
         },
       ],
     },
@@ -139,32 +145,14 @@ const skills = {
         {
           skillName: "Stakeholder Engagement",
           fontAwesomeClassname: "simple-icons:slack",
-          style: { color: "#4A154B" },
-        },
-        {
-          skillName: "Project Management",
-          fontAwesomeClassname: "simple-icons:jirasoftware",
-          style: { color: "#0052CC" },
-        },
-        {
-          skillName: "Demos",
-          fontAwesomeClassname: "simple-icons:googleclassroom",
-          style: { color: "#0F9D58" },
-        },
-        {
-          skillName: "Technical Writing",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: { color: "#21759B" },
+          style: { 
+            color: chosenTheme.isDark ? "#36C5F0" : "#4A154B"
+          },
         },
         {
           skillName: "Business Analytics",
           fontAwesomeClassname: "simple-icons:googleanalytics",
-          style: { color: "#E37400" },
-        },
-        {
-          skillName: "Process Improvement",
-          fontAwesomeClassname: "simple-icons:miro",
-          style: { color: "#050038" },
+          style: { color: "#34A853" },
         },
         {
           skillName: "Solutions Architecture",
@@ -172,9 +160,31 @@ const skills = {
           style: { color: "#F08705" },
         },
         {
+          skillName: "Process Improvement",
+          fontAwesomeClassname: "simple-icons:miro",
+          style: { 
+            color: chosenTheme.isDark ? "#FFF9B6" : "#050038"
+          },
+        },
+        {
+          skillName: "Project Management",
+          fontAwesomeClassname: "simple-icons:jirasoftware",
+          style: { color: "#0052CC" },
+        },
+        {
           skillName: "Agile",
           fontAwesomeClassname: "simple-icons:scrumalliance",
           style: { color: "#009FDA" },
+        },
+        {
+          skillName: "Demos",
+          fontAwesomeClassname: "simple-icons:googleclassroom",
+          style: { color: "#34A853" },
+        },
+        {
+          skillName: "Technical Writing",
+          fontAwesomeClassname: "simple-icons:wordpress",
+          style: { color: "#21759B" },
         },
       ],
     },
@@ -194,14 +204,14 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Unraid",
-          fontAwesomeClassname: "simple-icons:unraid",
-          style: { color: "#F15A2C" },
+          skillName: "Raspberry Pi",
+          fontAwesomeClassname: "simple-icons:raspberrypi",
+          style: { color: "#A22846" },
         },
         {
-          skillName: "Nextcloud",
-          fontAwesomeClassname: "simple-icons:nextcloud",
-          style: { color: "#FBBC04" },
+          skillName: "Proxmox",
+          fontAwesomeClassname: "simple-icons:proxmox",
+          style: { color: "#E57000" },
         },
         {
           skillName: "Openmediavault",
@@ -209,9 +219,9 @@ const skills = {
           style: { color: "#5DACDF" },
         },
         {
-          skillName: "Raspberry Pi",
-          fontAwesomeClassname: "simple-icons:raspberrypi",
-          style: { color: "#A22846" },
+          skillName: "Nextcloud",
+          fontAwesomeClassname: "simple-icons:nextcloud",
+          style: { color: "#FBBC04" },
         },
         {
           skillName: "NGINX",
@@ -226,7 +236,9 @@ const skills = {
         {
           skillName: "Tailscale",
           fontAwesomeClassname: "simple-icons:tailscale",
-          style: { color: "#242424" },
+          style: {
+            color: chosenTheme.isDark ? "#FFFFFF" : "#242424"
+          },
         },
         {
           skillName: "Google Apps Script",
@@ -251,6 +263,25 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "pfSense",
+          fontAwesomeClassname: "simple-icons:pfsense",
+          style: {
+            color: chosenTheme.isDark ? "#FFFFFF" : "#212121"
+          },
+        },
+        {
+          skillName: "WireGuard",
+          fontAwesomeClassname: "simple-icons:wireguard",
+          style: { color: "#88171A" },
+        },
+        {
+          skillName: "Snort",
+          fontAwesomeClassname: "simple-icons:snort",
+          style: {
+            color: chosenTheme.isDark ? "#F6A7AA" : "#C41E3A"
+          },
+        },
+        {
           skillName: "McAfee",
           fontAwesomeClassname: "simple-icons:mcafee",
           style: { color: "#C01818" },
@@ -268,27 +299,14 @@ const skills = {
         {
           skillName: "Elastic",
           fontAwesomeClassname: "simple-icons:elastic",
-          style: { color: "#005571" },
-        },
-        {
-          skillName: "Snort",
-          fontAwesomeClassname: "simple-icons:snort",
-          style: { color: "#C41E3A" },
+          style: {
+            color: chosenTheme.isDark ? "#00BFB3" : "#005571"
+          },
         },
         {
           skillName: "Prometheus",
           fontAwesomeClassname: "simple-icons:prometheus",
           style: { color: "#E6522C" },
-        },
-        {
-          skillName: "pfSense",
-          fontAwesomeClassname: "simple-icons:pfsense",
-          style: { color: "#212121" },
-        },
-        {
-          skillName: "WireGuard",
-          fontAwesomeClassname: "simple-icons:wireguard",
-          style: { color: "#88171A" },
         },
       ],
     },
