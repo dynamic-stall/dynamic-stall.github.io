@@ -45,7 +45,7 @@ class ExperienceCard extends Component {
           )}
         </div>
         <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}>
+          <div style={{ display: "flex", flexDirection: "row" }}/>
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}
@@ -105,7 +105,7 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" style={{ color: theme.text }}/>
+                <div className="repo-description" style={{ color: theme.text }}>
                 {experience["description"]}
               </div>
               {experience["accomplishments"] && (
