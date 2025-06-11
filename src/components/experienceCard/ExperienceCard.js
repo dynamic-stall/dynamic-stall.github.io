@@ -105,7 +105,7 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
+                <div className="repo-description" style={{ color: theme.text }}/>
                 {experience["description"]}
               </div>
               {experience["accomplishments"] && (
