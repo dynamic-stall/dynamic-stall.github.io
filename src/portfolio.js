@@ -506,7 +506,7 @@ const experience = {
       experiences: [
         {
           title: "Solutions Engineer",
-          company: "Triskelion Flagship, LLC",
+          company: "Triskelion Flagship",
           company_url: "https://www.linkedin.com/company/104111162/",
           logo_path: "tflagship_logo.jpg",
           duration: "May 2023 - Present",
