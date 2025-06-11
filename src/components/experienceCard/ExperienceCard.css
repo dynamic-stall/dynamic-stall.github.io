@@ -199,7 +199,7 @@
 
 .experience-card-company > a {
   position: relative;
-  color: #000;
+  color: var(--theme-text, #000);
   text-decoration: none;
 }
 
