@@ -8,6 +8,7 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+    
     return (
       <div
         className="experience-list-item"
@@ -22,6 +23,7 @@ class ExperienceCard extends Component {
             />
           </div>
         </Fade>
+        
         <div className="experience-card-stepper">
           <div
             style={{
@@ -44,8 +46,9 @@ class ExperienceCard extends Component {
             />
           )}
         </div>
+        
         <Fade right duration={2000} distance="40px">
-          <div style={{ display: "flex", flexDirection: "row" }}/>
+          <div style={{ display: "flex", flexDirection: "row" }}>
             <div
               className="arrow-left"
               style={{ borderRight: `10px solid ${theme.body}` }}
@@ -98,6 +101,7 @@ class ExperienceCard extends Component {
                   </div>
                 </div>
               </div>
+              
               <div
                 style={{
                   display: "flex",
@@ -105,9 +109,11 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" style={{ color: theme.text }}>
-                {experience["description"]}
+                <div className="experience-card-description">
+                  {experience["description"]}
+                </div>
               </div>
+              
               {experience["accomplishments"] && (
                 <ul style={{ marginTop: 10 }}>
                   {experience["accomplishments"].map((item, idx) => (
