@@ -228,4 +228,4 @@ export const kaizokuDarkTheme = {
   isDark: true
 };
 
-export const chosenTheme = kaizokuDarkTheme;
+export const chosenTheme = tealTheme;
