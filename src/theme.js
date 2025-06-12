@@ -212,9 +212,8 @@ export const materialTealTheme = {
 // ---------------------------------------------------------
 // Custom Themes
 // ---------------------------------------------------------
-export const kaizokuDarkTheme = {
-  body: "#202f33",  //custom
-  //body: "#263238",  //materialDarkTheme
+export const flagshipDarkTheme = {
+  body: "#202f33",
   text: "#aeaeae",
   expTxtColor: "#aeaeae",
   highlight: "#36585e",
@@ -228,4 +227,4 @@ export const kaizokuDarkTheme = {
   isDark: true
 };
 
-export const chosenTheme = tealTheme;
+export const chosenTheme = materialTealTheme;
