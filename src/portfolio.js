@@ -633,7 +633,7 @@ const contactPageData = {
     title: "Get in Touch",
     profile_image_path: "profile_pic.jpeg",
     description:
-      "I am primiarily on LinkedIn and GitHub. You can also reach me via email at the link below (Google icon) or you may save my contact card farther down. I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+      "I am primarily on LinkedIn and GitHub. You can also reach me via email at the link below (Google icon) or you may save my contact card farther down. I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
   },
   blogSection: {
     title: "Blog (coming soon!)",
