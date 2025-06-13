@@ -8,6 +8,7 @@ This repo is a heavily customized version of the above template, with:
 - Improved secrets management (Bitwarden SM)
 - CI/CD automation via GitHub Actions (with Slack notifications)
 - Split-branch deployment (source and static content separated)
+- Brand asset copyright licensing
 
 I've disabled the _"Competitive Sites"_ and _"Open Source"_ sections, as they're much less relevant to my value proposition.
 
