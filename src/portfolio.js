@@ -257,11 +257,11 @@ const skills = {
       title: "Security & Governance",
       fileName: "DataScienceImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Conduct risk analysis and incident response readiness assessments</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement IAM, policies, and role-based access control for cloud environments</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design IPsec VPNs, firewalls, and WAF configurations for perimeter security</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Perform server hardening and vulnerability scans with Nessus and NIST-accredited standards</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Establish data security, GRC, and disaster recovery workflows to meet compliance</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement Zero Trust IAM, RBAC policies, and MFA integration across multi-cloud environments</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Configure LDAP/Active Directory integration and certificate-based authentication for enterprise SSO</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design VPNs, firewall ACLs, and WAF configurations with DDoS mitigation for perimeter defense</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Perform vulnerability scans with Nessus and server hardening according to NIST and FIPS accreditations</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop POA&M documentation for business continuity, GRC, and disaster recovery workflows to meet compliance</span></div>",
       ],
       softwareSkills: [
         {
