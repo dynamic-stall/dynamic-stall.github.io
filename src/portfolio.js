@@ -73,11 +73,11 @@ const skills = {
       title: "Cloud & DevOps Engineering",
       fileName: "CloudInfraImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms, Terraform, and Ansible</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms and Infrastructure as Code</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement CI/CD pipelines and automation with GitHub Actions and Ansible</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement CI/CD pipelines and automated configuration management with GitHub Actions and Ansible</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare)</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, CloudWatch, OpenSearch)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, AWS CloudWatch, OpenSearch)</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing</span></div>",
       ],
       softwareSkills: [
@@ -112,7 +112,7 @@ const skills = {
           style: { color: "#326CE5" },
         },
         {
-          skillName: "HashiCorp Vault",
+          skillName: "Vault",
           fontAwesomeClassname: "simple-icons:vault",
           style: { 
             color: chosenTheme.isDark ? "#FFEC6E" : "#E6B800"
@@ -199,10 +199,10 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design cost-effective solutions for small teams and remote professionals</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script and open-source tools</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script, Bash, and open-source tools</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare Tunnels</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud-native tools</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud storage services</span></div>",
       ],
       softwareSkills: [
         {
