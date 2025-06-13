@@ -198,7 +198,7 @@ const skills = {
       title: "Lean Tech & Automation",
       fileName: "FullStackImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design cost-effective solutions for small teams and remote professionals</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design cost-effective infrastructure and productivity solutions for small teams and remote professionals</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script, Bash, and open-source tools</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare</span></div>",
