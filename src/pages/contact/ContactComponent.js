@@ -38,12 +38,11 @@ class Contact extends Component {
                 >
                   {ContactData["title"]}
                 </h1>
-                <p
+                <div
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
-                >
-                  {ContactData["description"]}
-                </p>
+                  dangerouslySetInnerHTML={{ __html: ContactData["description"] }}
+                />
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
