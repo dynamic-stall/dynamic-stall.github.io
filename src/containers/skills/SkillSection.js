@@ -49,13 +49,12 @@ class SkillSection extends Component {
                   <div>
                     {skill.skills.map((skillSentence, i) => {
                       return (
-                        <p
+                        <div
                           key={i}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
-                        >
-                          {skillSentence}
-                        </p>
+                          dangerouslySetInnerHTML={{ __html: skillSentence }}
+                        />
                       );
                     })}
                   </div>
