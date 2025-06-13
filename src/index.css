@@ -55,11 +55,25 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* Media Query */
+/* Media query */
 @media (max-width: 1380px) {
   html,
   body {
     font-size: 16px;
     line-height: normal;
   }
+}
+/* Bullet point styling */
+.bullet-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.bullet-icon {
+  margin-right: 0.5em;
+  flex-shrink: 0;
+}
+
+.bullet-text {
+  flex: 1;
 }

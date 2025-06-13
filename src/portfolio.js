@@ -73,12 +73,12 @@ const skills = {
       title: "Cloud & DevOps Engineering",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Design secure, scalable infrastructure using AWS, Terraform, and Ansible",
-        "⚡ Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes",
-        "⚡ Implement CI/CD pipelines and automation with GitHub Actions and Ansible",
-        "⚡ Build zero-trust access and secrets management solutions (Vault, Cloudflare)",
-        "⚡ Develop monitoring and observability stacks (ELK, CloudWatch, OpenSearch)",
-        "⚡ Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms, Terraform, and Ansible</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement CI/CD pipelines and automation with GitHub Actions and Ansible</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, CloudWatch, OpenSearch)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing</span></div>",
       ],
       softwareSkills: [
         {
@@ -135,11 +135,11 @@ const skills = {
       title: "Solutions Consulting & Strategy",
       fileName: "DesignImg",
       skills: [
-        "⚡ Translate business goals into scalable technical roadmaps and proofs-of-concept",
-        "⚡ Facilitate stakeholder alignment through workshops, presentations, and live demos",
-        "⚡ Lead cross-functional knowledge-sharing sessions and technical demos",
-        "⚡ Manage SDLC & Agile processes to accelerate time-to-market for new features",
-        "⚡ Orchestrate go-live supervision and post-deployment support for enterprise clients",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Translate business goals into scalable technical roadmaps and proofs-of-concept</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Facilitate stakeholder alignment through workshops, presentations, and live demos</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Lead cross-functional knowledge-sharing sessions and technical demos</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Manage SDLC & Agile processes to accelerate time-to-market for new features</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Orchestrate go-live supervision and post-deployment support for enterprise clients</span></div>",
       ],
       softwareSkills: [
         {
@@ -198,11 +198,11 @@ const skills = {
       title: "Lean Tech & Automation",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Design cost-effective solutions for small teams and remote professionals",
-        "⚡ Build custom automation workflows using Google Apps Script and open-source tools",
-        "⚡ Deploy secure NAS and VPN systems for self-hosted storage and remote access needs",
-        "⚡ Enable feature-rich services for home office and small business networks using Docker and Cloudflare Tunnels",
-        "⚡ Streamline server bootstrapping and backup strategies with Ansible and cloud-native tools",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design cost-effective solutions for small teams and remote professionals</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script and open-source tools</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare Tunnels</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud-native tools</span></div>",
       ],
       softwareSkills: [
         {
@@ -257,11 +257,11 @@ const skills = {
       title: "Security & Governance",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Conduct risk analysis and incident response readiness assessments",
-        "⚡ Implement IAM, policies, and role-based access control for cloud environments",
-        "⚡ Design IPsec VPNs, firewalls, and WAF configurations for perimeter security",
-        "⚡ Perform server hardening and vulnerability scans with Nessus and NIST-accredited    standards",
-        "⚡ Establish data security, GRC, and disaster recovery workflows to meet compliance",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Conduct risk analysis and incident response readiness assessments</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement IAM, policies, and role-based access control for cloud environments</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design IPsec VPNs, firewalls, and WAF configurations for perimeter security</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Perform server hardening and vulnerability scans with Nessus and NIST-accredited standards</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Establish data security, GRC, and disaster recovery workflows to meet compliance</span></div>",
       ],
       softwareSkills: [
         {
