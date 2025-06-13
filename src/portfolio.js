@@ -260,7 +260,7 @@ const skills = {
         "⚡ Conduct risk analysis and incident response readiness assessments",
         "⚡ Implement IAM, policies, and role-based access control for cloud environments",
         "⚡ Design IPsec VPNs, firewalls, and WAF configurations for perimeter security",
-        "⚡ Perform server hardening and vulnerability scans with Nessus and NIST-accredited standards",
+        "⚡ Perform server hardening and vulnerability scans with Nessus and NIST-accredited    standards",
         "⚡ Establish data security, GRC, and disaster recovery workflows to meet compliance",
       ],
       softwareSkills: [
