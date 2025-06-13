@@ -67,6 +67,7 @@ body {
 .bullet-container {
   display: flex;
   align-items: flex-start;
+  margin-bottom: 0.75em;
 }
 
 .bullet-icon {
