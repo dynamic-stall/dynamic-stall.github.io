@@ -73,12 +73,12 @@ const skills = {
       title: "Cloud & DevOps Engineering",
       fileName: "CloudInfraImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms and Infrastructure as Code</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Implement CI/CD pipelines and automated configuration management with GitHub Actions and Ansible</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare)</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, AWS CloudWatch, OpenSearch)</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms and Infrastructure as Code</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement CI/CD pipelines and automated configuration management with GitHub Actions and Ansible</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, AWS CloudWatch, OpenSearch)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing</span></div>",
       ],
       softwareSkills: [
         {
