@@ -73,12 +73,12 @@ const skills = {
       title: "Cloud & DevOps Engineering",
       fileName: "CloudInfraImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms and Infrastructure as Code</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement CI/CD pipelines and automated configuration management with GitHub Actions and Ansible</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare)</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, AWS CloudWatch, OpenSearch)</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms and Infrastructure as Code</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Implement CI/CD pipelines and automated configuration management with GitHub Actions and Ansible</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Develop monitoring and observability stacks (ELK, AWS CloudWatch, OpenSearch)</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>☁️</span><span class='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing</span></div>",
       ],
       softwareSkills: [
         {
@@ -135,11 +135,11 @@ const skills = {
       title: "Solutions Consulting & Strategy",
       fileName: "DesignImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Translate business goals into scalable technical roadmaps and proofs-of-concept</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Facilitate stakeholder alignment through workshops, presentations, and live demos</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Lead cross-functional knowledge-sharing sessions and technical demos</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Manage SDLC & Agile processes to accelerate time-to-market for new features</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Orchestrate go-live supervision and post-deployment support for enterprise clients</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🧭</span><span class='bullet-text'>Translate business goals into scalable technical roadmaps and proofs-of-concept</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🧭</span><span class='bullet-text'>Facilitate stakeholder alignment through workshops, presentations, and live demos</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🧭</span><span class='bullet-text'>Lead cross-functional knowledge-sharing sessions and technical demos</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🧭</span><span class='bullet-text'>Manage SDLC & Agile processes to accelerate time-to-market for new features</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🧭</span><span class='bullet-text'>Orchestrate go-live supervision and post-deployment support for enterprise clients</span></div>",
       ],
       softwareSkills: [
         {
@@ -198,11 +198,11 @@ const skills = {
       title: "Lean Tech & Automation",
       fileName: "FullStackImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design cost-effective infrastructure and productivity solutions for small teams and remote professionals</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script, Bash, and open-source tools</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud storage services</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Design cost-effective infrastructure and productivity solutions for small teams and remote professionals</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script, Bash, and open-source tools</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud storage services</span></div>",
       ],
       softwareSkills: [
         {
@@ -257,11 +257,11 @@ const skills = {
       title: "Security & Governance",
       fileName: "DataScienceImg",
       skills: [
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Implement Zero Trust IAM, RBAC policies, and MFA integration across multi-cloud environments</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Configure LDAP/AD with certificate-based authentication and SAML/OIDC SSO integration using Keycloak and Okta</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Design VPNs, firewall ACLs, and WAF configurations with DDoS mitigation for perimeter defense</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Perform vulnerability scans with Nessus and server hardening per NIST and FIPS accreditations</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚡</span><span class='bullet-text'>Develop POA&M documentation for business continuity, GRC, and disaster recovery workflows to meet compliance</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🛡️</span><span class='bullet-text'>Implement Zero Trust IAM, RBAC policies, and MFA integration across multi-cloud environments</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🛡️</span><span class='bullet-text'>Configure LDAP/AD with certificate-based authentication and SAML/OIDC SSO integration using Keycloak and Okta</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🛡️</span><span class='bullet-text'>Design VPNs, firewall ACLs, and WAF configurations with DDoS mitigation for perimeter defense</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🛡️</span><span class='bullet-text'>Perform vulnerability scans with Nessus and server hardening per NIST and FIPS accreditations</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🛡️</span><span class='bullet-text'>Develop POA&M documentation for business continuity, GRC, and disaster recovery workflows to meet compliance</span></div>",
       ],
       softwareSkills: [
         {
@@ -309,6 +309,63 @@ const skills = {
           skillName: "Prometheus",
           fontAwesomeClassname: "simple-icons:prometheus",
           style: { color: "#E6522C" },
+        },
+      ],
+    },
+
+    // ---------------------------------------------------------
+    // Section 5: Smart Home Assessment & Setup
+    // ---------------------------------------------------------
+    {
+      title: "Smart Home Assessment & Setup",
+      fileName: "SmartHomeImg",
+      skills: [
+        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Design and deploy smart home ecosystems with Google Assistant or Alexa integration</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Assist with the safe installation of smart outlets, switches, and thermostats — in coordination with licensed professionals when needed</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Configure subnetting and VLANs to isolate and optimize smart device communication</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Integrate smart TVs and streaming devices into centralized control systems</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Advise on device selection, platform compatibility, and ecosystem scalability</span></div>",
+      ],
+      softwareSkills: [    
+        {
+          skillName: "Home Assistant",
+          fontAwesomeClassname: "simple-icons:homeassistant",
+          style: { color: "#18BCF2" },
+        },
+        {
+          skillName: "Google Assistant",
+          fontAwesomeClassname: "simple-icons:googleassistant",
+          style: { color: "#4285F4" },
+        },
+        {
+          skillName: "SmartThings",
+          fontAwesomeClassname: "simple-icons:smartthings",
+          style: { color: "#15BFFF" },
+        },
+        {
+          skillName: "TP-Link",
+          fontAwesomeClassname: "simple-icons:tplink",
+          style: { color: "#4ACBD6" },
+        },
+        {
+          skillName: "IFTTT",
+          fontAwesomeClassname: "simple-icons:ifttt",
+          style: { color: "#000000" },
+        },
+        {
+          skillName: "Phillips Hue",
+          fontAwesomeClassname: "simple-icons:philipshue",
+          style: { color: "#0065D3" },
+        },
+        {
+          skillName: "Google Home",
+          fontAwesomeClassname: "simple-icons:googlehome",
+          style: { color: "#4285F4" },
+        },
+        {
+          skillName: "Roku",
+          fontAwesomeClassname: "simple-icons:roku",
+          style: { color: "#662D91" },
         },
       ],
     },
