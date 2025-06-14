@@ -119,7 +119,7 @@ const skills = {
           },
         },
         {
-          skillName: "System Administration",
+          skillName: "System Admin.",
           fontAwesomeClassname: "simple-icons:linux",
           style: { 
             color: chosenTheme.isDark ? "#FFFFFF" : "#000000"
@@ -289,7 +289,7 @@ const skills = {
           style: { color: "#C01818" },
         },
         {
-          skillName: "Identity & Access Management",
+          skillName: "Access Control (IAM)",
           fontAwesomeClassname: "simple-icons:okta",
           style: { color: "#007DC1" },
         },
