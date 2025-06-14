@@ -469,7 +469,7 @@ const certifications = {
       certificate_link:
         "https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=9532A418C09A90F4C4E0CC3705E2C42FOE831595D07ABB8C7EA0DD4C480A7F79E",
       alt_name: "aws1",
-      color_code: chosenTheme.isDark ? "#FFC05CFF" : "#B57618CC", // lighter orange for dark, darker for light
+      color_code: chosenTheme.isDark ? "#FFC05CFF" : "#B57618CC", // lighter orange for dark theme, darker for light
     },
     {
       title: "Network+",
@@ -496,7 +496,7 @@ const certifications = {
       certificate_link:
         "https://www.udemy.com/certificate/UC-4241213d-4aab-4adf-a5e6-34f5100eda62/",
       alt_name: "udemy1",
-      color_code: chosenTheme.isDark ? "#CE90F5FF" : "#6B1F9999", // lighter purple for dark, darker for light
+      color_code: chosenTheme.isDark ? "#CE90F5FF" : "#6B1F9999", // lighter purple for dark theme, darker for light
     },
     {
       title: "Complete Python Bootcamp",
@@ -505,7 +505,7 @@ const certifications = {
       certificate_link:
         "https://www.udemy.com/certificate/UC-2698df4b-366f-4e18-9316-f88c9a6945af/",
       alt_name: "udemy2",
-      color_code: chosenTheme.isDark ? "#CE90F5FF" : "#6B1F9999", // lighter purple for dark, darker for light
+      color_code: chosenTheme.isDark ? "#CE90F5FF" : "#6B1F9999", // lighter purple for dark theme, darker for light
     },
     {
       title: "AWS Partner: Technical Accreditation",
@@ -514,7 +514,7 @@ const certifications = {
       certificate_link:
         "https://www.credly.com/badges/5a69529c-65e1-4c4c-ac6d-403e66aafe36?source=linked_in_profile",
       alt_name: "aws2",
-      color_code: chosenTheme.isDark ? "#FFC05CFF" : "#B57618CC", // lighter orange for dark, darker for light
+      color_code: chosenTheme.isDark ? "#FFC05CFF" : "#B57618CC", // lighter orange for dark theme, darker for light
     },
     {
       title: "Kubernetes Essentials",
@@ -532,7 +532,7 @@ const certifications = {
       certificate_link:
         "https://scaledagile.com/certification/",
       alt_name: "safe4",
-      color_code: chosenTheme.isDark ? "#20B2AAFF" : "#02E0CAFF", // sea green for dark, torqoise for light
+      color_code: chosenTheme.isDark ? "#20B2AAFF" : "#02E0CACC", // sea green for dark theme, torqoise for light
     },
     {
       title: "Certified Cloud Practitioner",
@@ -541,7 +541,7 @@ const certifications = {
       certificate_link:
         "https://www.certmetrics.com/amazon/electronic_certificate.aspx?cert=8455114F519DF416C1A108F5245B0046O8D1BB2BD3A9806FB4E8BB129FFF5F5F0",
       alt_name: "aws3",
-      color_code: chosenTheme.isDark ? "#FFC05CFF" : "#B57618CC", // lighter orange for dark, darker for light
+      color_code: chosenTheme.isDark ? "#FFC05CFF" : "#B57618CC", // lighter orange for dark theme, darker for light
     },
     {
       title: "IoT-Inc Certified IoT Professional",
@@ -550,7 +550,7 @@ const certifications = {
       certificate_link:
         "https://www.credential.net/qghx52ba",
       alt_name: "iotinc",
-      color_code: chosenTheme.isDark? "#FFE55CFF" : "#FFD700FF", // lighter yellow for dark, darker for light
+      color_code: chosenTheme.isDark? "#FFE55CFF" : "#FFD700CC", // lighter yellow for dark theme, darker for light
     },
   ],
 };
