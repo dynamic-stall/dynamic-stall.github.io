@@ -167,8 +167,7 @@ export default class SmartHomeImg extends Component {
           </g>
         </g>
         
-        {/* Title - Only shown on hover */}
-        <title>Smart Home Ecosystem</title>
+        <title>smarter, not harder</title>
         
         {/* Floating Smart Icons */}
         <g opacity="0.7">
