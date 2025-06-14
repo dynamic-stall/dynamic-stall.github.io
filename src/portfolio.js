@@ -202,7 +202,7 @@ const skills = {
         "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Build custom automation workflows using Google Apps Script, Bash, and open-source tools</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud storage services</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>⚙️</span><span class='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud storage solutions</span></div>",
       ],
       softwareSkills: [
         {
@@ -274,7 +274,9 @@ const skills = {
         {
           skillName: "VPN",
           fontAwesomeClassname: "simple-icons:wireguard",
-          style: { color: "#88171A" },
+          style: { 
+            color: chosenTheme.isDark ? "#DE4347" : "#88171A" 
+          },
         },
         {
           skillName: "Intrusion Detection",
@@ -350,7 +352,9 @@ const skills = {
         {
           skillName: "Automation Workflows",
           fontAwesomeClassname: "simple-icons:ifttt",
-          style: { color: "#000000" },
+          style: { 
+            color: chosenTheme.isDark ? "#FFFFFF" : "#000000"
+          },
         },
         {
           skillName: "Smart Lighting",
