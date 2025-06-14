@@ -317,12 +317,12 @@ const skills = {
     // Section 5: Smart Home Assessment & Setup
     // ---------------------------------------------------------
     {
-      title: "Smart Home Assessment & Setup",
+      title: "Smart Home Design & Setup",
       fileName: "SmartHomeImg",
       skills: [
         "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Design and deploy smart home ecosystems with Google Assistant or Alexa integration</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Assist with the safe installation of smart outlets, switches, and thermostats — in coordination with licensed professionals when needed</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Configure subnetting and VLANs to isolate and optimize smart device communication</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Configure subnetting and VLANs to isolate and optimize smart device communications</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Integrate smart TVs and streaming devices into centralized control systems</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>🏠</span><span class='bullet-text'>Advise on device selection, platform compatibility, and ecosystem scalability</span></div>",
       ],
