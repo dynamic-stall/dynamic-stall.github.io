@@ -82,44 +82,44 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Git",
+          skillName: "Version Control",
           fontAwesomeClassname: "simple-icons:git",
           style: { color: "#F05032" },
         },
         {
-          skillName: "GitHub Actions",
+          skillName: "CI/CD",
           fontAwesomeClassname: "simple-icons:githubactions",
           style: { color: "#2088FF" },
         },
         {
-          skillName: "Terraform",
+          skillName: "Infra. as Code",
           fontAwesomeClassname: "simple-icons:terraform",
           style: { color: "#844FBA" },
         },
         {
-          skillName: "Ansible",
+          skillName: "Configuration Mgt.",
           fontAwesomeClassname: "simple-icons:ansible",
           style: { color: "#EE0000" },
         },
         {
-          skillName: "Docker",
+          skillName: "Containerization",
           fontAwesomeClassname: "simple-icons:docker",
           style: { color: "#2496ED" },
         },
         {
-          skillName: "Kubernetes",
+          skillName: "Orchestration",
           fontAwesomeClassname: "simple-icons:kubernetes",
           style: { color: "#326CE5" },
         },
         {
-          skillName: "Vault",
+          skillName: "Secrets Management",
           fontAwesomeClassname: "simple-icons:vault",
           style: { 
             color: chosenTheme.isDark ? "#FFEC6E" : "#E6B800"
           },
         },
         {
-          skillName: "Linux",
+          skillName: "System Administration",
           fontAwesomeClassname: "simple-icons:linux",
           style: { 
             color: chosenTheme.isDark ? "#FFFFFF" : "#000000"
@@ -206,44 +206,44 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Raspberry Pi",
+          skillName: "Self-Hosting",
           fontAwesomeClassname: "simple-icons:raspberrypi",
           style: { color: "#A22846" },
         },
         {
-          skillName: "Proxmox",
+          skillName: "Virtualization",
           fontAwesomeClassname: "simple-icons:proxmox",
           style: { color: "#E57000" },
         },
         {
-          skillName: "Openmediavault",
+          skillName: "Network Storage",
           fontAwesomeClassname: "simple-icons:openmediavault",
           style: { color: "#5DACDF" },
         },
         {
-          skillName: "Nextcloud",
+          skillName: "Personal Cloud",
           fontAwesomeClassname: "simple-icons:nextcloud",
           style: { color: "#FBBC04" },
         },
         {
-          skillName: "NGINX",
+          skillName: "Reverse Proxy",
           fontAwesomeClassname: "simple-icons:nginx",
           style: { color: "#009639" },
         },
         {
-          skillName: "Cloudflare",
+          skillName: "Cloud Access Gateway",
           fontAwesomeClassname: "simple-icons:cloudflare",
           style: { color: "#F38020" },
         },
         {
-          skillName: "Tailscale",
+          skillName: "Peer-to-Peer Access",
           fontAwesomeClassname: "simple-icons:tailscale",
           style: {
             color: chosenTheme.isDark ? "#FFFFFF" : "#242424"
           },
         },
         {
-          skillName: "Google Apps Script",
+          skillName: "Workflow Automation",
           fontAwesomeClassname: "simple-icons:googleappsscript",
           style: { color: "#4285F4" },
         },
@@ -265,48 +265,48 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "pfSense",
+          skillName: "Perimeter Security",
           fontAwesomeClassname: "simple-icons:pfsense",
           style: {
             color: chosenTheme.isDark ? "#FFFFFF" : "#212121"
           },
         },
         {
-          skillName: "WireGuard",
+          skillName: "VPN",
           fontAwesomeClassname: "simple-icons:wireguard",
           style: { color: "#88171A" },
         },
         {
-          skillName: "Snort",
+          skillName: "Intrusion Detection",
           fontAwesomeClassname: "simple-icons:snort",
           style: {
             color: chosenTheme.isDark ? "#F6A7AA" : "#C41E3A"
           },
         },
         {
-          skillName: "McAfee",
+          skillName: "Endpoint Protection",
           fontAwesomeClassname: "simple-icons:mcafee",
           style: { color: "#C01818" },
         },
         {
-          skillName: "Okta",
+          skillName: "Identity & Access Management",
           fontAwesomeClassname: "simple-icons:okta",
           style: { color: "#007DC1" },
         },
         {
-          skillName: "Keeper",
+          skillName: "Secrets & Password Mgt.",
           fontAwesomeClassname: "simple-icons:keeper",
           style: { color: "#FFC700" },
         },
         {
-          skillName: "Elastic",
+          skillName: "Log Analytics",
           fontAwesomeClassname: "simple-icons:elastic",
           style: {
             color: chosenTheme.isDark ? "#00BFB3" : "#005571"
           },
         },
         {
-          skillName: "Prometheus",
+          skillName: "Security Monitoring",
           fontAwesomeClassname: "simple-icons:prometheus",
           style: { color: "#E6522C" },
         },
@@ -328,42 +328,42 @@ const skills = {
       ],
       softwareSkills: [    
         {
-          skillName: "Home Assistant",
+          skillName: "Home Automation",
           fontAwesomeClassname: "simple-icons:homeassistant",
           style: { color: "#18BCF2" },
         },
         {
-          skillName: "Google Assistant",
+          skillName: "Voice Control Integration",
           fontAwesomeClassname: "simple-icons:googleassistant",
           style: { color: "#4285F4" },
         },
         {
-          skillName: "SmartThings",
+          skillName: "IoT Ecosystem",
           fontAwesomeClassname: "simple-icons:smartthings",
           style: { color: "#15BFFF" },
         },
         {
-          skillName: "TP-Link",
+          skillName: "Smart Networking",
           fontAwesomeClassname: "simple-icons:tplink",
           style: { color: "#4ACBD6" },
         },
         {
-          skillName: "IFTTT",
+          skillName: "Automation Workflows",
           fontAwesomeClassname: "simple-icons:ifttt",
           style: { color: "#000000" },
         },
         {
-          skillName: "Phillips Hue",
+          skillName: "Smart Lighting",
           fontAwesomeClassname: "simple-icons:philipshue",
           style: { color: "#0065D3" },
         },
         {
-          skillName: "Google Home",
+          skillName: "Central Hub",
           fontAwesomeClassname: "simple-icons:googlehome",
           style: { color: "#4285F4" },
         },
         {
-          skillName: "Roku",
+          skillName: "Streaming",
           fontAwesomeClassname: "simple-icons:roku",
           style: { color: "#662D91" },
         },
