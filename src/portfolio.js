@@ -586,7 +586,7 @@ const experience = {
           duration: "October 2014 - July 2017",
           location: "Brambleton, VA",
           description:
-            "I worked primarily in a volunteer capacity for this after-school STEM mentorship program catering to girls in grades 6-12. I primarily focused on WordPress site maintenance, social media outreach (developing and presenting a Social Media Business Plan to organizational stakeholders), and booth management during events and conferences.",
+            "I worked primarily in a volunteer capacity for this after-school STEM mentorship program catering to girls in grades 6-12. I mainly focused on WordPress site maintenance, social media outreach (developing and presenting a Social Media Business Plan to organizational stakeholders), and booth management during events and conferences.",
           color: "#181717",
         },
       ],
@@ -633,7 +633,9 @@ const contactPageData = {
     title: "Get in Touch",
     profile_image_path: "profile_pic.jpeg",
     description:
-      "I am primarily on LinkedIn and GitHub. You can also reach me via email at the link below (Google icon) or you may save my contact card farther down. I am open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+      "I'm primarily active on LinkedIn and GitHub, but you're also welcome to email me directly (see the Google icon below) or download my contact card further down for future reference.<br><br>" +
+      "I'm open to new project inquiries, strategic collaborations, or full-time opportunities.<br><br>" +
+      "Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.",
   },
   blogSection: {
     title: "Blog (coming soon!)",
