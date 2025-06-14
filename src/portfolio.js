@@ -633,9 +633,9 @@ const contactPageData = {
     title: "Get in Touch",
     profile_image_path: "profile_pic.jpeg",
     description:
-      "I'm primarily active on LinkedIn and GitHub, but you're also welcome to email me directly (see the Google icon below) or download my contact card further down for future reference.<br><br>" +
-      "I'm open to new project inquiries, strategic collaborations, or full-time opportunities.<br><br>" +
-      "Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.",
+      "<p>I'm primarily active on LinkedIn and GitHub, but you're also welcome to email me directly (see the Google icon below) or download my contact card further down for future reference.</p>" +
+      "<p>I'm open to new project inquiries, strategic collaborations, or full-time opportunities.</p>" +
+      "<p>Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
   },
   blogSection: {
     title: "Blog (coming soon!)",
