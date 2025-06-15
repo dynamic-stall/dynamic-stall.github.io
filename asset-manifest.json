@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.8d5816ae.css",
-    "main.js": "./static/js/main.afdb7a12.js",
+    "main.js": "./static/js/main.b0b02526.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -75,11 +75,14 @@
     "static/media/googleAssistant.svg": "./static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
+    "static/media/arrow-black.svg": "./static/media/arrow-black.3330ee21f1247174ccca.svg",
+    "static/media/arrow-grey.svg": "./static/media/arrow-grey.136a78baa8395a8bb900.svg",
+    "static/media/arrow-teal.svg": "./static/media/arrow-teal.a325aaf5ac8e8daaadb0.svg",
     "main.8d5816ae.css.map": "./static/css/main.8d5816ae.css.map",
-    "main.afdb7a12.js.map": "./static/js/main.afdb7a12.js.map"
+    "main.b0b02526.js.map": "./static/js/main.b0b02526.js.map"
   },
   "entrypoints": [
     "static/css/main.8d5816ae.css",
-    "static/js/main.afdb7a12.js"
+    "static/js/main.b0b02526.js"
   ]
 }
