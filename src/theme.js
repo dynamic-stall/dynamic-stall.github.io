@@ -229,16 +229,16 @@ export const flagshipDarkTheme = {
 
 export const flagshipTealTheme = {
   body: "#ffffff",
-  text: "#00714C",
+  text: "#025C5C",
   expTxtColor: "#000000",
-  highlight: "#a1dded",
+  highlight: "#278a86",
   dark: "#07292c",
   secondaryText: "#000000",
   imageHighlight: "#0a343c",
   compImgHighlight: "#E1E2E1",
   jacketColor: "#E1E2E1",
   headerColor: "#E1E2E1",
-  splashBg: "#00714C",
+  splashBg: "#025C5C",
   isDark: false
 };
 
