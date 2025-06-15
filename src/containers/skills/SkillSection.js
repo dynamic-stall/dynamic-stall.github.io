@@ -38,7 +38,6 @@ class SkillSection extends Component {
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>
               </Fade>
-
               <div className="skills-text-div">
                 <Fade right duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
@@ -56,8 +55,9 @@ class SkillSection extends Component {
                           key={i}
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
-                          dangerouslySetInnerHTML={{ __html: skillSentence }}
-                        />
+                        >
+                          {skillSentence}
+                        </div>
                       );
                     })}
                   </div>
