@@ -53,8 +53,9 @@ class DegreeCard extends Component {
                     key={i}
                     className="content-list"
                     style={{ color: theme.secondaryText }}
-                    dangerouslySetInnerHTML={{ __html: sentence }}
-                  />
+                  >
+                    {sentence}
+                  </div>
                 );
               })}
               {degree.website_link && (
