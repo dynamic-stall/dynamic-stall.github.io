@@ -71,7 +71,10 @@ body {
 }
 
 .bullet-icon {
+  width: 14px;
+  height: 14px;
   margin-right: 0.5em;
+  /*margin-top: 1px;*/
   flex-shrink: 0;
 }
 
