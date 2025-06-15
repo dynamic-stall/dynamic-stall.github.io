@@ -231,14 +231,14 @@ export const flagshipTealTheme = {
   body: "#ffffff",
   text: "#025C5C",
   expTxtColor: "#000000",
-  highlight: "#52bfba",
+  highlight: "#62d1cc",
   dark: "#07292c",
   secondaryText: "#000000",
   imageHighlight: "#0a343c",
-  compImgHighlight: "#E1E2E1",
-  jacketColor: "#E1E2E1",
-  headerColor: "#E1E2E1",
-  splashBg: "#025C5C",
+  compImgHighlight: "#e1e2e1",
+  jacketColor: "#e1e2e1",
+  headerColor: "#e1e2e1",
+  splashBg: "#025c5c",
   isDark: false
 };
 
