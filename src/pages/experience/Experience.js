@@ -12,9 +12,6 @@ import arrowIcon from "../../assets/images/arrow-teal.svg"
 class Experience extends Component {
   render() {
     const theme = this.props.theme;
-
-    const firstExperience = experience.sections[0]?.experiences[0];
-
     return (
       <div className="experience-main">
         <Header theme={theme} />
@@ -31,17 +28,11 @@ class Experience extends Component {
                 >
                   {experience.title}
                 </h1>
-                <h2
+                <h3
                   className="experience-heading-sub-text"  
                   style={{ color: theme.text }}
                 >
-                  {firstExperience?.company}
-                </h2>
-                <h3
-                  className="experience-header-detail-text"
-                  style={{ color: theme.text }}
-                >
-                  {firstExperience?.duration} • {firstExperience?.location}
+                  {experience.subtitle}
                 </h3>
                 <p
                   className="experience-description-text"
@@ -49,14 +40,6 @@ class Experience extends Component {
                 >
                   {experience.description}
                 </p>
-                {firstExperience?.accomplishments.map((item, index) => (
-                  <div key={index} className="bullet-container">
-                    <img src={arrowIcon} alt='' className='bullet-icon' />
-                    <span className='bullet-text' style={{ color: theme.secondaryText }}>
-                      {item}
-                    </span>
-                  </div>
-                ))}
               </div>
             </div>
           </Fade>
