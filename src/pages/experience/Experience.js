@@ -7,7 +7,6 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
-import arrowIcon from "../../assets/images/arrow-teal.svg"
 
 class Experience extends Component {
   render() {
