@@ -52,7 +52,7 @@ class DegreeCard extends Component {
                   <div
                     key={i}
                     className="content-list"
-                    style={{ color: theme.text }}
+                    style={{ color: theme.secondaryText }}
                     dangerouslySetInnerHTML={{ __html: sentence }}
                   />
                 );
