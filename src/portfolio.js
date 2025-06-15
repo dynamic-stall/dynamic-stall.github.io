@@ -452,8 +452,8 @@ const degrees = {
       descriptions: [
         "<div class='bullet-container'><span class='bullet-icon'>🎓</span><span class='bullet-text'>I studied Data Science and Data Analytics at General Assembly, focusing on Pythonic applications of machine learning and data analysis</span></div>",
         "<div class='bullet-container'><span class='bullet-icon'>🎯</span><span class='bullet-text'>I have furthered my analytics abilities throughout my career through automating team tracking spreadsheets and adding more robust reporting features</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>🛠️</span><span class='bullet-text'>I have also taken Python bootcamps on Udemy in order to improve my generalized Python application abilities</span></div>",
-        "<div class='bullet-container'><span class='bullet-icon'>🛠️</span><span class='bullet-text'>Extracurricularly, I have improved my Python skills through building various applications from an AI Slack bot to financial management tools</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🎯</span><span class='bullet-text'>I have also taken Python bootcamps on Udemy in order to improve my generalized Python application abilities</span></div>",
+        "<div class='bullet-container'><span class='bullet-icon'>🎯</span><span class='bullet-text'>Extracurricularly, I have improved my Python skills through building various applications from an AI Slack bot to financial management tools</span></div>",
       ],
       website_link: "https://www.generalassemb.ly/",
     },
