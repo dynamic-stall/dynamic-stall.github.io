@@ -69,15 +69,13 @@ body {
   align-items: flex-start;
   margin-bottom: 0.75em;
 }
-
 .bullet-icon {
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   margin-right: 0.5em;
-  /*margin-top: 1px;*/
+  margin-top: 1px;
   flex-shrink: 0;
 }
-
 .bullet-text {
   flex: 1;
 }
