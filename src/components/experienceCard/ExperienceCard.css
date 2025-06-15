@@ -241,3 +241,25 @@
     text-align: justify;
   }
 }
+
+/* custom bullet styling for Work Experience accomplishments */
+.custom-bullet-list {
+  margin-top: 10px;
+}
+
+.custom-bullet-list li {
+  position: relative;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.custom-bullet-list li::before {
+  content: "•";
+  /*content: "○";*/
+  /*content: "⁃";*/
+  /*content: "►";*/
+  position: absolute;
+  left: 0;
+  color: var(--bullet-color);
+  font-weight: bold;
+}

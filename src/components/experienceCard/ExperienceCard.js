@@ -118,9 +118,16 @@ class ExperienceCard extends Component {
               </div>
               
               {experience["accomplishments"] && (
-                <ul style={{ marginTop: 10 }}>
+                <ul 
+                  className="custom-bullet-list"
+                  style={{ 
+                    '--bullet-color': theme.text
+                  }}
+                >
                   {experience["accomplishments"].map((item, idx) => (
-                    <li key={idx} style={{ color: theme.secondaryText }}>{item}</li>
+                    <li key={idx} style={{ color: theme.secondaryText }}>
+                      {item}
+                    </li>
                   ))}
                 </ul>
               )}
