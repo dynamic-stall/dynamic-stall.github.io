@@ -88,13 +88,13 @@ class ExperienceCard extends Component {
                   <div className="experience-card-heading-right">
                     <p
                       className="experience-card-duration"
-                      style={{ color: theme.secondaryText }}
+                      style={{ color: theme.text }}
                     >
                       {experience["duration"]}
                     </p>
                     <p
                       className="experience-card-location"
-                      style={{ color: theme.secondaryText }}
+                      style={{ color: theme.text }}
                     >
                       {experience["location"]}
                     </p>
@@ -111,7 +111,7 @@ class ExperienceCard extends Component {
               >
                 <div 
                   className="experience-card-description"
-                  style={{ color: theme.text }}
+                  style={{ color: theme.secondaryText }}
                 >
                   {experience["description"]}
                 </div>
@@ -120,7 +120,7 @@ class ExperienceCard extends Component {
               {experience["accomplishments"] && (
                 <ul style={{ marginTop: 10 }}>
                   {experience["accomplishments"].map((item, idx) => (
-                    <li key={idx} style={{ color: theme.text }}>{item}</li>
+                    <li key={idx} style={{ color: theme.secondaryText }}>{item}</li>
                   ))}
                 </ul>
               )}
