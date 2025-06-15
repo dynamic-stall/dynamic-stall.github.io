@@ -167,18 +167,32 @@ class Experience extends Component {
                 >
                   {experience.title}
                 </h1>
-                <h3
-                  className="experience-heading-sub-text"
+                <h2
+                  className="experience-heading-sub-text"  
                   style={{ color: theme.text }}
                 >
-                  {experience["subtitle"]}
+                  {experience.company}
+                </h2>
+                <h3
+                  className="experience-header-detail-text"
+                  style={{ color: theme.text }}
+                >
+                  {experience.duration} • {experience.location}
                 </h3>
                 <p
-                  className="experience-header-detail-text subTitle"
+                  className="experience-description-text"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experience["description"]}
+                  {experience.description}
                 </p>
+                {experience.accomplishments.map((item, index) => (
+                  <div key={index} className="bullet-container">
+                    <img src='/icons/arrow.svg' alt='' className='bullet-icon' />
+                    <span className='bullet-text' style={{ color: theme.secondaryText }}>
+                      {item}
+                    </span>
+                  </div>
+                ))}
               </div>
             </div>
           </Fade>
