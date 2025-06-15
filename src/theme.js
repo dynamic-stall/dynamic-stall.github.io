@@ -231,7 +231,7 @@ export const flagshipTealTheme = {
   body: "#ffffff",
   text: "#025C5C",
   expTxtColor: "#000000",
-  highlight: "#278a86",
+  highlight: "#30b8b2",
   dark: "#07292c",
   secondaryText: "#000000",
   imageHighlight: "#0a343c",
