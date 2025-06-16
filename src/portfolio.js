@@ -762,7 +762,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description: "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes (more privately) I also engage in creative writing exercises...",
+  description: "I enjoy writing about DevOps or Docker projects I've worked on, my current work, or discussions around my latest research. Sometimes (more privately), I also engage in creative writing exercises...",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -796,10 +796,10 @@ const contactPageData = {
       "<p>Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
   },
   blogSection: {
-    title: "Blog (coming soon!)",
+    title: "Blog (TBD)",
     subtitle:
-      "I like to write about the DevOps or Docker projects I've worked on, my current work, and discuss my latest findings. Sometimes (more privately), I also engage in creative writing exercises...",
-    //link: "https://blogs.ashutoshhathidara.com/",
+      "Once I decide between WordPress and Ghost (and if self-hosting is worth the effort and potential security risks), I'll set up a personal blog. For now, please check out my LinkedIn articles (see: Projects > Publications)!",
+    link: "https://www.thefactsite.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
