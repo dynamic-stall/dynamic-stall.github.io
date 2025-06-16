@@ -771,14 +771,14 @@ const publications = {
     {
       id: "open-source-password-management-1",
       name: "Open-Source Password Management, Part 1: Enhancing Security through Self-Hosted Solutions",
-      description: "How password managers solve business problems while adding ROI, enhancing security, and reducing labor hours.",
+      description: "How password managers can solve common business problems while adding ROI, enhancing security, and reducing labor hours.",
       url: "https://www.linkedin.com/pulse/open-source-password-management-part-1-enhancing-security-zq9kc",
       createdAt: "2025-02-10T07:30:00Z",
     },
     {
       id: "open-source-password-management-2",
       name: "Open-Source Password Management, Part 2: Deep-Dive on Security Concepts and Configuration Tips",
-      description: "Review of security concepts with resources for hands-on exposure and real-world implementation.",
+      description: "Review of security concepts and best practices as well as resources for hands-on exposure and real-world implementation.",
       url: "https://www.linkedin.com/pulse/open-source-password-management-part-2-deep-dive-ri1ac",
       createdAt: "2025-02-17T07:30:00Z",
     },
