@@ -22,7 +22,7 @@ export default function Skills(props) {
   }, [location]);
 
   return (
-    <div className="main" id="services">
+    <div className="main" id="skills">
       <div className="skills-header-div">
         <Fade bottom duration={2000} distance="20px">
           <h1 className="skills-header" style={{ color: theme.text }}>
