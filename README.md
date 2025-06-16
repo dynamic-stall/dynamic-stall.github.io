@@ -10,6 +10,6 @@ This repo is a heavily customized version of the above template, with:
 - Split-branch deployment (source and static content separated)
 - Brand asset copyright licensing
 
-I've disabled the _"Competitive Sites"_ and _"Open Source"_ sections, as they're much less relevant to my value proposition.
+I've disabled the _"Competitive Sites"_ and _"Open Source"_ sections, plus removed _"Education"_ from the navigation bar, as they're much less relevant to my value proposition.
 
 Feel free to browse, but I don't recommend cloning this repo unless you really want to see my tweaks!
