@@ -762,7 +762,7 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description: "I enjoy writing about DevOps or Docker projects I've worked on, my current work, or discussions around my latest research. Sometimes (more privately), I also engage in creative writing exercises...",
+  description: "I like sharing thoughts on my latest homelab experiments, tech disruption across different industries, and the business value of various tools and workflows. Sometimes (more privately), I also engage in creative writing exercises...",
   avatar_image_path: "projects_image.svg",
 };
 
