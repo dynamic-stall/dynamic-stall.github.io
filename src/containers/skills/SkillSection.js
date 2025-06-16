@@ -25,7 +25,7 @@ class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div>
+      <div id="skills">
         {skills.data.map((skill, i) => {
           return (
             <div key={i} className="skills-main-div">
