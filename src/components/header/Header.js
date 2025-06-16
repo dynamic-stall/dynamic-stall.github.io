@@ -50,28 +50,27 @@ class Header extends Component {
               <span className="navicon"></span>
             </label>
             <ul className="menu" style={{ backgroundColor: theme.body }}>
-              <li>
+              {/*<li>
                 <NavLink
-                  to="/home"
+                  to="/"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Home
+                  About
                 </NavLink>
-              </li>
+              </li>*/}
               <li>
                 <NavLink
-                  to="/education"
+                  to={{ pathname: "/", search: "?scrollTo=skills" }}
                   tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Education
+                  Services
                 </NavLink>
               </li>
               <li>
@@ -108,6 +107,18 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Open Source
+                </NavLink>
+              </li>*/}
+              {/*<li>
+                <NavLink
+                  to="/education"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Education
                 </NavLink>
               </li>*/}
               <li>
