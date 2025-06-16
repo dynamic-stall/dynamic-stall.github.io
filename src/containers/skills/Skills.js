@@ -19,7 +19,7 @@ export default function Skills(props) {
         }, 100);
       }
     }
-  }, [location]);
+  }, [location.search]);
 
   return (
     <div className="main" id="skills">
