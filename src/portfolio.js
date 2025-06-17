@@ -796,10 +796,10 @@ const contactPageData = {
       "<p>Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
   },
   blogSection: {
-    title: "Blog (TBD)",
+    title: "Book a Discovery Meeting",
     subtitle:
-      "Once I decide between WordPress and Ghost (and if self-hosting is worth the effort and potential security risks), I'll set up a personal blog. For now, please check out my LinkedIn articles (see: Projects > Publications)!",
-    link: "https://www.thefactsite.com/",
+      "Schedule a brief discovery meeting to discuss your project needs, strategic goals, or home office/smart home setup.",
+    link: "https://collab.tflagshipllc.com/book",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
