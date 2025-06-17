@@ -791,14 +791,14 @@ const contactPageData = {
     title: "Get in Touch",
     profile_image_path: "profile_pic.jpeg",
     description:
-      "<p>I'm primarily active on LinkedIn and GitHub, but you're also welcome to email me directly (see the Google icon below) or download my contact card further down for future reference.</p>" +
+      "<p>I'm active on LinkedIn and GitHub, plus I occasionally post tech tutorials or discussions on TikTok (YouTube coming soon). You're also welcome to email me directly (see the Google icon below), book a virtual meeting, or download my contact card further down for reference.</p>" +
       "<p>I'm open to new project inquiries, strategic collaborations, or full-time opportunities.</p>" +
       "<p>Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
   },
   blogSection: {
     title: "Book a Discovery Meeting",
     subtitle:
-      "Schedule a brief discovery meeting to discuss your project needs, strategic goals, or home office/smart home setup.",
+      "Schedule a brief discovery meeting to discuss your project needs, strategic goals, home office infrastructure, or personal configurations.",
     link: "https://collab.tflagshipllc.com/book",
     avatar_image_path: "blogs_image.svg",
   },
