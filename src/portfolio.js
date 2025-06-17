@@ -424,7 +424,7 @@ const skills = {
           style: { color: "#15BFFF" },
         },
         {
-          skillName: "Smart Networking",
+          skillName: "Networking",
           fontAwesomeClassname: "simple-icons:tplink",
           style: { color: "#4ACBD6" },
         },
