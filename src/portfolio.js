@@ -655,9 +655,11 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work Experience & Volunteership",
+  subtitle: "Previous Roles & Contributions",
   description:
-    "Cross-functional IT professional bridging hands-on DevSecOps, hybrid cloud, and SRE practices with client-facing solution design, consulting, and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance.",
+    "<p>Cross-functional IT professional bridging hands-on DevSecOps and SRE practices with client-facing solution design and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance.</p>" +
+    "<p>Experienced in AWS, version control, containers, IaC, automation, security, and support. Skilled in client engagement, product management, Agile/Scrum, requirements gathering, documentation, and technical demos.</p>" +
+    "<p>Proven ability to drive technical adoption and deliver operational transformation.</p>",
   header_image_path: "experience.svg",
   sections: [
     {
