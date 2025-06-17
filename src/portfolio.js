@@ -27,8 +27,7 @@ const greeting = {
   nickname: "Solutions Engineer",
   subTitle:
     "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
-  resumeLink:
-    "https://collab.tflagshipllc.com/resume",
+  resumeLink: "https://collab.tflagshipllc.com/resume",
   githubProfile: "https://github.com/dynamic-stall",
 };
 
@@ -60,7 +59,7 @@ const socialMediaLinks = [
   {
     name: "Email",
     link: "mailto:dhenry@tflagshipllc.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/gmail?style=brands
+    fontAwesomeIcon: "fa-envelope", // Reference https://fontawesome.com/icons/envelope?f=classic&s=solid
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
 ];
@@ -74,29 +73,47 @@ const skills = {
       title: "Cloud & DevOps Engineering",
       fileName: "CloudInfraImg",
       skills: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Design secure, scalable infrastructure using cloud hosting platforms and Infrastructure as Code.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Design secure, scalable infrastructure using cloud hosting platforms
+            and Infrastructure as Code.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Deploy and managing containerized workloads with Docker, Nomad, and Kubernetes.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Deploy and managing containerized workloads with Docker, Nomad, and
+            Kubernetes.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Implement CI/CD pipelines and automated configuration management with GitHub Actions and Ansible.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Implement CI/CD pipelines and automated configuration management
+            with GitHub Actions and Ansible.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Build zero-trust access and secrets management solutions (Vault, Cloudflare).</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Build zero-trust access and secrets management solutions (Vault,
+            Cloudflare).
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Develop monitoring and observability stacks (ELK, AWS CloudWatch, OpenSearch).</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Develop monitoring and observability stacks (ELK, AWS CloudWatch,
+            OpenSearch).
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Architect HA deployments with multi-AZ failover, Auto Scaling, and self-healing.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Architect HA deployments with multi-AZ failover, Auto Scaling, and
+            self-healing.
+          </span>
         </div>,
       ],
       softwareSkills: [
@@ -133,15 +150,15 @@ const skills = {
         {
           skillName: "Secrets Management",
           fontAwesomeClassname: "simple-icons:vault",
-          style: { 
-            color: chosenTheme.isDark ? "#FFEC6E" : "#E6B800"
+          style: {
+            color: chosenTheme.isDark ? "#FFEC6E" : "#E6B800",
           },
         },
         {
           skillName: "System Admin.",
           fontAwesomeClassname: "simple-icons:linux",
-          style: { 
-            color: chosenTheme.isDark ? "#FFFFFF" : "#000000"
+          style: {
+            color: chosenTheme.isDark ? "#FFFFFF" : "#000000",
           },
         },
       ],
@@ -154,33 +171,48 @@ const skills = {
       title: "Solutions Consulting & Strategy",
       fileName: "DesignImg",
       skills: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Translate business goals into scalable technical roadmaps and proofs-of-concept.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Translate business goals into scalable technical roadmaps and
+            proofs-of-concept.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Facilitate stakeholder alignment through workshops, presentations, and live demos.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Facilitate stakeholder alignment through workshops, presentations,
+            and live demos.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Lead cross-functional knowledge-sharing sessions and technical demos.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Lead cross-functional knowledge-sharing sessions and technical
+            demos.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Manage SDLC & Agile processes to accelerate time-to-market for new features.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Manage SDLC & Agile processes to accelerate time-to-market for new
+            features.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Orchestrate go-live supervision and post-deployment support for enterprise clients.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Orchestrate go-live supervision and post-deployment support for
+            enterprise clients.
+          </span>
         </div>,
       ],
       softwareSkills: [
         {
           skillName: "Stakeholder Engagement",
           fontAwesomeClassname: "simple-icons:slack",
-          style: { 
-            color: chosenTheme.isDark ? "#36C5F0" : "#4A154B"
+          style: {
+            color: chosenTheme.isDark ? "#36C5F0" : "#4A154B",
           },
         },
         {
@@ -196,8 +228,8 @@ const skills = {
         {
           skillName: "Process Improvement",
           fontAwesomeClassname: "simple-icons:miro",
-          style: { 
-            color: chosenTheme.isDark ? "#FFF9B6" : "#050038"
+          style: {
+            color: chosenTheme.isDark ? "#FFF9B6" : "#050038",
           },
         },
         {
@@ -208,8 +240,8 @@ const skills = {
         {
           skillName: "Agile",
           fontAwesomeClassname: "simple-icons:scrumalliance",
-          style: { 
-            color: chosenTheme.isDark ? "#F2BE5E" : "#011D45"
+          style: {
+            color: chosenTheme.isDark ? "#F2BE5E" : "#011D45",
           },
         },
         {
@@ -220,8 +252,8 @@ const skills = {
         {
           skillName: "Technical Writing",
           fontAwesomeClassname: "simple-icons:wordpress",
-          style: { 
-            color: chosenTheme.isDark ? "#FFFFFF" : "#21759B" 
+          style: {
+            color: chosenTheme.isDark ? "#FFFFFF" : "#21759B",
           },
         },
       ],
@@ -234,25 +266,40 @@ const skills = {
       title: "Lean Tech & Automation",
       fileName: "FullStackImg",
       skills: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Design cost-effective infrastructure and productivity solutions for small teams and remote professionals.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Design cost-effective infrastructure and productivity solutions for
+            small teams and remote professionals.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Build custom automation workflows using Google Apps Script, Bash, and open-source tools.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Build custom automation workflows using Google Apps Script, Bash,
+            and open-source tools.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Deploy secure NAS and VPN systems for self-hosted storage and remote access needs.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Deploy secure NAS and VPN systems for self-hosted storage and remote
+            access needs.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Enable feature-rich services for home office and small business networks using Docker and Cloudflare.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Enable feature-rich services for home office and small business
+            networks using Docker and Cloudflare.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Streamline server bootstrapping and backup strategies with Ansible and cloud storage solutions.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Streamline server bootstrapping and backup strategies with Ansible
+            and cloud storage solutions.
+          </span>
         </div>,
       ],
       softwareSkills: [
@@ -290,7 +337,7 @@ const skills = {
           skillName: "Peer-to-Peer Access",
           fontAwesomeClassname: "simple-icons:tailscale",
           style: {
-            color: chosenTheme.isDark ? "#FFFFFF" : "#242424"
+            color: chosenTheme.isDark ? "#FFFFFF" : "#242424",
           },
         },
         {
@@ -308,25 +355,40 @@ const skills = {
       title: "Security & Governance",
       fileName: "DataScienceImg",
       skills: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Implement Zero Trust IAM, RBAC policies, and MFA integration across multi-cloud environments.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Implement Zero Trust IAM, RBAC policies, and MFA integration across
+            multi-cloud environments.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Configure LDAP/AD with certificate-based authentication and SAML/OIDC SSO integration using Keycloak and Okta.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Configure LDAP/AD with certificate-based authentication and
+            SAML/OIDC SSO integration using Keycloak and Okta.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Design VPNs, firewall ACLs, and WAF configurations with DDoS mitigation for perimeter defense.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Design VPNs, firewall ACLs, and WAF configurations with DDoS
+            mitigation for perimeter defense.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Perform vulnerability scans with Nessus and server hardening per NIST and FIPS accreditations.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Perform vulnerability scans with Nessus and server hardening per
+            NIST and FIPS accreditations.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Develop POA&M documentation for business continuity, GRC, and disaster recovery workflows to meet compliance.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Develop POA&M documentation for business continuity, GRC, and
+            disaster recovery workflows to meet compliance.
+          </span>
         </div>,
       ],
       softwareSkills: [
@@ -334,21 +396,21 @@ const skills = {
           skillName: "Perimeter Security",
           fontAwesomeClassname: "simple-icons:pfsense",
           style: {
-            color: chosenTheme.isDark ? "#FFFFFF" : "#212121"
+            color: chosenTheme.isDark ? "#FFFFFF" : "#212121",
           },
         },
         {
           skillName: "VPN",
           fontAwesomeClassname: "simple-icons:wireguard",
-          style: { 
-            color: chosenTheme.isDark ? "#DE4347" : "#88171A" 
+          style: {
+            color: chosenTheme.isDark ? "#DE4347" : "#88171A",
           },
         },
         {
           skillName: "Intrusion Detection",
           fontAwesomeClassname: "simple-icons:snort",
           style: {
-            color: chosenTheme.isDark ? "#F6A7AA" : "#C41E3A"
+            color: chosenTheme.isDark ? "#F6A7AA" : "#C41E3A",
           },
         },
         {
@@ -370,7 +432,7 @@ const skills = {
           skillName: "Log Analytics",
           fontAwesomeClassname: "simple-icons:elastic",
           style: {
-            color: chosenTheme.isDark ? "#00BFB3" : "#005571"
+            color: chosenTheme.isDark ? "#00BFB3" : "#005571",
           },
         },
         {
@@ -388,28 +450,44 @@ const skills = {
       title: "Smart Home Design & Setup",
       fileName: "SmartHomeImg",
       skills: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Design and deploy smart home ecosystems with Google Assistant or Alexa integration.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Design and deploy smart home ecosystems with Google Assistant or
+            Alexa integration.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Advise on device selection, platform compatibility, and ecosystem scalability.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Advise on device selection, platform compatibility, and ecosystem
+            scalability.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Assist with the safe installation of smart outlets, switches, and thermostats — in coordination with licensed professionals when needed.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Assist with the safe installation of smart outlets, switches, and
+            thermostats — in coordination with licensed professionals when
+            needed.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Configure subnetting and VLANs to isolate and optimize smart device communications.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Configure subnetting and VLANs to isolate and optimize smart device
+            communications.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Integrate smart TVs and streaming devices into centralized control systems.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Integrate smart TVs and streaming devices into centralized control
+            systems.
+          </span>
         </div>,
       ],
-      softwareSkills: [    
+      softwareSkills: [
         {
           skillName: "Home Automation",
           fontAwesomeClassname: "simple-icons:homeassistant",
@@ -433,8 +511,8 @@ const skills = {
         {
           skillName: "Automation Workflows",
           fontAwesomeClassname: "simple-icons:ifttt",
-          style: { 
-            color: chosenTheme.isDark ? "#FFFFFF" : "#000000"
+          style: {
+            color: chosenTheme.isDark ? "#FFFFFF" : "#000000",
           },
         },
         {
@@ -520,13 +598,20 @@ const degrees = {
       logo_path: "vt_logo.png",
       alt_name: "VA Tech",
       descriptions: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>I studied Business Management with a focus in Hospitality and Tourism while minoring in Psychology.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            I studied Business Management with a focus in Hospitality and
+            Tourism while minoring in Psychology.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>I have applied my business analytics skill sets professionally as a consultant, entrepreneur, and even through more technical roles via thought leadership and facilitation.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            I have applied my business analytics skill sets professionally as a
+            consultant, entrepreneur, and even through more technical roles via
+            thought leadership and facilitation.
+          </span>
         </div>,
       ],
       website_link: "http://vt.edu",
@@ -537,21 +622,36 @@ const degrees = {
       logo_path: "ga_logo.png",
       alt_name: "GA",
       descriptions: [
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>I studied Data Science and Data Analytics at General Assembly, focusing on Pythonic applications of machine learning and data analysis.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            I studied Data Science and Data Analytics at General Assembly,
+            focusing on Pythonic applications of machine learning and data
+            analysis.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>I have furthered my analytics abilities throughout my career through automating team tracking spreadsheets and adding more robust reporting features.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            I have furthered my analytics abilities throughout my career through
+            automating team tracking spreadsheets and adding more robust
+            reporting features.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>I have also taken Python bootcamps on Udemy in order to improve my generalized Python application abilities.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            I have also taken Python bootcamps on Udemy in order to improve my
+            generalized Python application abilities.
+          </span>
         </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Extracurricularly, I have improved my Python skills through building various applications from an AI Slack bot to financial management tools.</span>
+        <div className="bullet-container">
+          <img src={arrowIcon} alt="" className="bullet-icon" />
+          <span className="bullet-text">
+            Extracurricularly, I have improved my Python skills through building
+            various applications from an AI Slack bot to financial management
+            tools.
+          </span>
         </div>,
       ],
       website_link: "https://www.generalassemb.ly/",
@@ -619,8 +719,7 @@ const certifications = {
       title: "Kubernetes Essentials",
       subtitle: "- A Cloud Guru",
       logo_path: "acg.png",
-      certificate_link:
-        "https://verify.acloud.guru/EDFD8B15EA25",
+      certificate_link: "https://verify.acloud.guru/EDFD8B15EA25",
       alt_name: "acg1",
       color_code: "#330099FF", // dark indigo
     },
@@ -628,8 +727,7 @@ const certifications = {
       title: "SAFe 4 Practitioner",
       subtitle: "- Scaled Agile, Inc.",
       logo_path: "scaled_agile_logo.png",
-      certificate_link:
-        "https://scaledagile.com/certification/",
+      certificate_link: "https://scaledagile.com/certification/",
       alt_name: "safe4",
       color_code: chosenTheme.isDark ? "#20B2AAFF" : "#02E0CACC", // sea green for dark theme, torqoise for light
     },
@@ -646,10 +744,9 @@ const certifications = {
       title: "IoT-Inc Certified IoT Professional",
       subtitle: "- IoT-Inc",
       logo_path: "iot-inc_logo.png",
-      certificate_link:
-        "https://www.credential.net/qghx52ba",
+      certificate_link: "https://www.credential.net/qghx52ba",
       alt_name: "iotinc",
-      color_code: chosenTheme.isDark? "#FFE55CFF" : "#FFD700CC", // lighter yellow for dark theme, darker for light
+      color_code: chosenTheme.isDark ? "#FFE55CFF" : "#FFD700CC", // lighter yellow for dark theme, darker for light
     },
   ],
 };
@@ -681,7 +778,7 @@ const experience = {
             "Automated over 95% of survey analysis workflow through Google Apps Script integration, allowing personalized quadrant analysis and results summary to be emailed to participants upon survey submission.",
             "Enhanced client security posture by implementing zero-trust access controls, secrets management, and secure remote access solutions using Cloudflare ZTNA and Bitwarden.",
           ],
-            color: "#000000",
+          color: "#000000",
         },
         {
           title: "DevOps Engineer",
@@ -698,7 +795,7 @@ const experience = {
             "Reduced MTTR by 30% for AWS messaging and streaming services via workflow analysis and troubleshooting efforts.",
             "Automated On-Call tracking spreadsheet, capturing tickets worked, services supported, time of completion, and displaying percentage metrics for each On-Call Engineer.",
           ],
-            color: "#0879bf",
+          color: "#0879bf",
         },
         {
           title: "System Administrator",
@@ -715,12 +812,13 @@ const experience = {
             "Led System Admin team in rapidly enabling secure remote work for 63 users during COVID-19, achieving 100% successful onboarding through SOP documentation and MFA setup support across multiple operating systems.",
             "Improved AWS account security and compliance by implementing and automating IAM reporting script — using AWS CLI, Python, and Bash — capturing AWS account user metrics for active access control and authentication methods.",
           ],
-            color: "#9b1578",
+          color: "#9b1578",
         },
         {
           title: "Consultant, DoD Health IT",
           company: "Deloitte Consulting",
-          company_url: "https://www2.deloitte.com/us/en/services/consulting.html",
+          company_url:
+            "https://www2.deloitte.com/us/en/services/consulting.html",
           logo_path: "deloitte_logo.jpg",
           duration: "September 2016 - September 2019",
           location: "Falls Church, VA (on-site)",
@@ -731,7 +829,7 @@ const experience = {
             "Delivered on 100% of contractual milestones for the DHA program management office while streamlining cybersecurity risk and configuration management tasks.",
             "Standardized network configuration processes for 19 sites and GFE asset management workflows for 108 contractors.",
           ],
-            color: "#fc1f20",
+          color: "#fc1f20",
         },
       ],
     },
@@ -764,7 +862,8 @@ const projectsHeader = {
 
 const publicationsHeader = {
   title: "Publications",
-  description: "I like sharing thoughts on my latest homelab experiments, tech disruption across different industries, and the business value of various tools and workflows. Sometimes (more privately), I also engage in creative writing exercises...",
+  description:
+    "I like sharing thoughts on my latest homelab experiments, tech disruption across different industries, and the business value of various tools and workflows. Sometimes (more privately), I also engage in creative writing exercises...",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -772,16 +871,22 @@ const publications = {
   data: [
     {
       id: "open-source-password-management-1",
-      name: "Open-Source Password Management, Part 1: Enhancing Security through Self-Hosted Solutions",
-      description: "How password managers can solve common business problems while adding ROI, enhancing security, and reducing labor hours.",
-      url: "https://www.linkedin.com/pulse/open-source-password-management-part-1-enhancing-security-zq9kc",
+      name:
+        "Open-Source Password Management, Part 1: Enhancing Security through Self-Hosted Solutions",
+      description:
+        "How password managers can solve common business problems while adding ROI, enhancing security, and reducing labor hours.",
+      url:
+        "https://www.linkedin.com/pulse/open-source-password-management-part-1-enhancing-security-zq9kc",
       createdAt: "2025-02-10T07:30:00Z",
     },
     {
       id: "open-source-password-management-2",
-      name: "Open-Source Password Management, Part 2: Deep-Dive on Security Concepts and Configuration Tips",
-      description: "Review of security concepts and best practices as well as resources for hands-on exposure and real-world implementation.",
-      url: "https://www.linkedin.com/pulse/open-source-password-management-part-2-deep-dive-ri1ac",
+      name:
+        "Open-Source Password Management, Part 2: Deep-Dive on Security Concepts and Configuration Tips",
+      description:
+        "Review of security concepts and best practices as well as resources for hands-on exposure and real-world implementation.",
+      url:
+        "https://www.linkedin.com/pulse/open-source-password-management-part-2-deep-dive-ri1ac",
       createdAt: "2025-02-17T07:30:00Z",
     },
   ],
