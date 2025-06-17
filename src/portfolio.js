@@ -214,7 +214,7 @@ const skills = {
         },
         {
           skillName: "Demos",
-          fontAwesomeClassname: "simple-icons:googleclassroom",
+          fontAwesomeClassname: "simple-icons:googlemeet",
           style: { color: "#34A853" },
         },
         {
