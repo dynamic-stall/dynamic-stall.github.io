@@ -8,7 +8,7 @@ import "./index.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import "./assets/font-awesome/css/all.css";
+//import "./assets/font-awesome/css/all.css";
 
 // Font Awesome React setup -- import addn'l icons
 import { library } from "@fortawesome/fontawesome-svg-core";
