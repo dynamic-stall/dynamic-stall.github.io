@@ -220,7 +220,9 @@ const skills = {
         {
           skillName: "Technical Writing",
           fontAwesomeClassname: "simple-icons:wordpress",
-          style: { color: "#21759B" },
+          style: { 
+            color: chosenTheme.isDark ? "#FFFFFF" : "#21759B" 
+          },
         },
       ],
     },
