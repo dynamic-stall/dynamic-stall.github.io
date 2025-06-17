@@ -28,7 +28,7 @@ const greeting = {
   subTitle:
     "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   resumeLink:
-    "https://drive.google.com/file/d/1yoe2IE9RdymMfn64m8m9AkOMkiOdvBHc/view?usp=sharing",
+    "https://collab.tflagshipllc.com/resume",
   githubProfile: "https://github.com/dynamic-stall",
 };
 
@@ -807,7 +807,7 @@ const contactPageData = {
     subtitle: "South Florida-Local, Globally Accessible",
     locality: "Fort Lauderdale",
     region: "FL",
-    link: "https://poplme.co/hash/aMlV1UAj/1/share",
+    link: "https://collab.tflagshipllc.com/card",
     avatar_image_path: "address_image.svg",
   },
   phoneSection: {
