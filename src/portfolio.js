@@ -392,6 +392,10 @@ const skills = {
         </div>,
         <div className='bullet-container'>
           <img src={arrowIcon} alt='' className='bullet-icon' />
+          <span className='bullet-text'>Advise on device selection, platform compatibility, and ecosystem scalability.</span>
+        </div>,
+        <div className='bullet-container'>
+          <img src={arrowIcon} alt='' className='bullet-icon' />
           <span className='bullet-text'>Assist with the safe installation of smart outlets, switches, and thermostats — in coordination with licensed professionals when needed.</span>
         </div>,
         <div className='bullet-container'>
@@ -401,10 +405,6 @@ const skills = {
         <div className='bullet-container'>
           <img src={arrowIcon} alt='' className='bullet-icon' />
           <span className='bullet-text'>Integrate smart TVs and streaming devices into centralized control systems.</span>
-        </div>,
-        <div className='bullet-container'>
-          <img src={arrowIcon} alt='' className='bullet-icon' />
-          <span className='bullet-text'>Advise on device selection, platform compatibility, and ecosystem scalability.</span>
         </div>,
       ],
       softwareSkills: [    
