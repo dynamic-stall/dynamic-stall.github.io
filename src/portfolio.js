@@ -59,8 +59,9 @@ const socialMediaLinks = [
   {
     name: "Email",
     link: "mailto:dhenry@tflagshipllc.com",
-    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/envelope?f=classic&s=solid
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    fontAwesomeIcon: "far fa-envelope", // Reference https://fontawesome.com/icons/envelope?f=classic&s=regular
+    //backgroundColor: "#D14836", // back-up color...
+    backgroundColor: "#C97132",
   },
 ];
 
