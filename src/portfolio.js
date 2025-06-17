@@ -35,31 +35,31 @@ const socialMediaLinks = [
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/henrydevon/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    fontAwesomeIcon: "fab fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Github",
     link: "https://github.com/dynamic-stall",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "TikTok",
     link: "https://www.tiktok.com/@theblerdcard/",
-    fontAwesomeIcon: "fa-tiktok", // Reference https://fontawesome.com/icons/tiktok?style=brands
+    fontAwesomeIcon: "fab fa-tiktok", // Reference https://fontawesome.com/icons/tiktok?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=tiktok
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/@TheBlerdCard",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+    fontAwesomeIcon: "fab fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Email",
     link: "mailto:dhenry@tflagshipllc.com",
-    fontAwesomeIcon: "fa-envelope", // Reference https://fontawesome.com/icons/envelope?f=classic&s=solid
+    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/envelope?f=classic&s=solid
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
 ];
