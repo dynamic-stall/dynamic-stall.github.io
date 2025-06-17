@@ -1,6 +1,7 @@
 /* Change this file to get your personal Porfolio */
 
 import { chosenTheme } from "./theme";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import arrowIcon from "./assets/images/arrow-teal.svg"; //reference: https://www.iconfinder.com/icons/1564490/arrow_music_play_arrows_audio_sound_icon
 
 // Website related settings
