@@ -657,11 +657,7 @@ const experience = {
   title: "Experience",
   subtitle: "Previous Roles & Contributions",
   description:
-    `Cross-functional IT professional bridging hands-on DevSecOps and SRE practices with client-facing solution design and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance.
-    
-    Experienced in AWS, version control, containers, IaC, automation, security, and support. Skilled in client engagement, product management, Agile/Scrum, requirements gathering, documentation, and technical demos.
-    
-    Proven ability to drive technical adoption and deliver operational transformation.`,
+    "Cross-functional IT professional bridging hands-on DevSecOps and SRE practices with client-facing solution design and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance. Proven ability to drive technical adoption and deliver operational transformation.",
   header_image_path: "experience.svg",
   sections: [
     {
