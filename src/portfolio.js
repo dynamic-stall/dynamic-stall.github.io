@@ -900,7 +900,7 @@ const contactPageData = {
     description:
       "<p>I'm active on LinkedIn and GitHub, plus I occasionally post tech tutorials or discussions on TikTok (YouTube coming soon). You're also welcome to email me directly (see the icon below), book a virtual meeting, or download my contact card further down for reference.</p>" +
       "<p>I'm open to new project inquiries, strategic collaborations, or full-time opportunities.</p>" +
-      "<p>Whether you're a hiring manager in need of a forward-thinking Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
+      "<p>Whether you're a hiring manager in need of a dynamic Sales or Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
   },
   blogSection: {
     title: "Book a Discovery Meeting",
