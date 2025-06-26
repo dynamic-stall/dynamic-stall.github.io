@@ -494,7 +494,7 @@ const skills = {
           style: { color: "#18BCF2" },
         },
         {
-          skillName: "Voice Control Integration",
+          skillName: "Voice Control",
           fontAwesomeClassname: "simple-icons:googleassistant",
           style: { color: "#4285F4" },
         },
