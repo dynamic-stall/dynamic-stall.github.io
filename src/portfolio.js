@@ -903,7 +903,7 @@ const contactPageData = {
       "<p>Whether you're a hiring manager in need of a dynamic Sales or Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
   },
   blogSection: {
-    title: "Book a Discovery Meeting",
+    title: "Book a Discovery Call",
     subtitle:
       "Schedule a brief discovery meeting to discuss your project needs, strategic goals, home office infrastructure, or personal configurations.",
     link: "https://collab.tflagshipllc.com/book",
