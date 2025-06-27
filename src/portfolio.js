@@ -24,9 +24,9 @@ const seo = {
 const greeting = {
   title: "Devon Henry",
   logo_name: "Triskelion Flagship",
-  nickname: "Solutions Engineer • DevOps Specialist • IT Consultant",
+  nickname: "Founder & Solutions Engineer at T. Flagship, LLC",
   subTitle:
-    "Bridging the gap between people, places, and things to deliver the FREEDOM TO CONNECT.",  
+    "Bridging the gap between people, places, and things — through systems design, DevOps practices, and client engagement — to deliver the FREEDOM TO CONNECT.",  
   resumeLink: "https://collab.tflagshipllc.com/resume",
   githubProfile: "https://github.com/dynamic-stall",
 };
