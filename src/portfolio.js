@@ -10,7 +10,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Triskelion Flagship, LLC (D. Henry Portfolio)",
+  title: 'Triskelion Flagship, LLC | "Freedom to Connect"',
   description:
     "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
   og: {
@@ -24,9 +24,9 @@ const seo = {
 const greeting = {
   title: "Devon Henry",
   logo_name: "Triskelion Flagship",
-  nickname: "Solutions Engineer",
+  nickname: "Solutions Engineer • DevOps Specialist • IT Consultant",
   subTitle:
-    "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
+    "Bridging the gap between people, places, and things to deliver the FREEDOM TO CONNECT.",  
   resumeLink: "https://collab.tflagshipllc.com/resume",
   githubProfile: "https://github.com/dynamic-stall",
 };
@@ -895,7 +895,7 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Get in Touch",
+    title: '"Freedom to Connect"',
     profile_image_path: "profile_pic.jpeg",
     description:
       "<p>I'm active on LinkedIn and GitHub, plus I occasionally post tech tutorials or discussions on TikTok (YouTube coming soon). You're also welcome to email me directly (see the icon below), book a virtual meeting, or download my contact card further down for reference.</p>" +
