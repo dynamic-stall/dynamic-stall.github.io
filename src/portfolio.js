@@ -52,7 +52,7 @@ const socialMediaLinks = [
   },
   {
     name: "YouTube",
-    link: "https://www.youtube.com/@TheBlerdCard",
+    link: "https://www.youtube.com/@theBlerdCard",
     fontAwesomeIcon: "fab fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
