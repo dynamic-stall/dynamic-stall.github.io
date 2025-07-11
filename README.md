@@ -1,4 +1,4 @@
-# Professional Portfolio for [Triskelion Flagship, LLC](https://tflagshipllc.com)
+# Personal Portfolio (formerly professional services for [Triskelion Flagship, LLC](https://tflagshipllc.com))
 
 > **Note:** This repo is public only because [GitHub Pages](https://docs.github.com/en/pages/quickstart) requires it. If you want to build your own portfolio, please use [ashutosh1919's portfolio template](https://github.com/ashutosh1919/masterportfolio) instead.
 
