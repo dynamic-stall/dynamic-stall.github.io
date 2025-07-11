@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.1c11105d.css",
-    "main.js": "./static/js/main.f93a0c6f.js",
+    "main.css": "./static/css/main.465747cc.css",
+    "main.js": "./static/js/main.6507945e.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -50,10 +50,10 @@
     "static/media/legato_logo.png": "./static/media/legato_logo.227e72c7979187840ba3.png",
     "static/media/developerActivity.svg": "./static/media/developerActivity.967f31dad3158d5be07b.svg",
     "static/media/github_logo.png": "./static/media/github_logo.15e591a7397b9ef45656.png",
+    "static/media/tbc_logo_144.png": "./static/media/tbc_logo_144.a9efdcc3e35536964a76.png",
     "static/media/scaled_agile_logo.png": "./static/media/scaled_agile_logo.76cebd2d77ce62492b1a.png",
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "./static/media/projects_image.0a8062569966b4888c7c.svg",
-    "static/media/tf_logo_144.png": "./static/media/tf_logo_144.1a6bfa828dfe1a52dc8f.png",
     "static/media/programmer.svg": "./static/media/programmer.d3060f7bf0527835d72e.svg",
     "static/media/jsFramework.svg": "./static/media/jsFramework.911c595a22a28c7b6f78.svg",
     "static/media/address_image.svg": "./static/media/address_image.3385d92e5e426e57a5b1.svg",
@@ -78,11 +78,11 @@
     "static/media/arrow-black.svg": "./static/media/arrow-black.3330ee21f1247174ccca.svg",
     "static/media/arrow-grey.svg": "./static/media/arrow-grey.136a78baa8395a8bb900.svg",
     "static/media/arrow-teal.svg": "./static/media/arrow-teal.a325aaf5ac8e8daaadb0d45039916c21.svg",
-    "main.1c11105d.css.map": "./static/css/main.1c11105d.css.map",
-    "main.f93a0c6f.js.map": "./static/js/main.f93a0c6f.js.map"
+    "main.465747cc.css.map": "./static/css/main.465747cc.css.map",
+    "main.6507945e.js.map": "./static/js/main.6507945e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c11105d.css",
-    "static/js/main.f93a0c6f.js"
+    "static/css/main.465747cc.css",
+    "static/js/main.6507945e.js"
   ]
 }
