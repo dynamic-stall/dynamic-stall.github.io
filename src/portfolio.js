@@ -831,18 +831,18 @@ const contactPageData = {
     link: "https://trollface.dk",
     avatar_image_path: "blogs_image.svg",
   },
-  //addressSection: {
-    //title: "Locale",
-    //subtitle: "South Florida-Local, Globally Accessible",
-    //locality: "Fort Lauderdale",
-    //region: "FL",
-    //link: "https://collab.tflagshipllc.com/card",
-    //avatar_image_path: "address_image.svg",
-  //},
-  //phoneSection: {
-    //title: "",
-    //subtitle: "",
-  //},
+  addressSection: {
+    title: "Locale",
+    subtitle: "South Florida-Local, Globally Accessible",
+    locality: "Fort Lauderdale",
+    region: "FL",
+    link: "https://collab.tflagshipllc.com/card",
+    avatar_image_path: "address_image.svg",
+  },
+  phoneSection: {
+    title: "",
+    subtitle: "",
+  },
 };
 
 export {
