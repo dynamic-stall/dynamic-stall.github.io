@@ -674,11 +674,25 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Sales Engineer",
+          company: "Keeper Security",
+          company_url: "https://www.keepersecurity.com/",
+          logo_path: "keeper_security_logo.jpg",
+          duration: "July 2025 - present",
+          location: "Remote",
+          description:
+            "Provide pre-sales technical support and product demonstrations for Keeper Security's zero-trust cybersecurity solutions, collaborating with enterprise clients to identify technical requirements and architect customized implementations.",
+          accomplishments: [
+            "(Pending)",
+          ],
+          color: "#000000",
+        },
+        {
           title: "Solutions Engineer",
           company: "Triskelion Flagship",
           company_url: "https://www.linkedin.com/company/104111162/",
           logo_path: "tflagship_logo.jpg",
-          duration: "May 2023 - Present",
+          duration: "May 2023 - July 2025",
           location: "Plantation, FL (remote)",
           description:
             "Developed end-to-end solutions customized to client needs utilizing various cloud infrastructure and DevOps tools while reducing annual infrastructure costs by implementing open-source alternatives and custom integrations.",
