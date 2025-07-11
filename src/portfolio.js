@@ -664,7 +664,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Previous Roles & Contributions",
+  subtitle: "Roles & Contributions",
   description:
     "Cross-functional IT professional bridging hands-on DevSecOps and SRE practices with client-facing solution design and professional services. Skilled at building scalable, secure, and cost-efficient cloud solutions while optimizing performance. Proven ability to drive technical adoption and deliver operational transformation.",
   header_image_path: "experience.svg",
