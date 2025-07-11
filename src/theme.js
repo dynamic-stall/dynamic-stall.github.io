@@ -242,4 +242,19 @@ export const flagshipTealTheme = {
   isDark: false
 };
 
-export const chosenTheme = flagshipTealTheme;
+export const flagshipSunsetTheme = {
+  body: "#f6e5cc",
+  text: "#025C5C",
+  expTxtColor: "#000000",
+  highlight: "#62d1cc",
+  dark: "#07292c",
+  secondaryText: "#000000",
+  imageHighlight: "#0a343c",
+  compImgHighlight: "#e1e2e1",
+  jacketColor: "#e1e2e1",
+  headerColor: "#e1e2e1",
+  splashBg: "#025c5c",
+  isDark: false
+};
+
+export const chosenTheme = flagshipSunsetTheme;
