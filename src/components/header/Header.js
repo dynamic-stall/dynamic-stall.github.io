@@ -28,7 +28,7 @@ class Header extends Component {
               <div style={{ display: 'flex', alignItems: 'center' }}>
                 <span style={{ color: theme.text }}>&lt;</span>
                 <img
-                  src={require("../../assets/images/tf_logo_144.png")}
+                  src={require("../../assets/images/tbc_logo_144.png")}
                   alt="tf-logo" 
                   className="logo-icon"
                   style={{
@@ -70,7 +70,7 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Services
+                  Skills
                 </NavLink>
               </li>
               <li>

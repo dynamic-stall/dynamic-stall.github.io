@@ -10,11 +10,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: 'Triskelion Flagship, LLC | "Freedom to Connect"',
+  title: 'Devon Henry Portfolio | Resume, Blog, Social Media',
   description:
-    "Bridging the gap between technical delivery and business impact across cloud infrastructure, DevOps workflows, stakeholder engagement, and security.",
+    "Personal portfolio site for Devon Henry.",
   og: {
-    title: "Triskelion Flagship, LLC",
+    title: "Devon Henry Portfolio",
     type: "website",
     url: "https://tflagshipllc.com/",
   },
@@ -23,8 +23,8 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Devon Henry",
-  logo_name: "Triskelion Flagship",
-  nickname: "Solutions Engineer",
+  logo_name: "Devon Henry",
+  nickname: "Sales Engineer - Keeper Security",
   subTitle:
     "Bridging the gap between people, places, and things — through systems design, DevOps practices, and client engagement — to deliver the FREEDOM TO CONNECT.",  
   resumeLink: "https://collab.tflagshipllc.com/resume",
@@ -895,32 +895,30 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: '"Freedom to Connect"',
+    title: 'Connect',
     profile_image_path: "profile_pic.jpeg",
     description:
-      "<p>I'm active on LinkedIn and GitHub, plus I occasionally post tech tutorials or discussions on TikTok (YouTube coming soon). You're also welcome to email me directly (see the icon below), book a virtual meeting, or download my contact card further down for reference.</p>" +
-      "<p>I'm open to new project inquiries, strategic collaborations, or full-time opportunities.</p>" +
-      "<p>Whether you're a hiring manager in need of a dynamic Sales or Solutions Engineer, a founder seeking DevOps clarity, or a remote professional looking to upgrade your home office or smart home ecosystem — I'd love to be a part of your vision.</p>",
+      "<p>I'm active on LinkedIn and GitHub, plus I occasionally post tech tutorials or discussions on TikTok (YouTube coming soon).</p>",
   },
   blogSection: {
-    title: "Book a Discovery Call",
+    title: "Personal Blog",
     subtitle:
-      "Schedule a brief discovery meeting to discuss your project needs, strategic goals, home office infrastructure, or personal configurations.",
-    link: "https://collab.tflagshipllc.com/book",
+      "Personal blog where I'll post discussions on tech trends, homelab projects, business implementation, lifestyle, and more.",
+    link: "https://trollface.dk",
     avatar_image_path: "blogs_image.svg",
   },
-  addressSection: {
-    title: "Locale",
-    subtitle: "South Florida-Local, Globally Accessible",
-    locality: "Fort Lauderdale",
-    region: "FL",
-    link: "https://collab.tflagshipllc.com/card",
-    avatar_image_path: "address_image.svg",
-  },
-  phoneSection: {
-    title: "Business Line",
-    subtitle: "(571) 535-4404",
-  },
+  //addressSection: {
+    //title: "Locale",
+    //subtitle: "South Florida-Local, Globally Accessible",
+    //locality: "Fort Lauderdale",
+    //region: "FL",
+    //link: "https://collab.tflagshipllc.com/card",
+    //avatar_image_path: "address_image.svg",
+  //},
+  //phoneSection: {
+    //title: "",
+    //subtitle: "",
+  //},
 };
 
 export {

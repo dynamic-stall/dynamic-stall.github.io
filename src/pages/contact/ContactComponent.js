@@ -67,17 +67,9 @@ class Contact extends Component {
                 >
                   {blogSection["subtitle"]}
                 </p>
-                {/*<div className="blogsite-btn-div">
-                  <Button
-                    text="Blog Unavailable"
-                    newTab={true}
-                    href={blogSection.link}
-                    theme={theme}
-                  />
-                </div>*/}
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Schedule Meeting"
+                    text="Blog Coming Soon!"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
