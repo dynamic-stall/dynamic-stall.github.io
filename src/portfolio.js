@@ -833,7 +833,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Locale",
-    subtitle: "South Florida-Local, Globally Accessible",
+    subtitle: "Fort Lauderdale, FL",
     locality: "Fort Lauderdale",
     region: "FL",
     link: "https://collab.tflagshipllc.com/card",
