@@ -10,7 +10,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: 'Devon Henry Portfolio | Resume, Blog, Social Media',
+  title: 'Devon Henry Portfolio | Resume, Blog, Socials',
   description:
     "Personal portfolio site for Devon Henry.",
   og: {
