@@ -16,7 +16,7 @@ const seo = {
   og: {
     title: "Devon Henry Portfolio",
     type: "website",
-    url: "https://tflagshipllc.com/",
+    url: "https://dchenry.dev/",
   },
 };
 
@@ -27,7 +27,7 @@ const greeting = {
   nickname: "Sales Engineer - Keeper Security",
   subTitle:
     "Bridging the gap between people, places, and things — through systems design, DevOps practices, and client engagement — to deliver the FREEDOM TO CONNECT.",  
-  resumeLink: "https://collab.tflagshipllc.com/resume",
+  resumeLink: "https://go.dchenry.dev/resume",
   githubProfile: "https://github.com/dynamic-stall",
 };
 
@@ -58,7 +58,7 @@ const socialMediaLinks = [
   },
   {
     name: "Email",
-    link: "mailto:dhenry@tflagshipllc.com",
+    link: "mailto:hello@dchenry.dev",
     fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/envelope?f=classic&s=regular
     backgroundColor: "#C97132",
   },
@@ -836,7 +836,7 @@ const contactPageData = {
     subtitle: "Fort Lauderdale, FL",
     locality: "Fort Lauderdale",
     region: "FL",
-    link: "https://collab.tflagshipllc.com/card",
+    link: "https://go.dchenry.dev/card",
     avatar_image_path: "address_image.svg",
   },
   phoneSection: {
