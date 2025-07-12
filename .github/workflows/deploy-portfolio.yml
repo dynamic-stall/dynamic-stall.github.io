@@ -67,7 +67,7 @@ jobs:
           publish_branch: main
           user_name: dynamic-stall
           user_email: ${{ steps.bws.outputs.GH_EMAIL }}
-          cname: tflagshipllc.com
+          cname: dchenry.dev
 
       - name: Capture end time
         id: end-time
