@@ -16,7 +16,7 @@ const seo = {
   og: {
     title: "Devon Henry Portfolio",
     type: "website",
-    url: "http://dchenry.dev/",
+    url: "https://dchenry.dev/",
   },
 };
 
