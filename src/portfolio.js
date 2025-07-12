@@ -26,7 +26,7 @@ const greeting = {
   logo_name: "Devon Henry",
   nickname: "Sales Engineer - Keeper Security",
   subTitle:
-    "Bridging the gap between people, places, and things — through systems design, DevOps practices, and client engagement — to deliver the FREEDOM TO CONNECT.",  
+    "Bridging the gap between people, places, and things through systems design, DevOps practices, and client engagement.",  
   resumeLink: "https://go.dchenry.dev/resume",
   githubProfile: "https://github.com/dynamic-stall",
 };
