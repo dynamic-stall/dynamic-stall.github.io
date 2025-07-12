@@ -24,7 +24,7 @@ const seo = {
 const greeting = {
   title: "Devon Henry",
   logo_name: "Devon Henry",
-  nickname: "Sales Engineer - Keeper Security",
+  nickname: "Technical Sales Engineer",
   subTitle:
     "Bridging the gap between people, places, and things through systems design, DevOps practices, and client engagement.",  
   resumeLink: "https://go.dchenry.dev/resume",
