@@ -679,11 +679,11 @@ const experience = {
           company_url: "https://www.keepersecurity.com/",
           logo_path: "keeper_security_logo.jpg",
           duration: "July 2025 - present",
-          location: "Remote",
+          location: "Ft Lauderdale, FL (remote)",
           description:
             "Provide pre-sales technical support and product demonstrations for Keeper Security's zero-trust cybersecurity solutions, collaborating with enterprise clients to identify technical requirements and architect customized implementations.",
           accomplishments: [
-            "(Pending)",
+            "(Accomplishments Pending)",
           ],
           color: "#000000",
         },
