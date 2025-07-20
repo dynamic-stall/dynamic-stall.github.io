@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.465747cc.css",
-    "main.js": "./static/js/main.0905de3d.js",
+    "main.js": "./static/js/main.cc9d7ad4.js",
     "static/media/portfolio.gif": "./static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -50,7 +50,6 @@
     "static/media/legato_logo.png": "./static/media/legato_logo.227e72c7979187840ba3.png",
     "static/media/developerActivity.svg": "./static/media/developerActivity.967f31dad3158d5be07b.svg",
     "static/media/github_logo.png": "./static/media/github_logo.15e591a7397b9ef45656.png",
-    "static/media/tbc_logo_144.png": "./static/media/tbc_logo_144.a9efdcc3e35536964a76.png",
     "static/media/scaled_agile_logo.png": "./static/media/scaled_agile_logo.76cebd2d77ce62492b1a.png",
     "static/media/googleAssistant.jpg": "./static/media/googleAssistant.547075a751cc15673246.jpg",
     "static/media/projects_image.svg": "./static/media/projects_image.0a8062569966b4888c7c.svg",
@@ -79,10 +78,10 @@
     "static/media/arrow-grey.svg": "./static/media/arrow-grey.136a78baa8395a8bb900.svg",
     "static/media/arrow-teal.svg": "./static/media/arrow-teal.a325aaf5ac8e8daaadb0d45039916c21.svg",
     "main.465747cc.css.map": "./static/css/main.465747cc.css.map",
-    "main.0905de3d.js.map": "./static/js/main.0905de3d.js.map"
+    "main.cc9d7ad4.js.map": "./static/js/main.cc9d7ad4.js.map"
   },
   "entrypoints": [
     "static/css/main.465747cc.css",
-    "static/js/main.0905de3d.js"
+    "static/js/main.cc9d7ad4.js"
   ]
 }
