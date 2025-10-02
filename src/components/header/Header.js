@@ -15,7 +15,7 @@ const onMouseOut = (event) => {
   el.style.backgroundColor = "transparent";
 };
 
-class Header extends Component {
+class Header extends Component {q
   render() {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "/";
